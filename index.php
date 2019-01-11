@@ -33,33 +33,36 @@
     <div class="container d-flex flex-wrap my-4">
         <?php while (have_posts()): the_post();?>
         <div class="col-lg-4">
+
             <div class="card p-3">
+                <?php foreach (get_the_category() as $cat): ?>
+                <a href="<?php echo get_category_link($cat->term_id); ?>">
+                    <span class="badge badge-primary position-absolute">
+                        <?php echo $cat->cat_name; ?>
+                    </span>
+                </a>
+                <?php endforeach;?>
                 <a href="<?php the_permalink();?>">
-                    <?php foreach (get_the_category() as $cat): ?>
-                    <a href="<?php echo get_category_link($cat->term_id); ?>">
-                        <span class="badge badge-primary position-absolute">
-                            <?php echo $cat->cat_name; ?>
-                        </span>
-                    </a>
-                    <?php endforeach;?>
-                    <img class="card-img-top" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" src='<?php echo get_the_post_thumbnail_url(); ?>' >
-                    <div class="card-body">
+                    <img class="card-img-top" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" src='<?php echo get_the_post_thumbnail_url(); ?>'>
+                </a>
+                <div class="card-body">
+                    <a href="<?php the_permalink();?>">
                         <p class="mb-3">
                             <b class="bold-tag">
                                 <?php the_title();?>
                             </b>
                         </p>
-                        <p>
-                            <?php the_excerpt();?>
-                        </p>
-                        <small class="post_meta">
-                            <?php the_author_posts_link() ?>
-                            <span>
-                                <?php echo get_the_date('Y-m-d'), " at ", the_time() ?>
-                            </span>
-                        </small>
-                    </div>
-                </a>
+                    </a>
+                    <p>
+                        <?php the_excerpt();?>
+                    </p>
+                    <small class="post_meta">
+                        <?php the_author_posts_link() ?>
+                        <span>
+                            <?php echo get_the_date('Y-m-d'), " at ", the_time() ?>
+                        </span>
+                    </small>
+                </div>
             </div>
         </div>
         <?php endwhile;?>
