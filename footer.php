@@ -7,10 +7,10 @@
                 <img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png" alt="veresk">
                 <p class="footer-links">
                     <a target="_blank" href="/">
-                        Home</a>
+                        خانه</a>
                     ·
                     <a target="_blank" href="https://panel.veresk.org">
-                        Panel</a>
+                        پنل</a>
                 </p>
                 <div class="copyright">
                     Copyright &copy;<script>
@@ -23,8 +23,9 @@
                     <i class="fa fa-map-marker"></i>
                     <p class="pl-2 pr-2">
                         <span>
-                            No 7, Balavar Alley </span>
-                        Theatr-e-Shahr Crossroad, Tehran, Iran
+                            پلاک ۷، کوچه بالاور
+                        </span>
+                        چهارراه ولیعصر تهران، ایران
                     </p>
                 </div>
                 <div class="mb-4">
@@ -42,13 +43,10 @@
             </div>
             <div class="col-lg-4 footer-right">
                 <p class="footer-company-about">
-                    <span>
-                        About the Veresk</span>
-                    Veresk startup became the first Iranian startup of rail transport accepted by the Samsung-Amir
-                    Kabir Technology
-                    Center and is also concluding an agreement with the Islamic Republic of Iran Railways for the
-                    exchange of
-                    information.
+                    <span> درباره ورسک </span>
+                    استارت آپ ورسک به عنوان اولین استارت آپ حمل و نقل ریلی ایرانی مورد پذیرش مرکز فناوری های
+                    سامسونگ-امیر کبیر قرار گرفت و همچنین در حال انعقاد یک تفاهم نامه با راه آهن جمهوری اسلامی ایران جهت
+                    تبادل اطلاعات می باشد.
                 </p>
                 <div class="footer-icons">
                     <a target="_blank" href="https://twitter.com/veresk_org"><i class="fa fa-twitter"></i></a>

@@ -5,6 +5,7 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700|Work+Sans:300,400,500,600,700,800,900');
+@import "fonts/iranyekan/css/fontiran.css";
 
 * {
 	margin: 0;
@@ -25,8 +26,12 @@ html {
 }
 
 .persian {
-    direction: rtl;
-    text-align: right;
+	direction: rtl;
+	text-align: right;
+}
+
+.persian *:not(.fa){
+	font-family: IRANYekan !important
 }
 
 div {
@@ -181,10 +186,10 @@ Header
 }
 
 .header select {
-    border-color: #fff;
-    font-weight: 700;
-    text-align: left;
-    direction: ltr;
+	border-color: #fff;
+	font-weight: 700;
+	text-align: left;
+	direction: ltr;
 }
 
 
@@ -436,13 +441,13 @@ Home
 	text-align: center;
 }
 
- .post_meta {
+.post_meta {
 	margin-left: 20px;
 	margin-top: 0;
 }
 
- .post_meta a,
- .post_meta span {
+.post_meta a,
+.post_meta span {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
 	color: rgba(255, 255, 255, 0.65);
@@ -510,7 +515,7 @@ Section Panel
 	transform: translateY(3px);
 }
 
-.category_title{
+.category_title {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
@@ -768,18 +773,18 @@ Footer
 }
 
 .footer img {
-    max-height: 80px;
-    max-width: 100%;
+	max-height: 80px;
+	max-width: 100%;
 }
 
 .footer {
-    background-color: #292c2f;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: bold 16px sans-serif;
-    padding: 55px 50px;
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
 }
 
 .footer .footer-left,
@@ -798,111 +803,111 @@ Footer
 /* The company logo */
 
 .footer h3 {
-    color: #ffffff;
-    font: normal 36px 'Cookie', cursive;
-    margin: 0;
+	color: #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
 }
 
 .footer h3 span {
-    color: #5383d3;
+	color: #5383d3;
 }
 
 /* Footer links */
 
 .footer .footer-links {
-    color: #ffffff;
-    margin: 20px 0 12px;
-    padding: 0;
+	color: #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
 }
 
 .footer .footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
 }
 
 .footer .footer-company-name {
-    color: #8f9296;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
+	color: #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
 }
 
 /* Footer Center */
 
 
 .footer .footer-center i {
-    background-color: #33383b;
-    color: #ffffff;
-    font-size: 25px;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
-    vertical-align: middle;
+	background-color: #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
 }
 
 .footer .footer-center i.fa-envelope {
-    font-size: 17px;
-    line-height: 38px;
+	font-size: 17px;
+	line-height: 38px;
 }
 
 .footer .footer-center p {
-    display: inline-block;
-    color: #ffffff;
-    vertical-align: middle;
-    margin: 0;
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 0;
 }
 
 .footer .footer-center p span {
-    display: block;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 2;
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
 }
 
 .footer .footer-center p a {
-    color: #5383d3;
-    text-decoration: none;
+	color: #5383d3;
+	text-decoration: none;
 }
 
 /* Footer Right */
 
 
 .footer .footer-company-about {
-    line-height: 20px;
-    color: #92999f;
-    font-size: 13px;
-    font-weight: normal;
-    margin: 0;
+	line-height: 20px;
+	color: #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
 }
 
 .footer .footer-company-about span {
-    display: block;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 20px;
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .footer .footer-icons {
-    margin-top: 25px;
+	margin-top: 25px;
 }
 
 .footer .footer-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color: #33383b;
-    border-radius: 2px;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    margin-bottom: 5px;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
 }

@@ -24,6 +24,10 @@ body {
 	text-align: right;
 }
 
+.persian *:not(.fa){
+	font-family: IRANYekan !important
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -1187,7 +1191,7 @@ Logo
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
-	line-height: 43px;
+	line-height: 35px;
 	margin-right: 3px;
 	margin-bottom: 5px;
 }

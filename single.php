@@ -60,6 +60,7 @@ if (have_posts()) {
                         <div class="tags_share d-flex flex-row align-items-center justify-content-between">
                             <div class="post_tags">
                                 <ul>
+                                    <?php if (get_the_tags()[0]): ?>
                                     <?php foreach (get_the_tags() as $tag): ?>
                                     <li class="post_tag">
                                         <a href="<?php echo get_tag_link($tag->term_id); ?>">
@@ -67,10 +68,11 @@ if (have_posts()) {
                                         </a>
                                     </li>
                                     <?php endforeach;?>
+                                    <?php endif?>
                                 </ul>
                             </div>
                             <div class="post_share">
-                                <span>Share:</span>
+                                <span>اشتراک گذاری:</span>
                                 <ul class="post_share_list">
                                     <a target="_blank" href="http://twitter.com/share?text=<?php echo the_title(); ?>&url=<?php the_permalink();?>">
                                         <i class="fa fa-twitter"></i>

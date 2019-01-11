@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fa" dir="rtl">
 <head>
-    <title>Veresk </title>
+    <title><?php bloginfo('title')?></title>
     <meta charset="utf-8">
     <meta name="description" content="veresk blog">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +17,7 @@
     <?php wp_head();?>
 </head>
 
-<body class="">
+<body class="persian">
 
     <div class="super_container">
         <header class="header p-2">
@@ -30,12 +29,12 @@
                                     alt="Logo"></div>
                             <nav class="main_nav">
                                 <ul>
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="https://panel.veresk.org">Panel</a></li>
+                                    <li class="active"><a href="<?php echo site_url() ?>">خانه</a></li>
+                                    <li><a href="https://panel.veresk.org">پنل</a></li>
                                     <li>
                                         <select class="form-control">
                                             <option value="en">English</option>
-                                            <option value="fa">فارسی</option>
+                                            <option value="fa" selected>فارسی</option>
                                             <option value="ru">русский</option>
                                         </select>
                                     </li>

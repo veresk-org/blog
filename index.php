@@ -2,7 +2,7 @@
 <div class="home">
     <div class="home_slider_container">
         <div class="home_slider_background" style="background-image:url(<?php bloginfo('template_directory')?>/images/railway-bg.jpg)"></div>
-        <div class="post_title">Veresk blog</div>
+        <div class="post_title">بلاگ ورسک</div>
     </div>
     <div class="angle-down justify-content-center d-flex col-sm-12">
         <a href="#page_content"><i class="fa fa-angle-down fa-5x"></i></a>
@@ -12,7 +12,7 @@
 <div class="page_content row my-5 mx-0" id="page_content">
     <div class="container">
         <div class="section_panel px-3 d-flex flex-row align-items-center justify-content-between">
-            <div class="section_title">Categories:</div>
+            <div class="section_title">دسته بندی‌ها:</div>
             <div class="section_tags">
                 <ul>
                     <?php foreach (get_categories(array('hide_empty' => 0, 'orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
