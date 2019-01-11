@@ -6,15 +6,19 @@
     <meta charset="utf-8">
     <meta name="description" content="veresk blog">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/styles/bootstrap/bootstrap.min.css">
-    <link href="<?php bloginfo('template_directory') ?>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles/bootstrap/bootstrap.min.css">
+    <link href="<?php bloginfo('template_directory')?>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"
         type="text/css">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/style.css">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/styles/responsive.css">
+    <?php if (!is_single()): ?>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/style.css">
+    <?php else: ?>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles/post.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles/post_responsive.css">
+    <?php endif;?>
     <?php wp_head();?>
 </head>
 
-<body class="persian">
+<body class="">
 
     <div class="super_container">
         <header class="header p-2">
@@ -22,7 +26,8 @@
                 <div class="row">
                     <div class="col">
                         <div class="header_content d-flex flex-row align-items-center justify-content-between">
-                            <div class="logo"><img src="<?php bloginfo('template_directory') ?>/images/veresk-logo/veresk-logo3.png" alt="Logo"></div>
+                            <div class="logo"><img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png"
+                                    alt="Logo"></div>
                             <nav class="main_nav">
                                 <ul>
                                     <li class="active"><a href="index.html">Home</a></li>

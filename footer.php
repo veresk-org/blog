@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 footer-left">
-                <img src="<?php bloginfo('template_directory') ?>/images/veresk-logo/veresk-logo3.png" alt="veresk">
+                <img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png" alt="veresk">
                 <p class="footer-links">
                     <a target="_blank" href="/">
                         Home</a>
@@ -66,9 +66,12 @@
 
 </div>
 
-<script src="<?php bloginfo('template_directory') ?>/js/jquery-3.2.1.min.js"></script>
-<script src="<?php bloginfo('template_directory') ?>/styles/bootstrap4/bootstrap.min.js"></script>
-<script src="<?php bloginfo('template_directory') ?>/js/script.js"></script>
+<script src="<?php bloginfo('template_directory')?>/js/jquery-3.2.1.min.js"></script>
+<script src="<?php bloginfo('template_directory')?>/styles/bootstrap/bootstrap.min.js"></script>
+<?php if (is_single()): ?>
+<script src="<?php bloginfo('template_directory')?>/plugins/parallax-js-master/parallax.min.js"></script>
+<?php endif;?>
+<script src="<?php bloginfo('template_directory')?>/js/script.js"></script>
 <?php wp_footer();?>
 </body>
 

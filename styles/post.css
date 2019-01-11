@@ -463,8 +463,8 @@ Logo
 }
 
 .post_category {
-	width: 83px;
 	height: 28px;
+	display: inline-block;
 	background: rgba(255, 255, 255, 0.2);
 	border-radius: 14px;
 	text-align: center;
