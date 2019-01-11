@@ -14,7 +14,7 @@
     <?php wp_head();?>
 </head>
 
-<body>
+<body class="persian">
 
     <div class="super_container">
         <header class="header p-2">

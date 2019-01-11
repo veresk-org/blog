@@ -29,68 +29,41 @@
     </div>
 
 
-
+    <?php if (have_posts()): ?>
     <div class="container d-flex flex-wrap my-4">
-
+        <?php while (have_posts()): the_post();?>
         <div class="col-lg-4">
             <div class="card p-3">
-                <a href="post.html">
-                    <span class="badge badge-primary position-absolute">Category</span>
-                    <img class="card-img-top" src="<?php bloginfo('template_directory')?>/images/railway-bg.jpg" alt="image">
+                <a href="<?php the_permalink();?>">
+                    <?php foreach (get_the_category() as $cat): ?>
+                    <a href="<?php echo get_category_link($cat->term_id); ?>">
+                        <span class="badge badge-primary position-absolute">
+                            <?php echo $cat->cat_name; ?>
+                        </span>
+                    </a>
+                    <?php endforeach;?>
+                    <img class="card-img-top" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" src='<?php echo get_the_post_thumbnail_url(); ?>' >
                     <div class="card-body">
                         <p class="mb-3">
-                            <b class="bold-tag">How Did van Gogh’s Turbulent Mind Depict One of the Most
-                                Complex Concepts in Physics?
+                            <b class="bold-tag">
+                                <?php the_title();?>
                             </b>
                         </p>
-                        <p>Pick the yellow peach that looks like a sunset with its red, orange, and pink coat
-                            skin, peel it off with your teeth. Sink them into unripened...</p>
-                        <small class="post_meta"><a href="#">author</a><span>Sep 29, 2017 at 9:48 am</span></small>
+                        <p>
+                            <?php the_excerpt();?>
+                        </p>
+                        <small class="post_meta">
+                            <?php the_author_posts_link() ?>
+                            <span>
+                                <?php echo get_the_date('Y-m-d'), " at ", the_time() ?>
+                            </span>
+                        </small>
                     </div>
                 </a>
             </div>
         </div>
-
-        <div class="col-lg-4">
-            <div class="card p-3">
-                <a href="post.html">
-                    <span class="badge badge-primary position-absolute">Category</span>
-                    <img class="card-img-top" src="<?php bloginfo('template_directory')?>/images/railway-bg.jpg" alt="image">
-                    <div class="card-body">
-                        <p class="mb-3">
-                            <b class="bold-tag">How Did van Gogh’s Turbulent Mind Depict One of the Most
-                                Complex Concepts in Physics?
-                            </b>
-                        </p>
-                        <p>Pick the yellow peach that looks like a sunset with its red, orange, and pink coat
-                            skin, peel it off with your teeth. Sink them into unripened...
-                        </p>
-                        <small class="post_meta"><a href="#">author</a><span>Sep 29, 2017 at 9:48 am</span></small>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="col-lg-4">
-            <div class="card p-3">
-                <a href="post.html">
-                    <span class="badge badge-primary position-absolute">Category</span>
-                    <img class="card-img-top" src="<?php bloginfo('template_directory')?>/images/railway-bg.jpg" alt="image">
-                    <div class="card-body">
-                        <p class="mb-3">
-                            <b class="bold-tag">How Did van Gogh’s Turbulent Mind Depict One of the Most
-                                Complex Concepts in Physics?
-                            </b>
-                        </p>
-                        <p>Pick the yellow peach that looks like a sunset with its red, orange, and pink coat
-                            skin, peel it off with your teeth. Sink them into unripened...
-                        </p>
-                        <small class="post_meta"><a href="#">author</a><span>Sep 29, 2017 at 9:48 am</span></small>
-                    </div>
-                </a>
-            </div>
-        </div>
-
+        <?php endwhile;?>
     </div>
+    <?php endif;?>
 </div>
 <?php get_footer()?>
