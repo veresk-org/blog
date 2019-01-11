@@ -1,7 +1,7 @@
-<?php get_header() ?>
+<?php get_header()?>
 <div class="home">
     <div class="home_slider_container">
-        <div class="home_slider_background" style="background-image:url(<?php bloginfo('template_directory') ?>/images/railway-bg.jpg)"></div>
+        <div class="home_slider_background" style="background-image:url(<?php bloginfo('template_directory')?>/images/railway-bg.jpg)"></div>
         <div class="post_title">Veresk blog</div>
     </div>
     <div class="angle-down justify-content-center d-flex col-sm-12">
@@ -12,20 +12,16 @@
 <div class="page_content row my-5 mx-0" id="page_content">
     <div class="container">
         <div class="section_panel px-3 d-flex flex-row align-items-center justify-content-between">
-            <div class="section_title">Topics:</div>
+            <div class="section_title">Categories:</div>
             <div class="section_tags">
                 <ul>
-                    <li class="active"><a href="#">all</a></li>
-                    <li><a href="#">felan</a></li>
-                    <li><a href="#">bahman</a></li>
-                    <li class="section_panel_more"><a href="#">more
-                            <ul>
-                                <li><a href="#">more 1</a></li>
-                                <li><a href="#">more 2</a></li>
-                            </ul>
+                    <?php foreach (get_categories(array('hide_empty' => 0, 'orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
+                    <li>
+                        <a href="<?php echo get_category_link($cat->term_id); ?>">
+                            <?php echo $cat->cat_name; ?>
                         </a>
-
                     </li>
+                    <?php endforeach;?>
                 </ul>
             </div>
 
@@ -40,7 +36,7 @@
             <div class="card p-3">
                 <a href="post.html">
                     <span class="badge badge-primary position-absolute">Category</span>
-                    <img class="card-img-top" src="<?php bloginfo('template_directory') ?>/images/railway-bg.jpg" alt="image">
+                    <img class="card-img-top" src="<?php bloginfo('template_directory')?>/images/railway-bg.jpg" alt="image">
                     <div class="card-body">
                         <p class="mb-3">
                             <b class="bold-tag">How Did van Gogh’s Turbulent Mind Depict One of the Most
@@ -59,7 +55,7 @@
             <div class="card p-3">
                 <a href="post.html">
                     <span class="badge badge-primary position-absolute">Category</span>
-                    <img class="card-img-top" src="<?php bloginfo('template_directory') ?>/images/railway-bg.jpg" alt="image">
+                    <img class="card-img-top" src="<?php bloginfo('template_directory')?>/images/railway-bg.jpg" alt="image">
                     <div class="card-body">
                         <p class="mb-3">
                             <b class="bold-tag">How Did van Gogh’s Turbulent Mind Depict One of the Most
@@ -79,7 +75,7 @@
             <div class="card p-3">
                 <a href="post.html">
                     <span class="badge badge-primary position-absolute">Category</span>
-                    <img class="card-img-top" src="<?php bloginfo('template_directory') ?>/images/railway-bg.jpg" alt="image">
+                    <img class="card-img-top" src="<?php bloginfo('template_directory')?>/images/railway-bg.jpg" alt="image">
                     <div class="card-body">
                         <p class="mb-3">
                             <b class="bold-tag">How Did van Gogh’s Turbulent Mind Depict One of the Most
@@ -97,4 +93,4 @@
 
     </div>
 </div>
-<?php get_footer() ?>
+<?php get_footer()?>
