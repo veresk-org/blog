@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-
+@import "fonts/iranyekan/css/fontiran.css";
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700|Work+Sans:300,400,500,600,700,800,900');
 
 * {
