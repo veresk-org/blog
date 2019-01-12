@@ -1071,7 +1071,7 @@ Logo
 }
 
 .persian .footer {
-    text-align: right;
+	text-align: right;
 }
 
 .footer .footer-left,
@@ -1210,12 +1210,18 @@ Logo
 	border-radius: 500px;
 	color: #FFF;
 }
-.track_your_wagon a{
+
+.track_your_wagon a {
 	margin-right: auto;
 }
+
 .track_your_wagon button:hover,
 .track_your_wagon button:focus,
 .track_your_wagon button:active {
 	cursor: pointer;
 	box-shadow: 0 3px 26px 0 rgba(254, 93, 93, .7);
+}
+
+.post_body img {
+	max-width: 100%
 }
