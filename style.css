@@ -911,3 +911,8 @@ Footer
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
+
+.post_body img {
+	max-width: 100%;
+	height: auto
+}
