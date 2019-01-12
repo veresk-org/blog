@@ -15,7 +15,7 @@
             <div class="section_title">دسته بندی‌ها:</div>
             <div class="section_tags">
                 <ul>
-                    <?php foreach (get_categories(array('hide_empty' => 0, 'orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
+                    <?php foreach (get_categories(array('orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
                     <li class="<?php if(is_category() && get_queried_object()->term_id == $cat->term_id) echo 'active'?>">
                         <a href="<?php echo get_category_link($cat->term_id); ?>">
                             <?php echo $cat->cat_name; ?>
