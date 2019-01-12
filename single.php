@@ -85,6 +85,16 @@ if (have_posts()) {
                                 </ul>
                             </div>
                         </div>
+                        <div class="track_your_wagon my-4 mt-5 p-5 row mx-0 align-items-center">
+                            <h4>
+                                مایل به ردیابی واگن یا بار خود هستید؟
+                            </h4>
+                            <a href="https://panel.veresk.org/dashboard/track-list?guest=true&lang=fa">
+                                <button>
+                                    ردیابی کنید
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

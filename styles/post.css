@@ -24,7 +24,7 @@ body {
 	text-align: right;
 }
 
-.persian *:not(.fa){
+.persian *:not(.fa) {
 	font-family: IRANYekan !important
 }
 
@@ -227,10 +227,6 @@ Logo
 
 .main_nav ul li {
 	display: inline-block;
-}
-
-.main_nav ul li:not(:last-child) {
-	margin: 30px;
 }
 
 .main_nav ul li a {
@@ -505,7 +501,7 @@ Logo
 }
 
 .post_author .post_meta {
-	margin:0 20px;
+	margin: 0 20px;
 	margin-top: 0;
 }
 
@@ -1074,6 +1070,10 @@ Logo
 	padding: 55px 50px;
 }
 
+.persian .footer {
+    text-align: right;
+}
+
 .footer .footer-left,
 .footer .footer-center,
 .footer .footer-right {
@@ -1194,4 +1194,28 @@ Logo
 	line-height: 35px;
 	margin-right: 3px;
 	margin-bottom: 5px;
+}
+
+.track_your_wagon {
+	border: 2px solid #a30516;
+	color: #a30516;
+}
+
+.track_your_wagon button {
+	background: #d44444;
+	box-shadow: 0 3px 26px 0 rgba(254, 93, 93, .4);
+	outline: none;
+	border: none;
+	padding: 15px 30px;
+	border-radius: 500px;
+	color: #FFF;
+}
+.track_your_wagon a{
+	margin-right: auto;
+}
+.track_your_wagon button:hover,
+.track_your_wagon button:focus,
+.track_your_wagon button:active {
+	cursor: pointer;
+	box-shadow: 0 3px 26px 0 rgba(254, 93, 93, .7);
 }

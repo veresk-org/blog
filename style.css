@@ -216,10 +216,6 @@ Main Navigation
 	display: inline-block;
 }
 
-.main_nav ul li:not(:last-child) {
-	margin: 30px;
-}
-
 .main_nav ul li a {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
@@ -723,6 +719,10 @@ Footer
 .footer {
 	width: 100%;
 	background: #1f1f1f;
+}
+
+.persian .footer {
+    text-align: right;
 }
 
 .footer_content {

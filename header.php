@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
-    <title><?php bloginfo('title')?></title>
+    <title>
+        <?php bloginfo('title')?>
+    </title>
     <meta charset="utf-8">
     <meta name="description" content="veresk blog">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,9 +32,9 @@
                                     alt="Logo"></div>
                             <nav class="main_nav">
                                 <ul>
-                                    <li class="active"><a href="<?php echo site_url() ?>">خانه</a></li>
-                                    <li><a href="https://panel.veresk.org">پنل</a></li>
-                                    <li>
+                                    <li class="<?php if(is_home()) echo 'active' ?> mx-3"><a href="<?php echo site_url() ?>">خانه</a></li>
+                                    <li class="mx-3"><a href="https://panel.veresk.org">پنل</a></li>
+                                    <li class="mr-4">
                                         <select class="form-control">
                                             <option value="en">English</option>
                                             <option value="fa" selected>فارسی</option>
