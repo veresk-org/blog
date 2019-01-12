@@ -16,7 +16,7 @@
             <div class="section_tags">
                 <ul>
                     <?php foreach (get_categories(array('hide_empty' => 0, 'orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
-                    <li>
+                    <li class="<?php if(is_category() && get_queried_object()->term_id == $cat->term_id) echo 'active'?>">
                         <a href="<?php echo get_category_link($cat->term_id); ?>">
                             <?php echo $cat->cat_name; ?>
                         </a>
@@ -59,7 +59,7 @@
                     <small class="post_meta">
                         <?php the_author_posts_link() ?>
                         <span>
-                            <?php echo get_the_date('Y-m-d'), " at ", the_time() ?>
+                            <?php echo get_the_date('Y-m-d'), "  در ", the_time() ?>
                         </span>
                     </small>
                 </div>
