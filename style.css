@@ -1,8 +1,6 @@
 @charset "utf-8";
 
-@import "styles/fonts/ubuntu/Ubuntu-R.ttf";
-@import "styles/fonts/ubuntu/Ubuntu-B.ttf";
-@import "styles/fonts/ubuntu/Ubuntu-L.ttf";
+@import "styles/fonts/ubuntu/css/ubuntu.css";
 @import "styles/fonts/iranyekan/css/fontiran.css";
 
 * {
@@ -12,7 +10,7 @@
 }
 
 body {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #f7f7f7;
@@ -46,7 +44,7 @@ ul {
 }
 
 p {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
 	line-height: 1.45;
 	font-weight: 500;
