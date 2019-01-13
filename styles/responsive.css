@@ -74,6 +74,24 @@
 		right: auto;
 		left: 0;
 	}
+
+	.section_tags ul li {
+		display: none;
+	}
+
+	.card_small_no_image,
+	.card_small_with_background,
+	.card_small_with_image,
+	.card_default_no_image,
+	.card_default_with_background {
+		width: calc(50% - 30px);
+	}
+
+	.side_post_image div {
+		width: 50px;
+		height: 50px;
+	}
+
 }
 
 
@@ -131,7 +149,7 @@
 		padding-bottom: 0px;
 	}
 
-	.sidebar_slider_nav {
+	.sidebar_slider_nav_single {
 		position: absolute;
 		top: 5px;
 		right: 0;

@@ -11,12 +11,8 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles/bootstrap/bootstrap.min.css">
     <link href="<?php bloginfo('template_directory')?>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"
         type="text/css">
-    <?php if (!is_single()): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/style.css">
-    <?php else: ?>
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles/post.css">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles/post_responsive.css">
-    <?php endif;?>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles/responsive.css">
     <?php wp_head();?>
 </head>
 

@@ -18,7 +18,7 @@ if (have_posts()) {
         </div>
         <?php endforeach;?>
 
-        <div class="post_title">
+        <div class="post_title_single">
             <?php the_title()?>
         </div>
         <div class="post_author d-flex flex-row align-items-center justify-content-center">
