@@ -388,6 +388,11 @@ Menu
 	opacity: 0.8;
 }
 
+.badge-a-tag{
+	position: absolute;
+	left: 6px;
+}
+
 .menu .header_search_input::-moz-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;

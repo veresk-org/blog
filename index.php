@@ -36,8 +36,8 @@
 
             <div class="card p-3">
                 <?php foreach (get_the_category() as $cat): ?>
-                <a href="<?php echo get_category_link($cat->term_id); ?>">
-                    <span class="badge badge-primary position-absolute">
+                <a class="badge-a-tag" href="<?php echo get_category_link($cat->term_id); ?>">
+                    <span class="badge badge-primary mx-1">
                         <?php echo $cat->cat_name; ?>
                     </span>
                 </a>
