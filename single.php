@@ -39,65 +39,117 @@ if (have_posts()) {
 
 <div class="page_content" id="page_content">
     <div class="container">
-        <div class="row d-flex justify-content-center">
+        <div class="row ">
 
             <!-- Post Content -->
 
-            <div class="col-lg-10">
-                <div class="post_content">
+            <div class="col-lg-9">
 
-                    <!-- Post Body -->
+                <!-- Post Body -->
 
-                    <div class="post_body">
-                        <p class="post_p">
-                            <?php the_content();?>
-                        </p>
-                        <div class="post_quote_source">
-                            <?php the_author_posts_link()?>
-                        </div>
+                <div class="post_body">
+                    <p class="post_p">
+                        <?php the_content();?>
+                    </p>
+                    <div class="post_quote_source">
+                        <?php the_author_posts_link()?>
+                    </div>
 
-                        <!-- Post Tags and Share-->
-                        <div class="tags_share d-flex flex-row align-items-center justify-content-between">
-                            <div class="post_tags">
-                                <ul>
-                                    <?php if (get_the_tags()[0]): ?>
-                                    <?php foreach (get_the_tags() as $tag): ?>
-                                    <li class="post_tag">
-                                        <a href="<?php echo get_tag_link($tag->term_id); ?>">
-                                            <?php echo $tag->name ?>
-                                        </a>
-                                    </li>
-                                    <?php endforeach;?>
-                                    <?php endif?>
-                                </ul>
-                            </div>
-                            <div class="post_share">
-                                <span>اشتراک گذاری:</span>
-                                <ul class="post_share_list">
-                                    <a target="_blank" href="http://twitter.com/share?text=<?php echo the_title(); ?>&url=<?php the_permalink();?>">
-                                        <i class="fa fa-twitter"></i>
+                    <!-- Post Tags and Share-->
+                    <div class="tags_share d-flex flex-row align-items-center justify-content-between">
+                        <div class="post_tags">
+                            <ul>
+                                <?php if (get_the_tags()[0]): ?>
+                                <?php foreach (get_the_tags() as $tag): ?>
+                                <li class="post_tag">
+                                    <a href="<?php echo get_tag_link($tag->term_id); ?>">
+                                        <?php echo $tag->name ?>
                                     </a>
-                                    <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink();?>&summary=<?php the_title();?>&source=veresk.org"><i
-                                            class="fa fa-linkedin"></i></a>
-                                    <!-- <a target="_blank" href="https://www.instagram.com/veresk_org"><i class="fa fa-instagram"></i></a> -->
-                                    <a target="_blank" href="https://t.me/share/url?url=<?php the_permalink();?>"><i
-                                            class="fa fa-telegram"></i></a>
-                                </ul>
-                            </div>
+                                </li>
+                                <?php endforeach;?>
+                                <?php endif?>
+                            </ul>
                         </div>
-                        <div class="track_your_wagon my-4 mt-5 p-5 row mx-0 align-items-center">
-                            <h4>
-                                مایل به ردیابی واگن یا بار خود هستید؟
-                            </h4>
-                            <a href="https://panel.veresk.org/dashboard/track-list?guest=true&lang=fa">
-                                <button>
-                                    ردیابی کنید
-                                </button>
-                            </a>
+                        <div class="post_share">
+                            <span>اشتراک گذاری:</span>
+                            <ul class="post_share_list">
+                                <a target="_blank" href="http://twitter.com/share?text=<?php echo the_title(); ?>&url=<?php the_permalink();?>">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink();?>&summary=<?php the_title();?>&source=veresk.org"><i
+                                        class="fa fa-linkedin"></i></a>
+                                <!-- <a target="_blank" href="https://www.instagram.com/veresk_org"><i class="fa fa-instagram"></i></a> -->
+                                <a target="_blank" href="https://t.me/share/url?url=<?php the_permalink();?>"><i class="fa fa-telegram"></i></a>
+                            </ul>
                         </div>
+                    </div>
+                    <div class="track_your_wagon my-4 mt-5 p-5 row mx-0 align-items-center">
+                        <h4>
+                            مایل به ردیابی واگن یا بار خود هستید؟
+                        </h4>
+                        <a href="https://panel.veresk.org/dashboard/track-list?guest=true&lang=fa">
+                            <button>
+                                ردیابی کنید
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
+
+            <div class="col-lg-3 side_bar_single">
+                <div class="post_body d-flex flex-column align-items-center justify-content-between px-3">
+                    <div class="side_bar_categories d-flex flex-column align-items-center">
+                        دسته بندی ها:
+                        <div class="section_tags">
+                            <ul class="d-flex flex-column">
+                                <?php foreach (get_categories(array('orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
+                                <li class="my-2 <?php if(is_category() && get_queried_object()->term_id == $cat->term_id) echo 'active'?>">
+                                    <a href="<?php echo get_category_link($cat->term_id); ?>">
+                                        <?php echo $cat->cat_name; ?>
+                                    </a>
+                                </li>
+                                <?php endforeach;?>
+                                <?php foreach (get_categories(array('orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
+                                <li class="my-2 <?php if(is_category() && get_queried_object()->term_id == $cat->term_id) echo 'active'?>">
+                                    <a href="<?php echo get_category_link($cat->term_id); ?>">
+                                        <?php echo $cat->cat_name; ?>
+                                    </a>
+                                </li>
+                                <?php endforeach;?>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="post_tags d-flex flex-wrap align-items-center justify-content-center px-3">
+                        <span class="mb-3">برچسب ها:</span>
+                        <ul>
+                            <?php if (get_the_tags()[0]): ?>
+                            <?php foreach (get_the_tags() as $tag): ?>
+                            <li class="post_tag">
+                                <a href="<?php echo get_tag_link($tag->term_id); ?>">
+                                    <?php echo $tag->name ?>
+                                </a>
+                            </li>
+                            <?php endforeach;?>
+                            <?php endif?>
+                        </ul>
+                    </div>
+                    <div class="social_media d-flex flex-column align-items-center py-3">
+                        ما را در شبکه های اجتماعی دنبال کنید:
+                        <ul class="my-4">
+                            <a target="_blank" href="http://twitter.com/share?text=<?php echo the_title(); ?>&url=<?php the_permalink();?>">
+                                <i class="fa fa-twitter fa-2x"></i>
+                            </a>
+                            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink();?>&summary=<?php the_title();?>&source=veresk.org"><i
+                                    class="fa fa-linkedin fa-2x mx-1"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/veresk_org"><i class="fa fa-instagram fa-2x mx-1"></i></a>
+                            <a target="_blank" href="https://t.me/share/url?url=<?php the_permalink();?>"><i class="fa fa-telegram fa-2x"></i></a>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
 </div>

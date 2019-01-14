@@ -626,19 +626,19 @@ Home
 }
 
 
-.post_share_list .fa-twitter {
-	color: #55acee;
+.fa-twitter {
+	color: #1da1f2;
 }
 
-.post_share_list .fa-instagram {
+.fa-instagram {
 	color: #c26d7a;
 }
 
-.post_share_list .fa-linkedin {
+.fa-linkedin {
 	color: #6fb9eb;
 }
 
-.post_share_list .fa-telegram {
+.fa-telegram {
 	color: #0f95fc;
 }
 
@@ -647,6 +647,7 @@ Home
 }
 
 .post_body {
+	height: 100%;
 	padding-left: 69px;
 	padding-top: 75px;
 	padding-right: 68px;
@@ -658,7 +659,7 @@ Home
 .post_p {
 	font-size: 16px;
 	line-height: 1.875;
-	color: rgba(0, 0, 0, 0.8);
+	color: black
 }
 
 .post_body figure {
@@ -874,6 +875,14 @@ Section Panel
 
 .section_panel_more>ul li a:hover {
 	color: rgba(0, 0, 0, 0.8);
+}
+
+/*********************************
+Side bar
+*********************************/
+
+.side_bar_single{
+	height: 600px;
 }
 
 /*********************************
