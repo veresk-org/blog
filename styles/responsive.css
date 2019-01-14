@@ -165,12 +165,23 @@
 		height: 70px;
 	}
 
-	.subscribe {
-		padding-bottom: 60px;
+	.side_bar_single {
+		display: none !important;
 	}
 
-	.subscribe_background {
-		width: 100%;
+	.footer .footer-left,
+	.footer .footer-center,
+	.footer .footer-right {
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		vertical-align: top;
+	}
+
+	.footer .footer-center div {
+		width: 270px;
 	}
 }
 
