@@ -43,15 +43,14 @@
                 </a>
                 <?php endforeach;?>
                 <a href="<?php the_permalink();?>">
-                    <?php if (has_post_thumbnail()): ?>
+                <?php if (has_post_thumbnail()): ?>
                     <img class="card-img-top" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" src='<?php echo get_the_post_thumbnail_url(); ?>'>
-                    <?php endif;?>
-                    <?php if (!has_post_thumbnail()): ?>
-                    <img class="card-img-top" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" src='<?php bloginfo('
-                        template_directory'); ?>/images/railway-bg.jpg'>
-                    <?php endif;?>
+                <?php endif;?>
+                <?php if (!has_post_thumbnail()): ?>
+                <img class="card-img-top" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" src='<?php bloginfo('template_directory'); ?>/images/railway-bg.jpg'>
+                <?php endif;?>
                 </a>
-
+               
                 <div class="card-body">
                     <a href="<?php the_permalink();?>">
                         <p class="mb-3">
