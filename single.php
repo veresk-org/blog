@@ -7,32 +7,34 @@ if (have_posts()) {
 <!-- Home -->
 
 <div class="home">
-    <div class="home_background parallax-window" data-parallax="scroll" data-image-src="<?php bloginfo('template_directory')?>/images/railway-bg.jpg"
-        data-speed="0.8"></div>
-    <div class="home_content">
-        <?php foreach (get_the_category() as $cat): ?>
-        <div class="post_category trans_200 px-3">
-            <a class="trans_200" href="<?php echo get_category_link($cat->term_id); ?>">
-                <?php echo $cat->cat_name; ?>
-            </a>
-        </div>
-        <?php endforeach;?>
+    <div class="home_slider_container">
+        <div class="home_slider_background" style="background-image:url(<?php bloginfo('template_directory')?>/images/railway-bg.jpg)"></div>
+        <div class="home_content">
+            <?php foreach (get_the_category() as $cat): ?>
+            <div class="post_category trans_200 px-3">
+                <a class="trans_200" href="<?php echo get_category_link($cat->term_id); ?>">
+                    <?php echo $cat->cat_name; ?>
+                </a>
+            </div>
+            <?php endforeach;?>
 
-        <div class="post_title_single">
-            <?php the_title()?>
-        </div>
-        <div class="post_author d-flex flex-row align-items-center justify-content-center">
-            <div class="post_meta">
-                <?php the_author_posts_link()?>
-                <span>
-                    <?php echo get_the_date('Y-m-d'), " at ", the_time() ?>
-                </span>
+            <div class="post_title_single">
+                <?php the_title()?>
+            </div>
+            <div class="post_author d-flex flex-row align-items-center justify-content-center">
+                <div class="post_meta">
+                    <?php the_author_posts_link()?>
+                    <span>
+                        <?php echo get_the_date('Y-m-d'), " at ", the_time() ?>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
     <div class="angle-down justify-content-center d-flex col-sm-12">
         <a href="#page_content"><i class="fa fa-angle-down fa-5x"></i></a>
     </div>
+
 </div>
 
 <!-- Page Content -->

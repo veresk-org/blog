@@ -66,9 +66,6 @@
 
 <script src="<?php bloginfo('template_directory')?>/js/jquery-3.2.1.min.js"></script>
 <script src="<?php bloginfo('template_directory')?>/styles/bootstrap/bootstrap.min.js"></script>
-<?php if (is_single()): ?>
-<script src="<?php bloginfo('template_directory')?>/plugins/parallax-js-master/parallax.min.js"></script>
-<?php endif;?>
 <script src="<?php bloginfo('template_directory')?>/js/script.js"></script>
 <?php wp_footer();?>
 </body>
