@@ -111,13 +111,6 @@ if (have_posts()) {
                                     </a>
                                 </li>
                                 <?php endforeach;?>
-                                <?php foreach (get_categories(array('orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
-                                <li class="my-2 <?php if(is_category() && get_queried_object()->term_id == $cat->term_id) echo 'active'?>">
-                                    <a href="<?php echo get_category_link($cat->term_id); ?>">
-                                        <?php echo $cat->cat_name; ?>
-                                    </a>
-                                </li>
-                                <?php endforeach;?>
                             </ul>
                         </div>
 

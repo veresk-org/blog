@@ -34,7 +34,7 @@
         <?php while (have_posts()): the_post();?>
         <div class="col-lg-4">
 
-            <div class="card p-3">
+            <div class="card p-2">
                 <?php foreach (get_the_category() as $cat): ?>
                 <a class="badge-a-tag" href="<?php echo get_category_link($cat->term_id); ?>">
                     <span class="badge badge-primary mx-1">
