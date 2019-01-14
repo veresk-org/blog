@@ -349,6 +349,80 @@ Menu
 	margin-bottom: 67px;
 }
 
+
+form .btn-search {
+	height: 40px;
+	padding: 0 15px;
+	background: #971d1e;
+	white-space: nowrap;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+	font-weight: 400;
+	margin-left: 10px;
+}
+
+form .btn-search:hover {
+	background: #f9293a;
+}
+
+form {
+	width: 100%;
+	max-width: 914px;
+	margin: 0;
+}
+
+
+form .inner-form {
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
+
+form .inner-form .input-wrap {
+	background: #fff;
+	height: 40px;
+	position: relative;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	border-radius: 3px 0 0 3px;
+}
+
+
+form .inner-form .input-wrap .input-field input {
+	font-size: 16px;
+	color: #333;
+	background: transparent;
+	width: 100%;
+	border: 1px solid #971d1e;
+	border-radius: 3px;
+	padding: 7px 0;
+}
+
+form .inner-form .input-wrap .input-field input.placeholder {
+	color: #808080;
+}
+
+form .inner-form .input-wrap .input-field input:-moz-placeholder {
+	color: #808080;
+}
+
+form .inner-form .input-wrap .input-field input::-webkit-input-placeholder {
+	color: #808080;
+}
+
+form .inner-form .input-wrap .input-field input.hover,
+form .inner-form .input-wrap .input-field input:focus {
+	box-shadow: none;
+	outline: 0;
+}
+
+
+
 .search {
 	display: inline-block;
 	width: 400px;
@@ -852,7 +926,7 @@ Section Panel
 .section_panel_more:hover>ul {
 	visibility: visible;
 	opacity: 1;
-}  
+}
 
 .section_panel_more>ul li:not(:last-child) {
 	margin-bottom: 10px;
@@ -881,7 +955,7 @@ Section Panel
 Side bar
 *********************************/
 
-.side_bar_single{
+.side_bar_single {
 	height: 600px;
 }
 

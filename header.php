@@ -55,17 +55,25 @@
                     <div></div>
                 </div>
             </div>
-            <div class="logo menu_mm"><a href="#">veresk</a></div>
+            <div class="logo menu_mm text-center">
+                <img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo.png" alt="Logo">
+            </div>
             <div class="search">
                 <form>
-                    <input type="search" class="header_search_input menu_mm" required="required" placeholder="Type to Search...">
-                    <img class="header_search_icon menu_mm" src="images/search_2.png" alt="">
+                    <div class="inner-form">
+                        <div class="input-wrap px-2">
+                            <div class="input-field">
+                                <input class="px-1" type="text" placeholder="جستجو">
+                            </div>
+                        </div>
+                        <button class="btn-search" type="button">جستجو</button>
+                    </div>
                 </form>
             </div>
             <nav class="menu_nav">
                 <ul class="menu_mm">
-                    <li class="active menu_mm"><a href="index.html">Home</a></li>
-                    <li class="menu_mm"><a href="https://panel.veresk.org">Panel</a></li>
+                    <li class="active menu_mm"><a href="index.html">خانه</a></li>
+                    <li class="menu_mm"><a href="https://panel.veresk.org">پنل</a></li>
                 </ul>
             </nav>
         </div>
