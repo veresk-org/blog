@@ -35,13 +35,17 @@
         <div class="col-lg-4">
 
             <div class="card p-2">
-                <?php foreach (get_the_category() as $cat): ?>
-                <a class="badge-a-tag" href="<?php echo get_category_link($cat->term_id); ?>">
-                    <span class="badge badge-primary mx-1">
-                        <?php echo $cat->cat_name; ?>
-                    </span>
-                </a>
-                <?php endforeach;?>
+                
+                <span class="badge-a-tag">
+                    <?php foreach (get_the_category() as $cat): ?>
+                    <a  href="<?php echo get_category_link($cat->term_id); ?>">
+                        <span class="badge badge-primary">
+                            <?php echo $cat->cat_name; ?>
+                        </span>
+                    </a>
+                    <?php endforeach;?>
+                </span>
+                
                 <a href="<?php the_permalink();?>">
                 <?php if (has_post_thumbnail()): ?>
                     <img class="card-img-top" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" src='<?php echo get_the_post_thumbnail_url(); ?>'>
