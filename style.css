@@ -826,6 +826,11 @@ Home
 	border-color: #ededed;
 }
 
+.post_tag:hover {
+	background: rgb(218, 216, 216);
+	border-color: rgb(218, 216, 216);
+}
+
 
 
 /*********************************
@@ -925,7 +930,7 @@ Section Panel
 
 .section_tags ul li:hover,
 .section_tags ul li.active {
-	background: #FFFFFF;
+	background: rgb(207, 206, 206);
 }
 
 .section_panel_more>ul {
