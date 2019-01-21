@@ -58,7 +58,7 @@ if (have_posts()) {
                     </div>
 
                     <!-- Post Tags and Share-->
-                    <div class="tags_share d-flex flex-row align-items-center justify-content-between">
+                    <div class="tags_share d-flex flex-column align-items-center">
                         <div class="post_tags">
                             <ul>
                                 <?php if (get_the_tags()[0]): ?>
@@ -72,7 +72,7 @@ if (have_posts()) {
                                 <?php endif?>
                             </ul>
                         </div>
-                        <div class="post_share">
+                        <div class="post_share my-3">
                             <span>اشتراک گذاری:</span>
                             <ul class="post_share_list">
                                 <a target="_blank" href="http://twitter.com/share?text=<?php echo the_title(); ?>&url=<?php the_permalink();?>">
