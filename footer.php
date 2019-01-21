@@ -67,6 +67,14 @@
 <script src="<?php bloginfo('template_directory')?>/js/jquery-3.2.1.min.js"></script>
 <script src="<?php bloginfo('template_directory')?>/styles/bootstrap/bootstrap.min.js"></script>
 <script src="<?php bloginfo('template_directory')?>/js/script.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122374677-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122374677-1');
+</script>
 <?php wp_footer();?>
 </body>
 
