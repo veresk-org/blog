@@ -677,7 +677,6 @@ Home
 	color: rgba(0, 0, 0, 0.2);
 	letter-spacing: 0.075em;
 	font-weight: 700;
-	margin-right: 28px;
 }
 
 .post_share_list {
@@ -795,7 +794,6 @@ Home
 .post_tag {
 	display: inline-block;
 	width: auto;
-	height: 24px;
 	border: solid 1px #d7d7d7;
 	border-radius: 3px;
 	background: transparent;

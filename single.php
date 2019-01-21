@@ -115,14 +115,16 @@ if (have_posts()) {
                         </div>
 
                     </div>
-                    <div class="post_tags d-flex flex-wrap align-items-center justify-content-center px-3">
+                    <div class="post_tags d-flex flex-wrap align-items-center justify-content-center p-4">
                         <span class="mb-3">برچسب ها:</span>
                         <ul>
                             <?php if (get_the_tags()[0]): ?>
                             <?php foreach (get_the_tags() as $tag): ?>
                             <li class="post_tag">
                                 <a href="<?php echo get_tag_link($tag->term_id); ?>">
+                                    <span>
                                     <?php echo $tag->name ?>
+                                    </span>
                                 </a>
                             </li>
                             <?php endforeach;?>
