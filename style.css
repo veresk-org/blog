@@ -700,19 +700,19 @@ Home
 }
 
 
-.fa-twitter {
+.social_media,.post_body .fa-twitter {
 	color: #1da1f2;
 }
 
-.fa-instagram {
+.social_media,.post_body .fa-instagram {
 	color: #c26d7a;
 }
 
-.fa-linkedin {
+.social_media,.post_body .fa-linkedin {
 	color: #6fb9eb;
 }
 
-.fa-telegram {
+.social_media,.post_body .fa-telegram {
 	color: #0f95fc;
 }
 
