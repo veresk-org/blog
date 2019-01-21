@@ -44,6 +44,7 @@ ul {
 }
 
 p {
+	text-align: justify;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
 	line-height: 1.45;
