@@ -50,9 +50,9 @@ if (have_posts()) {
                 <!-- Post Body -->
 
                 <div class="post_body">
-                    <p class="post_p">
+                    <div class="post_content">
                         <?php the_content();?>
-                    </p>
+                    </div>
                     <div class="post_quote_source">
                         <?php the_author_posts_link()?>
                     </div>
