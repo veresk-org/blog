@@ -201,7 +201,7 @@
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	.home_slider_next {
 		width: 285px;
 		height: 210px;

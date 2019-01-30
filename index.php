@@ -63,7 +63,7 @@
                             </b>
                         </p>
                     </a>
-                    <p>
+                    <p class="card-body-p">
                         <?php the_excerpt();?>
                     </p>
                     <small class="post_meta">
