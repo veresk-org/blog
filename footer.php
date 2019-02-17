@@ -8,9 +8,10 @@
 
 
             <div class="col-lg-4 footer-left px-4">
-                <div class="logo-in-footer" ></div>
+                <div class="logo-in-footer"></div>
                 <p class="footer-company-about my-4">
-                اپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز  بهبود ابزارهای کاربردی می باشد
+                    اپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+                    نیاز بهبود ابزارهای کاربردی می باشد
                 </p>
 
                 <div class="footer-phone-number d-flex align-items-center mb-3">
@@ -50,11 +51,11 @@
                     <svg class="phone-keyboard">
                         <use xlink:href="#phone-keyboard" />
                     </svg>
-                    
+
 
 
                     <div class="veresk-phone-number mx-2">
-                    ساعت ۸ تا ۹ -  ۹۸۲۱۶۶۱۷۵۳۲۲+
+                        ساعت ۸ تا ۹ - ۹۸۲۱۶۶۱۷۵۳۲۲+
                     </div>
 
                 </div>
@@ -96,8 +97,8 @@
             <div class="col-lg-2 footer-center py-5 px-4">
 
                 <div>
-                    <span class="header-in-footer-columns">
-                       صفحه اصلی
+                    <span class="header-in-footer-columns d-flex justify-content-center d-lg-block">
+                        صفحه اصلی
                     </span>
                 </div>
 
@@ -158,7 +159,7 @@
                                 <use xlink:href="#right-arrow" />
                             </svg>
                             <span class="px-2">
-                                ثبت نام کنید
+                                ثبت نام
                             </span>
                         </li>
 
@@ -182,7 +183,7 @@
             <div class="col-lg-2 footer-center py-5 px-4">
 
                 <div>
-                    <span class="header-in-footer-columns">
+                    <span class="header-in-footer-columns d-flex justify-content-center d-lg-block">
                         داشبورد
                     </span>
                 </div>
@@ -207,7 +208,7 @@
                                 <use xlink:href="#right-arrow" />
                             </svg>
                             <span class="px-2">
-                               پرداخت ها
+                                پرداخت ها
                             </span>
 
                         </li>
@@ -245,13 +246,13 @@
             <div class="col-lg-4 footer-right py-5 px-4">
 
                 <div>
-                    <span class="header-in-footer-columns">
-                       ثبت نام در خبرنامه هفته ای
+                    <span class="header-in-footer-columns d-flex justify-content-center d-lg-block">
+                        ثبت نام در خبرنامه هفته ای
                     </span>
                 </div>
 
                 <p class="footer-company-about my-4">
-                آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز  بهبود ابزارهای کاربردی می باشد
+                    آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز بهبود ابزارهای کاربردی می باشد
                 </p>
 
                 <div class="col-sm-12 mt-4 p-0">
@@ -358,11 +359,14 @@
 <script src="<?php bloginfo('template_directory')?>/js/script.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122374677-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-122374677-1');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-122374677-1');
 </script>
 <?php wp_footer();?>
 </body>
