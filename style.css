@@ -1356,8 +1356,345 @@ Cards
 /*********************************
 Footer
 *********************************/
+.footer-left .logo-in-footer {
+	background-image: url('./images/veresk-logo/veresk-logo3.png');
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 80px;
+	width: 100%;
+}
 
 .footer {
+	background-color: rgb(40, 40, 40);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	padding: 55px 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.persian .footer .footer-left,
+.persian .footer .footer-center,
+.persian .footer .footer-right {
+	text-align: right;
+}
+
+/* Footer left */
+
+
+/* The company logo */
+
+.footer h3 {
+	color: #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer h3 span {
+	color: #5383d3;
+}
+
+/* Footer links */
+
+.footer .footer-links {
+	color: #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer .footer-links a {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.phone-keyboard {
+	fill: rgb(208, 0, 0);
+	width: 20px;
+	height: 20px;
+}
+
+.veresk-phone-number {
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.at-sign {
+	fill: rgb(208, 0, 0);
+	width: 16px;
+	height: 16px;
+}
+
+.support-email {
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+}
+
+.support-email:hover {
+	color: rgb(255, 255, 255);
+}
+
+.header-in-footer-columns {
+	font-size: 18px;
+	color: rgb(208, 0, 0);
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.header-in-footer-columns ul {
+	padding: 0;
+}
+
+.footer .main-menu-item li span {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.4);
+	line-height: 1.75;
+	list-style: none !important;
+}
+
+.footer .main-menu-item:hover {
+	cursor: pointer;
+}
+
+.footer .header-in-footer-columns ul a li {
+	display: flex;
+	align-content: center;
+}
+
+.footer .header-in-footer-columns ul a li:hover {
+	cursor: pointer;
+}
+
+.right-arrow {
+	fill: rgb(124, 124, 124);
+	width: 6px;
+	height: 6px;
+	margin-bottom: 2px;
+}
+
+.footer .main-menu-item:hover .right-arrow {
+	fill: rgb(208, 0, 0);
+}
+
+.footer .main-menu-item:hover span {
+	color: rgb(255, 255, 255);
+}
+
+
+/* Footer Center */
+
+.footer .footer-center i {
+	background-color: #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer .footer-center p {
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.footer .footer-center p span {
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.footer .footer-center p a {
+	color: #5383d3;
+	text-decoration: none;
+}
+
+/* Footer Right */
+
+.footer .footer-company-about {
+	font-weight: normal;
+	margin: 0;
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.4);
+	line-height: 1.375;
+}
+
+.footer .footer-company-about span {
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer .footer-icons {
+	margin-top: 35px;
+}
+
+.footer .footer-icons a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 43px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+	color: rgba(255, 255, 255, 0.102);
+}
+
+.footer .footer-icons a:hover {
+	color: rgba(255, 255, 255, 1);
+}
+
+.footer .input {
+	position: relative;
+	width: 100%;
+}
+
+.footer .input .label {
+	position: absolute;
+	top: 25px;
+	font-size: 14px;
+	font-weight: normal;
+	color: white;
+	transform-origin: 0 0;
+	transition: all .5s ease;
+}
+
+.footer .input .send-icon {
+	position: absolute;
+	top: 18px;
+	left: 0;
+	transform-origin: 0 0;
+	transition: all .5s ease;
+}
+
+.send-icon .fa-envelope {
+	font-size: 17px;
+	color: #d00000;
+}
+
+.footer .input .border {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background: white;
+	transform: scaleX(0);
+	transform-origin: 0 0;
+	transition: all 0.15s ease;
+}
+
+.footer .input input {
+	-webkit-appearance: none;
+	width: 100%;
+	border: 0;
+	font-family: inherit;
+	padding: 12px 0;
+	height: 48px;
+	font-size: 16px;
+	font-weight: 500;
+	border-bottom: 2px solid rgba(240, 239, 244, 0.102);
+	background: none;
+	border-radius: 0;
+	color: white;
+	transition: all 0.15s ease;
+}
+
+.footer div.input .border {
+	bottom: 6px
+}
+
+.footer .input input:not(:placeholder-shown)+span {
+	color: white;
+	transform: translateY(-26px) scale(0.75);
+}
+
+.footer .input input:focus {
+	background: none;
+	outline: none;
+}
+
+.footer .input input:focus+span {
+	color: white;
+	transform: translateY(-26px) scale(0.75);
+}
+
+.footer .input input:focus+span+.border {
+	transform: scaleX(1);
+}
+
+.footer label {
+	line-height: 0;
+}
+
+.footer label::after {
+	content: none;
+}
+
+hr {
+	border: 1px solid #3e3e3e;
+	width: 100%;
+}
+
+.footer-bottom> :first-child {
+	color: rgba(255, 255, 255, .4)
+}
+
+.footer-bottom> :last-child {
+	color: #484848;
+}
+
+.right-arrow {
+	transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .footer {
 	width: 100%;
 	background: #1f1f1f;
 }
@@ -1443,7 +1780,7 @@ Footer
 
 /* The company logo */
 
-.footer h3 {
+/* .footer h3 {
 	color: #ffffff;
 	font: normal 36px 'Cookie', cursive;
 	margin: 0;
@@ -1478,7 +1815,7 @@ Footer
 /* Footer Center */
 
 
-.footer .footer-center i {
+/* .footer .footer-center i {
 	background-color: #33383b;
 	color: #ffffff;
 	font-size: 25px;
@@ -1518,7 +1855,7 @@ Footer
 /* Footer Right */
 
 
-.footer .footer-company-about {
+/* .footer .footer-company-about {
 	line-height: 20px;
 	color: #92999f;
 	font-size: 13px;
@@ -1551,8 +1888,7 @@ Footer
 	line-height: 35px;
 	margin-right: 3px;
 	margin-bottom: 5px;
-}
-
+}   */
 .track_your_wagon {
 	border: 2px solid #a30516;
 	color: #a30516;
