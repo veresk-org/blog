@@ -22,29 +22,37 @@
         <header class="header p-2">
             <div class="container">
                 <div class="row">
-                    <div class="col">
                         <div class="header_content d-flex flex-row align-items-center justify-content-between">
-                            <div class="logo"><img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png"
-                                    alt="Logo"></div>
-                            <nav class="main_nav">
-                                <ul>
-                                    <li class="<?php if(is_home()) echo 'active' ?> mx-3"><a href="<?php echo site_url() ?>">خانه</a></li>
+                            <div class="logo col-sm-3"><img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png"
+                                    alt="Logo">
+                            </div>
+                           <div class="col-sm-4">
+                           <nav class="main_nav">
+                                <ul class="d-flex">
+                                    <li class="mx-3"><a href="">خدمات</a></li>
+                                    <li class="mx-3"><a href="#">درباره ما</a></li>
+                                    <li class="mx-3"><a href="#">ارتباط با ما</a></li>
                                     <li class="mx-3"><a href="https://panel.veresk.org">پنل</a></li>
-                                    <li class="mr-4">
-                                        <select class="form-control">
-                                            <option value="en">English</option>
-                                            <option value="fa" selected>فارسی</option>
-                                            <option value="ru">русский</option>
-                                        </select>
-                                    </li>
+                                   
                                 </ul>
                             </nav>
+                           </div>
+
+                           <div class="col-sm-3">
+                           <nav class="main_nav">
+                                <!-- <ul class="d-flex"> -->
+                                    <span class="mx-3"><a href="#">ثبت نام</a></span>
+                                    <span class="mx-3"><a class="login" href="#">ورود</a></span>
+                                    <span class="mx-3"><a href="#">ارتباط با ما</a></span>
+                                   
+                                <!-- </ul> -->
+                            </nav>
+                           </div>
 
                             <div class="hamburger menu_mm">
                                 <i class="fa fa-bars trans_200 menu_mm" aria-hidden="true"></i>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </header>

@@ -167,6 +167,7 @@ Header
 
 .header_content {
 	height: 106px;
+	width: 100%;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -212,13 +213,16 @@ Main Navigation
 
 .main_nav ul li {
 	display: inline-block;
+
 }
 
-.main_nav ul li a {
+.main_nav ul li a,
+.main_nav span a {
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 14px;
-	font-weight: 700;
-	color: rgba(255, 255, 255, 0.5);
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.65;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -227,8 +231,18 @@ Main Navigation
 }
 
 .main_nav ul li a:hover,
-.main_nav ul li.active a {
-	color: rgba(255, 255, 255, 1);
+.main_nav span a:hover {
+	font-size: 16px;
+	color: rgb(228, 0, 0);
+	font-weight: bold;
+	line-height: 1.65;
+}
+
+.main_nav .login {
+	border-radius: 3px;
+	background-color: rgb(228, 0, 0);
+	width: 80px;
+	height: 30px;
 }
 
 /*********************************
@@ -493,7 +507,7 @@ Home
 
 .home {
 	width: 100%;
-	height: 85vh;
+	height: 40vh;
 }
 
 .post_title {
@@ -535,14 +549,30 @@ Home
 	text-align: center;
 }
 
-.angle-down {
+.header-red-section {
 	position: absolute;
 	bottom: 0;
+	background-color: rgba(228, 0, 0, 0.7);
+	height: 127px;
 }
 
-.angle-down a {
-	color: white;
+.archive-page-title {
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 2.615;
 }
+
+.route-span a {
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	line-height: 4.25;
+	text-align: right;
+}
+
+/* .angle-down a {
+	color: white;
+} */
 
 
 .post_category {

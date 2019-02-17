@@ -1,11 +1,13 @@
 <?php get_header()?>
 <div class="home">
     <div class="home_slider_container">
-        <div class="home_slider_background" style="background-image:url(<?php bloginfo('template_directory')?>/images/railway-bg.jpg)"></div>
-        <div class="post_title">بلاگ ورسک</div>
+        <div class="home_slider_background" style="background-image:url(<?php bloginfo('template_directory')?>/images/railway.png)"></div>
     </div>
-    <div class="angle-down justify-content-center d-flex col-sm-12">
-        <a href="#page_content"><i class="fa fa-angle-down fa-5x"></i></a>
+    <div class="header-red-section  col-sm-12">
+        <div class="container d-flex justify-content-between align-items-center h-100">
+        <span class="archive-page-title">صفحه آرشیو</span>
+        <span class="route-span"><a href="./index.php">خانه . صفحه آرشیو</a></span>
+        </div>
     </div>
 </div>
 
