@@ -595,7 +595,7 @@ Home
 } */
 
 
-.post_category {
+/* .post_category {
 	margin: 0 auto;
 }
 
@@ -635,14 +635,14 @@ Home
 .post_author {
 	margin: 0 auto;
 	margin-top: 17px;
-}
+} */
 
 /* .post_author .post_meta {
 	margin: 0 20px;
 	margin-top: 0;
 } */
 
-.post_author .post_meta a,
+/* .post_author .post_meta a,
 .post_author .post_meta span {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
@@ -655,7 +655,7 @@ Home
 	border: solid 5px #FFFFFF;
 	border-radius: 50%;
 	overflow: hidden;
-}
+} */
 
 
 /* .post_meta {
@@ -663,12 +663,12 @@ Home
 	margin-top: 0;
 } */
 
-.post_meta a,
+/* .post_meta a,
 .post_meta span {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
 	color: rgba(255, 255, 255, 0.65);
-}
+} */
 
 /* .post_panel {
 	height: 108px;
@@ -676,7 +676,7 @@ Home
 	margin-top: 40px;
 } */
 
-.author_image div {
+/* .author_image div {
 	width: 58px;
 	height: 58px;
 	border: solid 5px #FFFFFF;
@@ -686,7 +686,7 @@ Home
 
 .author_image div img {
 	max-width: 100%;
-}
+} */
 
 /* .post_panel .post_meta {
 	font-family: 'Ubuntu', sans-serif;
@@ -716,6 +716,113 @@ Home
 	left: -4px;
 	content: '•';
 } */
+
+.post_detail {
+	background-color: rgb(255, 255, 255);
+}
+
+.author-image {
+	border-radius: 50%;
+	background-color: rgb(243, 243, 243);
+	width: 60px;
+	height: 60px;
+}
+
+.post_detail .author,
+.post_detail .category,
+.post_detail .detail-date-section,
+.post_detail .comments {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.post_detail .author .author-name,
+.post_detail .category .category-name,
+.post_detail .detail-date-section .detail-date,
+.post_detail .comments .number-of-comments {
+	color: #000000;
+}
+
+.post_detail .comments .comment-icon {
+	fill: rgb(0, 0, 0);
+	opacity: 0.4;
+	width: 15px;
+	height: 10px;
+}
+
+.slide-circles {
+	background-color: rgb(255, 255, 255);
+}
+
+.slide-image-container {
+	background-image: url("./images/railway-bg.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgb(255, 255, 255);
+	opacity: 0.902;
+	width: 100%;
+	height: 400px;
+}
+
+.blog-slide1 {
+	border-radius: 50%;
+	background-color: rgb(236, 236, 236);
+	position: absolute;
+	width: 4px;
+	height: 4px;
+}
+
+.blog-slide2 {
+	border-radius: 50%;
+	background-color: rgb(236, 236, 236);
+	width: 6px;
+	height: 6px;
+}
+
+.blog-slide3 {
+	border-radius: 50%;
+	background-color: rgb(236, 236, 236);
+	width: 8px;
+	height: 8px;
+}
+
+.blog-slide4 {
+	border-radius: 50%;
+	background-color: rgb(208, 0, 0);
+	width: 10px;
+	height: 10px;
+}
+
+.right_straight_arrow {
+	fill: rgb(255, 255, 255);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 40px;
+	height: 21px;
+}
+
+.left_straight_arrow {
+	fill: rgb(255, 255, 255);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 40px;
+	height: 21px;
+}
+
+.right_straight_arrow:hover,
+.left_straight_arrow:hover {
+	fill: rgb(228, 226, 226);
+	cursor: pointer;
+}
 
 .post_share span {
 	font-family: 'Ubuntu', sans-serif;
@@ -908,9 +1015,9 @@ Main Content
 	background: #f7f7f7;
 }
 
-.category {
+/* .category {
 	margin-top: 80px;
-}
+} */
 
 /*********************************
 Section Panel
@@ -1227,9 +1334,9 @@ Side bar
 6.5 Comments
 *********************************/
 
-.comments {
+/* .comments {
 	margin-top: 70px;
-}
+} */
 
 .comments_title {
 	font-family: 'Ubuntu', sans-serif;

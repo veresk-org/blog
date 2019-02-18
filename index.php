@@ -6,7 +6,7 @@
     <div class="header-red-section  col-sm-12">
         <div class="container d-flex justify-content-between align-items-center h-100">
             <span class="archive-page-title">صفحه آرشیو</span>
-            <span class="route-span"><a href="./index.php">خانه . صفحه آرشیو</a></span>
+            <span class="route-span"><a href="#">خانه . صفحه آرشیو</a></span>
         </div>
     </div>
 </div>

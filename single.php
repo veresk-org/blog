@@ -8,31 +8,115 @@ if (have_posts()) {
 
 <div class="home">
     <div class="home_slider_container">
-        <div class="home_slider_background" style="background-image:url(<?php bloginfo('template_directory')?>/images/railway-bg.jpg)"></div>
-        <div class="home_content">
-            <?php foreach (get_the_category() as $cat): ?>
-            <div class="post_category trans_200 px-3">
-                <a class="trans_200" href="<?php echo get_category_link($cat->term_id); ?>">
-                    <?php echo $cat->cat_name; ?>
-                </a>
-            </div>
-            <?php endforeach;?>
+        <div class="home_slider_background" style="background-image:url(<?php bloginfo('template_directory')?>/images/railway.png)"></div>
+    </div>
+    <div class="header-red-section  col-sm-12">
+        <div class="container d-flex justify-content-between align-items-center h-100">
+            <span class="archive-page-title">صفحه جزئیات</span>
+            <span class="route-span"><a href="#">خانه . بررسی سفارشات</a></span>
+        </div>
+    </div>
+</div>
+<!-- Post Details -->
 
-            <div class="post_title_single">
-                <?php the_title()?>
-            </div>
-            <div class="post_author d-flex flex-row align-items-center justify-content-center">
-                <div class="post_meta">
-                    <?php the_author_posts_link()?>
-                    <span>
-                        <?php echo get_the_date('Y-m-d'), " at ", the_time() ?>
-                    </span>
+<div class="post_detail py-4">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-1">
+                <div class="author-image">
+
                 </div>
+            </div>
+
+            <div class="author col-sm-2">
+                <span class="d-block">نوشته شده </span>
+                <span class="d-block author-name">امیرمحمد حقیقت</span>
+            </div>
+
+            <div class="category col-sm-2">
+                <span class="d-block">موضوعات</span>
+                <span class="d-block category-name">وب و تجارت</span>
+            </div>
+
+            <div class="detail-date-section col-sm-2">
+                <span class="d-block">تاریخ</span>
+                <span class="d-block detail-date">۲۵ شهریور ۱۳۹۷</span>
+            </div>
+
+            <div class="comments col-sm-2">
+                <span class="d-block">نظرات</span>
+                <span class="d-block number-of-comments">
+                    ۲۵
+                    <div hidden>
+                        <svg version="1.1" id="comment-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="0 0 30.333 30.333" style="enable-background:new 0 0 30.333 30.333;"
+                            xml:space="preserve">
+                            <g>
+                                <path style="fill:#010002;" d="M0,26.75V11.908c0-4.59,3.735-8.325,8.325-8.325h13.681c4.591,0,8.327,3.735,8.327,8.325v2.56
+		c0,4.59-3.735,8.325-8.325,8.325H8.518L0,26.75z M8.325,5.439c-3.567,0-6.469,2.902-6.469,6.469v11.933l6.253-2.905h13.899
+		c3.567,0,6.469-2.902,6.469-6.469v-2.56c0-3.567-2.903-6.469-6.471-6.469H8.325V5.439z M8.937,11.767
+		c0.975,0,1.765,0.79,1.765,1.765s-0.79,1.765-1.765,1.765s-1.765-0.79-1.765-1.765S7.962,11.767,8.937,11.767z M21.395,11.767
+		c0.975,0,1.765,0.79,1.765,1.765s-0.79,1.765-1.765,1.765s-1.765-0.79-1.765-1.765S20.42,11.767,21.395,11.767z M15.165,11.767
+		c0.975,0,1.765,0.79,1.765,1.765s-0.79,1.765-1.765,1.765s-1.765-0.79-1.765-1.765S14.19,11.767,15.165,11.767z" />
+                            </g>
+
+                        </svg>
+                    </div>
+                    <svg class="comment-icon">
+                        <use xlink:href="#comment-icon" />
+                    </svg>
+                </span>
             </div>
         </div>
     </div>
-    <div class="angle-down justify-content-center d-flex col-sm-12">
-        <a href="#page_content"><i class="fa fa-angle-down fa-5x"></i></a>
+</div>
+<!-- Slider -->
+
+<div class="slider-container">
+    <div class="slide-image-container">
+        <div hidden>
+            <svg version="1.1" id="right_straight_arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px" y="0px" viewBox="0 0 199.405 199.405" style="enable-background:new 0 0 199.405 199.405;"
+                xml:space="preserve">
+                <g>
+                    <polygon points="99.703,199.405 199.405,99.702 99.703,0 71.418,28.285 124.662,81.529 0,81.529 0,117.876 124.662,117.876 
+		71.418,171.12 	" />
+                </g>
+
+            </svg>
+        </div>
+        <svg class="right_straight_arrow">
+            <use xlink:href="#right_straight_arrow" />
+        </svg>
+
+        <div hidden>
+            <svg version="1.1" id="left_straight_arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px" y="0px" viewBox="0 0 199.404 199.404" style="enable-background:new 0 0 199.404 199.404;"
+                xml:space="preserve">
+                <g>
+                    <polygon points="199.404,81.529 74.742,81.529 127.987,28.285 99.701,0 0,99.702 99.701,199.404 127.987,171.119 74.742,117.876 
+		199.404,117.876 	" />
+                </g>
+
+            </svg>
+        </div>
+        <svg class="left_straight_arrow">
+            <use xlink:href="#left_straight_arrow" />
+        </svg>
+    </div>
+
+
+    <div class="slide-circles d-flex justify-content-center py-5">
+        <div class="d-flex align-items-center">
+            <div class="blog-slide1 mx-1"></div>
+            <div class="blog-slide2 mx-1"></div>
+            <div class="blog-slide3 mx-1"></div>
+            <div class="blog-slide4 mx-1"></div>
+            <div class="blog-slide3 mx-1"></div>
+            <div class="blog-slide2 mx-1"></div>
+            <div class="blog-slide1 mx-1"></div>
+        </div>
     </div>
 
 </div>
@@ -123,7 +207,7 @@ if (have_posts()) {
                             <li class="post_tag">
                                 <a href="<?php echo get_tag_link($tag->term_id); ?>">
                                     <span>
-                                    <?php echo $tag->name ?>
+                                        <?php echo $tag->name ?>
                                     </span>
                                 </a>
                             </li>
