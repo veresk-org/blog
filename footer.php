@@ -262,8 +262,8 @@
                         <span class="border"></span>
                         <span class="send-icon"><i class="fa fa-envelope"></i></span>
                     </label>
-                </div>
-                <div class="footer-icons">
+
+                    <div class="footer-icons">
                     <a target="_blank" href="https://twitter.com/veresk_org"><i class="fa fa-twitter"></i></a>
                     <a target="_blank" href="https://www.linkedin.com/company/veresk">
                         <i class="fa fa-linkedin"></i>
@@ -271,6 +271,8 @@
                     <a target="_blank" href="https://www.instagram.com/veresk_org"><i class="fa fa-instagram"></i></a>
                     <a target="_blank" href="https://t.me/veresk_org"><i class="fa fa-telegram"></i></a>
                 </div>
+                </div>
+               
 
             </div>
             <hr class="mx-4">

@@ -26,7 +26,7 @@
                             <div class="logo col-sm-3"><img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png"
                                     alt="Logo">
                             </div>
-                           <div class="col-sm-4">
+                           <div class="col-sm-5">
                            <nav class="main_nav">
                                 <ul class="d-flex">
                                     <li class="mx-3"><a href="">خدمات</a></li>

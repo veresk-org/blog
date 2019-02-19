@@ -271,34 +271,41 @@ if (have_posts()) {
                         </div>
 
                     </div>
-                   
+
                 </div>
             </div>
 
-          
+
 
 
 
         </div>
     </div>
-<div class="comment_section">
-   <div class="container">
-                <div class="row d-flex justify-content-center py-5">
-                    <div class="col-sm-8">
-                        <div class="comment_body p-4">
-                            <div class="leave-comment">
-                                <div class="leave-comment-title col-sm-7">
-                                    نظر خود را بنویسید
-                                </div>
+    <div class="comment_section">
+        <div class="container">
+            <div class="row d-flex justify-content-center py-5">
+                <div class="col-sm-8">
+                    <div class="comment_body p-4">
+                        <div class="leave-comment">
+                            <div class="leave-comment-title col-sm-12 col-md-7">
+                                نظر خود را بنویسید
+                            </div>
 
-                                <div class="leave-comment-text col-sm-4">
+                            <div class="leave-comment-text col-sm-12 col-md-4">
                                 برای ارسال نظر لطفا وارد شوید و یا ثبت نام کنید
-                                </div>
                             </div>
                         </div>
+                        <form class="py-5">
+                        <textarea class="form-control comment-textarea my-2" placeholder="نظر خود را بنوسید" rows="5"></textarea>
+                        <input type="text" placeholder="نام ، نام خانوادگی" class="form-control comment-inputs my-4">
+                        <input type="text" placeholder="آدرس ایمیل" class="form-control comment-inputs my-4">
+                        <input type="text" placeholder="وبسایت" class="form-control comment-inputs my-4">
+                        <button class="btn comment-btn">ارسال نظر</button>
+                        </form>
                     </div>
                 </div>
             </div>
-   </div>
+        </div>
+    </div>
 </div>
 <?php get_footer();?>
