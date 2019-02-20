@@ -42,7 +42,7 @@
                             <nav class="main_nav d-lg-flex justify-content-end align-items-center">
                                 <span class="mx-3"><a href="#">ثبت نام</a></span>
                                 <span class="mx-3"><a class="login" href="#">ورود</a></span>
-                                <span class="mx3">
+                                <span class="mx-3">
                                     <select class="form-control lang-menu">
                                         <option style="color:black;" value="en">English</option>
                                         <option style="color:black;" value="fa" selected>فارسی</option>
