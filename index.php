@@ -113,7 +113,7 @@
                     <small class="post_meta mx-0 d-flex justify-content-between">
                         <span>
                             <?php the_author_posts_link() ?>
-                            <span>
+                            <span class="post_meta-date-and-time">
                                 <?php echo get_the_date('Y-m-d'), "  در ", the_time() ?>
                             </span>
                         </span>
