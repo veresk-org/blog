@@ -55,7 +55,7 @@
 
                 <span class="badge-a-tag">
                     <span class="date-of-post p-2">
-                        30 خرداد
+                        ۳۰ خرداد
                     </span>
                 </span>
 

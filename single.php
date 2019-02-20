@@ -10,7 +10,7 @@ if (have_posts()) {
     <div class="home_slider_container">
         <div class="home_slider_background" style="background-image:url(<?php bloginfo('template_directory')?>/images/railway.png)"></div>
     </div>
-    <div class="header-red-section  col-sm-12">
+    <div class="header-red-section col-sm-12">
         <div class="container d-flex justify-content-between align-items-center h-100">
             <span class="archive-page-title">صفحه جزئیات</span>
             <span class="route-span"><a href="#">خانه . بررسی سفارشات</a></span>
@@ -71,55 +71,7 @@ if (have_posts()) {
         </div>
     </div>
 </div>
-<!-- Slider -->
 
-<div class="slider-container">
-    <div class="slide-image-container">
-        <div hidden>
-            <svg version="1.1" id="right_straight_arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px" y="0px" viewBox="0 0 199.405 199.405" style="enable-background:new 0 0 199.405 199.405;"
-                xml:space="preserve">
-                <g>
-                    <polygon points="99.703,199.405 199.405,99.702 99.703,0 71.418,28.285 124.662,81.529 0,81.529 0,117.876 124.662,117.876 
-		71.418,171.12 	" />
-                </g>
-
-            </svg>
-        </div>
-        <svg class="right_straight_arrow">
-            <use xlink:href="#right_straight_arrow" />
-        </svg>
-
-        <div hidden>
-            <svg version="1.1" id="left_straight_arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px" y="0px" viewBox="0 0 199.404 199.404" style="enable-background:new 0 0 199.404 199.404;"
-                xml:space="preserve">
-                <g>
-                    <polygon points="199.404,81.529 74.742,81.529 127.987,28.285 99.701,0 0,99.702 99.701,199.404 127.987,171.119 74.742,117.876 
-		199.404,117.876 	" />
-                </g>
-
-            </svg>
-        </div>
-        <svg class="left_straight_arrow">
-            <use xlink:href="#left_straight_arrow" />
-        </svg>
-    </div>
-
-
-    <div class="slide-circles d-flex justify-content-center py-5">
-        <div class="d-flex align-items-center">
-            <div class="blog-slide1 mx-1"></div>
-            <div class="blog-slide2 mx-1"></div>
-            <div class="blog-slide3 mx-1"></div>
-            <div class="blog-slide4 mx-1"></div>
-            <div class="blog-slide3 mx-1"></div>
-            <div class="blog-slide2 mx-1"></div>
-            <div class="blog-slide1 mx-1"></div>
-        </div>
-    </div>
-
-</div>
 
 <!-- Page Content -->
 
