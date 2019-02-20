@@ -23,8 +23,8 @@
             <div class="container">
                 <div class="row">
                     <div class="header_content d-flex flex-row align-items-center justify-content-between">
-                        <div class="logo col-sm-3"><img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png"
-                                alt="Logo">
+                        <div class="logo col-sm-3 p-0">
+                            <img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png" alt="Logo">
                         </div>
                         <div class="col-sm-5">
                             <nav class="main_nav">
@@ -38,14 +38,11 @@
                             </nav>
                         </div>
 
-                        <div class="col-sm-3">
-                            <nav class="main_nav">
-                                <!-- <ul class="d-flex"> -->
+                        <div class="col-sm-4 p-0">
+                            <nav class="main_nav d-flex justify-content-end">
                                 <span class="mx-3"><a href="#">ثبت نام</a></span>
                                 <span class="mx-3"><a class="login" href="#">ورود</a></span>
                                 <span class="mx-3"><a href="#">ارتباط با ما</a></span>
-
-                                <!-- </ul> -->
                             </nav>
                         </div>
 

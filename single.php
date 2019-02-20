@@ -23,28 +23,28 @@ if (have_posts()) {
     <div class="container">
         <div class="row">
 
-            <div class="col-sm-1">
+            <div class="d-none d-lg-block col-sm-1">
                 <div class="author-image">
 
                 </div>
             </div>
 
-            <div class="author col-sm-2">
+            <div class="author col-12 col-md-3 py-2 py-md-0">
                 <span class="d-block">نوشته شده </span>
                 <span class="d-block author-name">امیرمحمد حقیقت</span>
             </div>
 
-            <div class="category col-sm-2">
+            <div class="category col-12 col-md-3 py-2 py-md-0">
                 <span class="d-block">موضوعات</span>
                 <span class="d-block category-name">وب و تجارت</span>
             </div>
 
-            <div class="detail-date-section col-sm-2">
+            <div class="detail-date-section col-12 col-md-3 py-2 py-md-0">
                 <span class="d-block">تاریخ</span>
                 <span class="d-block detail-date">۲۵ شهریور ۱۳۹۷</span>
             </div>
 
-            <div class="comments col-sm-2">
+            <div class="comments col-12 col-md-2 py-2 py-md-0">
                 <span class="d-block">نظرات</span>
                 <span class="d-block number-of-comments">
                     ۲۵

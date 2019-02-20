@@ -3,18 +3,18 @@
     <div class="home_slider_container">
         <div class="home_slider_background" style="background-image:url(<?php bloginfo('template_directory')?>/images/railway.png)"></div>
     </div>
-    <div class="header-red-section  col-sm-12">
+    <div class="header-red-section col-sm-12">
         <div class="container d-flex justify-content-between align-items-center h-100">
             <span class="archive-page-title">صفحه آرشیو</span>
-            <span class="route-span"><a href="#">خانه . صفحه آرشیو</a></span>
+            <span class="route-span"><a href="index.php">خانه . صفحه آرشیو</a></span>
         </div>
     </div>
 </div>
 
 <div class="container-fluid filter-and-search-container">
     <div class="container py-4">
-        <div class="section_panel px-3 d-flex flex-row align-items-center justify-content-between">
-            <div class="filter_section d-flex align-items-center"> <span>فیلتر:</span>
+        <div class="section_panel px-3 d-flex flex-row align-items-center justify-content-between flex-wrap">
+            <div class="filter_section d-flex align-items-center py-md-3"> <span>فیلتر:</span>
                 <div class="section_tags px-3">
                     <ul>
                         <?php foreach (get_categories(array('orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
@@ -42,14 +42,14 @@
     </div>
 </div>
 
-<div class="page_content row my-5 mx-0" id="page_content">
+<div class="page_content row py-5 mx-0" id="page_content">
 
 
 
     <?php if (have_posts()): ?>
     <div class="container d-flex flex-wrap my-4">
         <?php while (have_posts()): the_post();?>
-        <div class="col-lg-4">
+        <div class="col-md-6 col-lg-4">
 
             <div class="card">
 
@@ -70,7 +70,7 @@
                     <?php endif;?>
                 </a>
 
-                <div class="card-body p-5">
+                <div class="card-body px-5 py-4">
                     <a href="<?php the_permalink();?>">
                         <p class="mb-3">
                             <b class="card-body-title">
