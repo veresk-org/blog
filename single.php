@@ -285,7 +285,7 @@ if (have_posts()) {
         <div class="container">
             <div class="row d-flex justify-content-center py-5">
                 <div class="col-sm-8">
-                    <div class="comment_body p-4">
+                    <div class="comment_body p-4 mb-5">
                         <div class="leave-comment">
                             <div class="leave-comment-title col-sm-12 col-md-7">
                                 نظر خود را بنویسید
@@ -296,12 +296,57 @@ if (have_posts()) {
                             </div>
                         </div>
                         <form class="py-5">
-                        <textarea class="form-control comment-textarea my-2" placeholder="نظر خود را بنوسید" rows="5"></textarea>
-                        <input type="text" placeholder="نام ، نام خانوادگی" class="form-control comment-inputs my-4">
-                        <input type="text" placeholder="آدرس ایمیل" class="form-control comment-inputs my-4">
-                        <input type="text" placeholder="وبسایت" class="form-control comment-inputs my-4">
-                        <button class="btn comment-btn">ارسال نظر</button>
+                            <textarea class="form-control comment-textarea my-2" placeholder="نظر خود را بنوسید" rows="5"></textarea>
+                            <input type="text" placeholder="نام ، نام خانوادگی" class="form-control comment-inputs my-4">
+                            <input type="email" placeholder="آدرس ایمیل" class="form-control comment-inputs my-4">
+                            <input type="text" placeholder="وبسایت" class="form-control comment-inputs my-4">
+                            <button type="submit" class="btn comment-btn">ارسال نظر</button>
                         </form>
+                    </div>
+
+                    <div class="col-sm-12 col-md-8 col-lg-6 py-5">
+                        <div class="users-comments-title-box d-flex">
+                            <div class="number-of-users-comments">
+                                ۵
+                            </div>
+                            <span class="users-comments-title d-flex align-items-center">
+                                نظرات کاربران
+                            </span>
+
+                        </div>
+                    </div>
+
+                    <div class="comment-of-user-box">
+                        <div class="comment-of-user-content-div p-5">
+                            <div class="name-of-user-in-comment-box py-2">
+                                امیرمحمد حقیقت
+                            </div>
+
+                            <div class="comment-of-user-in-comment-box">
+                                متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                                مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت
+                                و سه درصد فراوان جامعه و متخصصان را می طلبد
+                            </div>
+
+
+                        </div>
+
+                        <div class="date-and-reply py-3 px-5">
+
+                            <span class="date--comment-box">
+                                ۲۷ خرداد ۱۳۹۸
+                            </span>
+
+                            <div class="reply">
+                                <span>
+                                    پاسخ دادن
+                                </span>
+
+                                <i class="fa fa-angle-left"></i>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>

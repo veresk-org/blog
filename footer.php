@@ -8,7 +8,8 @@
 
 
             <div class="col-lg-4 footer-left px-4">
-                <div class="logo-in-footer"></div>
+                <img class="logo-in-footer" src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo4.png"
+                    alt="veresk">
                 <p class="footer-company-about my-4">
                     اپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
                     نیاز بهبود ابزارهای کاربردی می باشد
@@ -264,15 +265,15 @@
                     </label>
 
                     <div class="footer-icons">
-                    <a target="_blank" href="https://twitter.com/veresk_org"><i class="fa fa-twitter"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/company/veresk">
-                        <i class="fa fa-linkedin"></i>
-                    </a>
-                    <a target="_blank" href="https://www.instagram.com/veresk_org"><i class="fa fa-instagram"></i></a>
-                    <a target="_blank" href="https://t.me/veresk_org"><i class="fa fa-telegram"></i></a>
+                        <a target="_blank" href="https://twitter.com/veresk_org"><i class="fa fa-twitter"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/veresk">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/veresk_org"><i class="fa fa-instagram"></i></a>
+                        <a target="_blank" href="https://t.me/veresk_org"><i class="fa fa-telegram"></i></a>
+                    </div>
                 </div>
-                </div>
-               
+
 
             </div>
             <hr class="mx-4">

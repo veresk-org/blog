@@ -1228,7 +1228,7 @@ Side bar
 }
 
 /*********************************
-6.4 Post Comment
+Post Comment
 *********************************/
 .comment_section {
 	background-color: rgb(251, 251, 251);
@@ -1315,252 +1315,62 @@ Side bar
 	border-radius: 0 5px 0 0;
 }
 
-
-/* .post_comment {
-	margin-top: 70px;
+.number-of-users-comments {
+	font-size: 100px;
+	color: rgba(93, 92, 92, 0.4);
 }
 
-.post_comment_title {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 18px;
-	color: rgba(0, 0, 0, 0.8);
-	font-weight: 700;
-	text-align: center;
+.users-comments-title {
+	font-size: 36px;
+	color: rgb(93, 92, 92);
+	font-weight: bold;
+	line-height: 1.167;
 }
 
-.post_comment_form_container {
-	width: 100%;
-	background: #FFFFFF;
-	border-radius: 6px;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 50px;
-	padding-bottom: 40px;
-	margin-top: 44px;
+.users-comments-title-box {
+	border-top: 10px solid rgb(255, 137, 1);
 }
 
-.comment_input {
-	display: inline-block;
-	width: calc(50% - 15px);
-	height: 42px;
-	border: none;
-	outline: none;
-	border-bottom: solid 1px #cccccc;
-	background: transparent;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
+.comment-of-user-box {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(0, 0, 0, 0.06);
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
 }
 
-.comment_input:first-child {
-	margin-right: 25px;
+.name-of-user-in-comment-box {
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
 }
 
-.comment_input:hover,
-.comment_text:hover {
-	border-color: rgba(0, 0, 0, 1);
+.comment-of-user-in-comment-box {
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.4);
+	line-height: 1.625;
 }
 
-.comment_text {
-	width: 100%;
-	height: 90px;
-	background: transparent;
-	border: none;
-	outline: none;
-	border-bottom: solid 1px #cccccc;
-	padding-top: 11px;
-	margin-top: 23px;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
+.comment-of-user-content-div {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.comment_input::-webkit-input-placeholder,
-.comment_text::-webkit-input-placeholder {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	color: rgba(0, 0, 0, 0.3);
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
+.comment-of-user-box .date-and-reply {
+	display: flex;
+	justify-content: space-between;
 }
 
-.comment_input:-moz-placeholder,
-.comment_text:-moz-placeholder {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	color: rgba(0, 0, 0, 0.3);
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-
-.comment_input::-moz-placeholder,
-.comment_text::-moz-placeholder {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	color: rgba(0, 0, 0, 0.3);
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-
-.comment_input:-ms-input-placeholder,
-.comment_text:-ms-input-placeholder {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	color: rgba(0, 0, 0, 0.3);
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-
-.comment_input::input-placeholder,
-.comment_text::input-placeholder {
-	color: rgba(0, 0, 0, 1);
-}
-
-.comment_input:hover::-webkit-input-placeholder,
-.comment_text:hover::-webkit-input-placeholder {
-	color: rgba(0, 0, 0, 1);
-}
-
-.comment_input:hover:-moz-placeholder,
-.comment_text:hover:-moz-placeholder {
-	color: rgba(0, 0, 0, 1);
-}
-
-.comment_input:hover::-moz-placeholder,
-.comment_text:hover::-moz-placeholder {
-	color: rgba(0, 0, 0, 1);
-}
-
-.comment_input:hover:-ms-input-placeholder,
-.comment_text:hover:-ms-input-placeholder {
-	color: rgba(0, 0, 0, 1);
-}
-
-.comment_input:hover::input-placeholder,
-.comment_text:hover::input-placeholder {
-	color: rgba(0, 0, 0, 1);
-}
-
-.comment_button {
-	width: 143px;
-	height: 36px;
-	background: rgb(253, 238, 238);
-	color: rgba(255, 118, 117, 1.0);
-	border: none;
-	outline: none;
-	border-radius: 18px;
+.reply:hover {
 	cursor: pointer;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-	margin-top: 24px;
 }
 
-.comment_button:hover {
-	background: rgba(214, 48, 49, 1.0);
-	color: #FFFFFF;
-} */
-
-/*********************************
-6.5 Comments
-*********************************/
-
-/* .comments {
-	margin-top: 70px;
-} */
-
-/* .comments_title {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 18px;
-	font-weight: 700;
-	color: rgba(0, 0, 0, 0.8);
-	text-align: center;
+.reply .reply-left-arrow {
+	background-color: rgb(0, 0, 0);
+	opacity: 0.302;
+	width: 5px;
+	height: 9px;
 }
 
-.comments_container {
-	width: 100%;
-	margin-top: 44px;
-}
-
-.comment_list>li {
-	margin-bottom: 15px;
-}
-
-.comment {
-	width: 100%;
-	background: #FFFFFF;
-	border-radius: 6px;
-}
-
-.comment_body {
-	padding-top: 25px;
-	padding-bottom: 25px;
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
-.comment_author_image {
-	width: 34px;
-	height: 34px;
-	border-radius: 50%;
-	overflow: hidden;
-}
-
-.comment_body .post_meta {
-	margin-top: 0;
-	margin-left: 18px;
-}
-
-.reply_button {
-	width: 76px;
-	height: 28px;
-	background: rgb(253, 238, 238);
-	color: rgba(255, 118, 117, 1.0);
-	border: none;
-	outline: none;
-	border-radius: 18px;
-	cursor: pointer;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-
-.reply_button:hover {
-	background: rgba(214, 48, 49, 1.0);
-	color: #FFFFFF;
-}
-
-.comment_content {
-	margin-top: 22px;
-}
-
-.comment ul li {
-	border-top: solid 1px #e5e5e5;
-} */
 
 /*********************************
 Cards
@@ -1704,12 +1514,8 @@ Cards
 Footer
 *********************************/
 .footer-left .logo-in-footer {
-	background-image: url('./images/veresk-logo/veresk-logo3.png');
-	background-size: 75%;
-	background-repeat: no-repeat;
-	background-position: right;
 	height: 80px;
-	width: 100%;
+	width: 300px;
 }
 
 .footer {
