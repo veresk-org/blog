@@ -21,6 +21,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+input:focus{
+	box-shadow: none!important;
+}
+
 .persian {
 	direction: rtl;
 	text-align: right;
@@ -207,11 +211,21 @@ Header
 	padding: 5px 30px;
 }
 
-.header select {
-	border-color: #fff;
-	font-weight: 700;
-	text-align: left;
-	direction: ltr;
+.lang-menu{
+	background: transparent!important;
+	color: rgb(255, 255, 255)!important;
+	border: none!important;
+	padding: 0!important;
+	cursor: pointer;
+}
+
+.lang-menu:focus{
+	box-shadow: none!important;
+}
+
+.lang-men .lang-menu-option{
+	color: rgb(0, 0, 0)!important;
+	padding: 10px!important;
 }
 
 

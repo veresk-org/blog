@@ -12,7 +12,7 @@
 </div>
 
 <div class="container-fluid filter-and-search-container">
-    <div class="container py-4">
+    <div class="container py-4 px-0">
         <div class="section_panel px-3 d-flex flex-row align-items-center justify-content-between flex-wrap">
             <div class="filter_section d-flex align-items-center py-md-3"> <span>فیلتر:</span>
                 <div class="section_tags px-3">
