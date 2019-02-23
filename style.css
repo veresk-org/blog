@@ -505,7 +505,7 @@ form .inner-form .input-wrap .input-field input:focus {
 	opacity: 0.8;
 }
 
-.badge-a-tag {
+.circle-of-date {
 	position: absolute;
 	left: 15px;
 	top: 15px;
@@ -1179,11 +1179,11 @@ Cards
 	color: rgb(228, 0, 0);
 }
 
-.card:hover .badge-a-tag {
+.card:hover .circle-of-date {
 	background-color: rgb(228, 0, 0);
 }
 
-.card:hover .badge-a-tag .date-of-post {
+.card:hover .circle-of-date .date-of-post {
 	color: rgb(255, 255, 255);
 }
 
@@ -1241,6 +1241,40 @@ Cards
 .load_more_button:hover {
 	background: #d7d7d7;
 }
+
+/*********************************
+Pagination
+*********************************/
+.pagination {
+	direction: ltr;
+}
+
+.page-link {
+	border: none !important;
+	background: transparent !important;
+	font-size: 16px !important;
+	color: rgb(161, 161, 161) !important;
+	width: 32px !important;
+	height: 32px !important;
+	text-align: center !important;
+	margin: 0 10px !important;
+	border-radius: 50% !important;
+}
+
+.page-link:hover {
+	background-color: #fa0000 !important;
+	color: rgb(255, 255, 255) !important;
+}
+
+.page-item .pangination-arrow {
+	color: rgb(161, 161, 161) !important;
+	font-size: 22px;
+}
+
+.page-item:hover .pangination-arrow {
+	color: #fa0000 !important;
+}
+
 
 /*********************************
 Footer
