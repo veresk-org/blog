@@ -84,7 +84,7 @@
 
                     <span class="card-body-more-info d-flex align-items-center py-4">
                         <div hidden>
-                            <svg version="1.1" id="right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            <svg version="1.1" id="right-more-info" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 x="0px" y="0px" viewBox="0 0 30.051 30.051" style="enable-background:new 0 0 30.051 30.051;"
                                 xml:space="preserve">
                                 <g>
@@ -100,8 +100,8 @@
 
 
                         </div>
-                        <svg class="right">
-                            <use xlink:href="#right" />
+                        <svg class="right-more-info">
+                            <use xlink:href="#right-more-info" />
                         </svg>
                         <a href="<?php the_permalink();?>" class="more-info mx-2">
                             مطالعه بیشتر
