@@ -75,7 +75,7 @@ if (have_posts()) {
 
 <!-- Page Content -->
 
-<div class="page_content py-5" id="page_content">
+<div class="single_page_content py-5" id="page_content">
     <div class="container">
         <div class="row ">
 
@@ -227,12 +227,11 @@ if (have_posts()) {
                 </div>
             </div>
 
-
-
-
-
         </div>
+
     </div>
+
+    
     <div class="comment_section">
         <div class="container">
             <div class="row d-flex justify-content-center py-5">
