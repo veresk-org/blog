@@ -75,7 +75,7 @@ if (have_posts()) {
 
 <!-- Page Content -->
 
-<div class="page_content" id="page_content">
+<div class="page_content py-5" id="page_content">
     <div class="container">
         <div class="row ">
 

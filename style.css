@@ -882,6 +882,11 @@ Home
 	fill: rgb(137, 142, 154);
 	width: 16px;
 	height: 16px;
+	-webkit-transition: all 100ms ease-in-out;
+	-moz-transition: all 100ms ease-in-out;
+	-ms-transition: all 100ms ease-in-out;
+	-o-transition: all 100ms ease-in-out;
+	transition: all 100ms ease-in-out;
 }
 
 .social_medias:hover .instagram,
