@@ -17,7 +17,7 @@ body {
 	color: #a5a5a5;
 }
 
-body *{
+body * {
 	-webkit-transition: all 200ms ease-in-out;
 	-moz-transition: all 200ms ease-in-out;
 	-ms-transition: all 200ms ease-in-out;
@@ -29,8 +29,8 @@ html {
 	scroll-behavior: smooth;
 }
 
-input:focus{
-	box-shadow: none!important;
+input:focus {
+	box-shadow: none !important;
 }
 
 .persian {
@@ -219,21 +219,21 @@ Header
 	padding: 5px 30px;
 }
 
-.lang-menu{
-	background: transparent!important;
-	color: rgb(255, 255, 255)!important;
-	border: none!important;
-	padding: 0!important;
+.lang-menu {
+	background: transparent !important;
+	color: rgb(255, 255, 255) !important;
+	border: none !important;
+	padding: 0 !important;
 	cursor: pointer;
 }
 
-.lang-menu:focus{
-	box-shadow: none!important;
+.lang-menu:focus {
+	box-shadow: none !important;
 }
 
-.lang-men .lang-menu-option{
-	color: rgb(0, 0, 0)!important;
-	padding: 10px!important;
+.lang-men .lang-menu-option {
+	color: rgb(0, 0, 0) !important;
+	padding: 10px !important;
 }
 
 
@@ -1188,6 +1188,10 @@ Section Panel
 	top: 16px;
 }
 
+.search-in-tag-section .search-icon:hover {
+	cursor: pointer;
+}
+
 .filter-and-search-container {
 	background-color: rgb(255, 255, 255);
 }
@@ -1392,10 +1396,10 @@ Cards
 
 .post_meta a,
 .post_meta .post_meta-date-and-time {
-  font-size: 10px;
-  color: rgb(143, 143, 143);
-  line-height: 1.2;
-  display: inline-block;
+	font-size: 10px;
+	color: rgb(143, 143, 143);
+	line-height: 1.2;
+	display: inline-block;
 }
 
 .card-body-title {
