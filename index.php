@@ -132,16 +132,16 @@
             <nav>
                 <ul class="pagination">
                     <li class="page-item d-flex align-items-center mx-2">
-                        <a href="#" aria-label="Previous">
-                            <span class="pangination-arrow" aria-hidden="true">&laquo;</span>
+                        <a href="#" class="pangination-arrow">
+                            <i class="fa fa-angle-left"></i>
                         </a>
                     </li>
                     <li class="page-item"><a class="page-link" href="#">۱</a></li>
                     <li class="page-item"><a class="page-link" href="#">۲</a></li>
                     <li class="page-item"><a class="page-link" href="#">۳</a></li>
                     <li class="page-item d-flex align-items-center mx-2">
-                        <a href="#" aria-label="Next">
-                            <span class="pangination-arrow" aria-hidden="true">&raquo;</span>
+                        <a href="#" class="pangination-arrow">
+                            <i class="fa fa-angle-right"></i>
                         </a>
                     </li>
                 </ul>

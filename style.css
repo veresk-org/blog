@@ -1247,6 +1247,8 @@ Pagination
 *********************************/
 .pagination {
 	direction: ltr;
+	display: flex;
+	align-items: center;
 }
 
 .page-link {
@@ -1268,7 +1270,7 @@ Pagination
 
 .page-item .pangination-arrow {
 	color: rgb(161, 161, 161) !important;
-	font-size: 22px;
+	font-size: 30px;
 }
 
 .page-item:hover .pangination-arrow {
