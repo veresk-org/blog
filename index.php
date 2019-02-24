@@ -128,24 +128,14 @@
             </div>
         </div>
         <?php endwhile;?>
+
         <div class="col-sm-12 p-4 mt-5 d-flex justify-content-center">
-            <nav>
-                <ul class="pagination">
-                    <li class="page-item d-flex align-items-center mx-2">
-                        <a href="#" class="pangination-arrow">
-                            <i class="fa fa-angle-left"></i>
-                        </a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">۱</a></li>
-                    <li class="page-item"><a class="page-link" href="#">۲</a></li>
-                    <li class="page-item"><a class="page-link" href="#">۳</a></li>
-                    <li class="page-item d-flex align-items-center mx-2">
-                        <a href="#" class="pangination-arrow">
-                            <i class="fa fa-angle-right"></i>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <?php the_posts_pagination( array(
+            'mid_size' => 2,
+            'prev_text' => __( '<i class="fa fa-angle-left" style="font-size:30px;"></i>', 'textdomain' ),
+            'next_text' => __( '<i class="fa fa-angle-right" style="font-size:30px;"></i>', 'textdomain' ),
+        )); ?>
+
         </div>
     </div>
     <?php endif;?>

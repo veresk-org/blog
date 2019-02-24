@@ -1251,7 +1251,12 @@ Pagination
 	align-items: center;
 }
 
-.page-link {
+.nav-links {
+	display: flex;
+	align-items: center;
+}
+
+.page-numbers {
 	border: none !important;
 	background: transparent !important;
 	font-size: 16px !important;
@@ -1259,22 +1264,32 @@ Pagination
 	width: 32px !important;
 	height: 32px !important;
 	text-align: center !important;
-	margin: 0 10px !important;
+	padding: 3px 10px !important;
 	border-radius: 50% !important;
+	margin: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.page-link:hover {
+.page-numbers.current {
 	background-color: #fa0000 !important;
 	color: rgb(255, 255, 255) !important;
 }
 
-.page-item .pangination-arrow {
-	color: rgb(161, 161, 161) !important;
-	font-size: 30px;
+.page-numbers:hover {
+	background-color: #fa0000 !important;
+	color: rgb(255, 255, 255) !important;
 }
 
-.page-item:hover .pangination-arrow {
+.page-numbers:hover.next,
+.page-numbers:hover.prev {
 	color: #fa0000 !important;
+	background: transparent !important;
+}
+
+.screen-reader-text {
+	display: none;
 }
 
 
