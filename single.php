@@ -19,7 +19,7 @@ if (have_posts()) {
 </div>
 <!-- Post Details -->
 
-<div class="post_detail py-4">
+<div class="post_detail py-3 py-md-4">
     <div class="container">
         <div class="row">
 
@@ -31,23 +31,34 @@ if (have_posts()) {
 
             <div class="author col-12 col-md-3 py-2 py-md-0">
                 <span class="d-block">نوشته شده </span>
-                <span class="d-block author-name">امیرمحمد حقیقت</span>
+                <span class="d-block author-name">
+                    <?php the_author_posts_link() ?>
+                </span>
             </div>
 
             <div class="category col-12 col-md-3 py-2 py-md-0">
                 <span class="d-block">موضوعات</span>
-                <span class="d-block category-name">وب و تجارت</span>
+                <span class="d-block category-name">
+                    <?php foreach (get_the_category() as $cat): ?>
+                    <a href="<?php echo get_category_link($cat->term_id); ?>">
+                        <span class="category-name__text px-1">
+                            <?php echo $cat->cat_name; ?>
+                        </span>
+                    </a>
+                    <?php endforeach;?>
+                </span>
             </div>
 
             <div class="detail-date-section col-12 col-md-3 py-2 py-md-0">
                 <span class="d-block">تاریخ</span>
-                <span class="d-block detail-date">۲۵ شهریور ۱۳۹۷</span>
+                <span class="d-block detail-date">
+                    <?php echo get_the_date('j F Y'); ?></span>
             </div>
 
             <div class="comments col-12 col-md-2 py-2 py-md-0">
                 <span class="d-block">نظرات</span>
-                <span class="d-block number-of-comments">
-                    ۲۵
+                <span class="d-flex align-items-center number-of-comments">
+                    <?php comments_number( 'بدون نظر','۱ نظر', '% نظر' ); ?>
                     <div hidden>
                         <svg version="1.1" id="comment-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                             x="0px" y="0px" viewBox="0 0 30.333 30.333" style="enable-background:new 0 0 30.333 30.333;"
@@ -75,7 +86,7 @@ if (have_posts()) {
 
 <!-- Page Content -->
 
-<div class="single_page_content py-5" id="page_content">
+<div class="single_page_content py-md-5" id="page_content">
     <div class="container">
         <div class="row ">
 
@@ -83,7 +94,7 @@ if (have_posts()) {
 
             <!-- Share -->
             <div class="col-lg-2 side_bar_single">
-                <div class="post_body d-flex flex-column align-items-center justify-content-between px-3">
+                <div class="post_body d-flex flex-column align-items-center justify-content-between px-3 px-md-5">
                     <div class="side_bar_categories d-flex flex-column align-items-center">
                         <a class="social_medias d-flex justify-content-center align-items-center m-2">
                             <div hidden>
@@ -198,7 +209,7 @@ if (have_posts()) {
 
                 <!-- Post Body -->
 
-                <div class="post_body">
+                <div class="post_body px-3 px-md-5">
                     <div class="post_content">
                         <?php the_content();?>
                     </div>
@@ -231,11 +242,11 @@ if (have_posts()) {
 
     </div>
 
-    
+
     <div class="comment_section">
         <div class="container">
             <div class="row d-flex justify-content-center py-5">
-                <div class="col-sm-8">
+                <div class="col-sm-12 col-md-8">
                     <div class="comment_body p-4 mb-5">
                         <div class="leave-comment">
                             <div class="leave-comment-title col-sm-12 col-md-7">
@@ -285,7 +296,7 @@ if (have_posts()) {
                         <div class="date-and-reply py-3 px-5">
 
                             <span class="date--comment-box">
-                                ۲۷ خرداد ۱۳۹۸
+                                <?php echo get_comment_date( 'j F Y', $comment_ID ); ?>
                             </span>
 
                             <div class="reply">
