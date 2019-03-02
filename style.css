@@ -769,9 +769,6 @@ Home
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-}
-
-.post_tag:not(:last-child) {
 	margin-right: 6px;
 }
 

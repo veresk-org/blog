@@ -13,7 +13,7 @@ if (have_posts()) {
     <div class="header-red-section col-sm-12">
         <div class="container d-flex justify-content-between align-items-center h-100">
             <span class="archive-page-title">صفحه جزئیات</span>
-            <span class="route-span"><a href="#">خانه . بررسی سفارشات</a></span>
+            <span class="route-span"><a href="<?php echo get_home_url(); ?>">خانه . بررسی سفارشات</a></span>
         </div>
     </div>
 </div>
