@@ -104,7 +104,7 @@
                             <use xlink:href="#right-more-info" />
                         </svg>
                         <a href="<?php the_permalink();?>" class="more-info mx-2">
-                            مطالعه بیشتر
+                             ادامه مطلب
                         </a>
                     </span>
 
