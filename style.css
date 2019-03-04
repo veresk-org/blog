@@ -69,7 +69,7 @@ p {
 p a {
 	display: inline;
 	position: relative;
-	color: inherit;
+	color: #9e9e9e;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
