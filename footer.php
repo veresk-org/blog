@@ -94,7 +94,7 @@
             </div>
 
 
-            <div class="col-lg-2 footer-center p-4">
+            <div class="col-md-6 col-lg-2 footer-center p-4">
 
                 <div>
                     <span class="header-in-footer-columns d-flex justify-content-center d-lg-block">
@@ -180,7 +180,7 @@
 
             </div>
 
-            <div class="col-lg-2 footer-center p-4">
+            <div class="col-md-6 col-lg-2 footer-center p-4">
 
                 <div>
                     <span class="header-in-footer-columns d-flex justify-content-center d-lg-block">

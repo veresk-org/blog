@@ -1294,7 +1294,7 @@ Footer
 *********************************/
 .footer-left .logo-in-footer {
 	height: 65px;
-	width: 100%;
+	width: 260px;
 }
 
 .footer {
@@ -1485,6 +1485,7 @@ Footer
 
 .footer .footer-icons {
 	margin-top: 35px;
+	text-align: center;
 }
 
 .footer .footer-icons a {
