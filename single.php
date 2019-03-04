@@ -29,16 +29,16 @@ if (have_posts()) {
                 </div>
             </div>
 
-            <div class="author col-12 col-md-3 py-2 py-md-0">
-                <span class="d-block">نوشته شده </span>
-                <span class="d-block author-name">
+            <div class="author col-sm-6 col-md-3 py-2 py-md-0">
+                <span>نوشته شده </span>
+                <span class="author-name">
                     <?php the_author_posts_link() ?>
                 </span>
             </div>
 
-            <div class="category col-12 col-md-3 py-2 py-md-0">
-                <span class="d-block">موضوعات</span>
-                <span class="d-block category-name">
+            <div class="category col-sm-6 col-md-3 py-2 py-md-0">
+                <span >موضوعات</span>
+                <span class="category-name">
                     <?php foreach (get_the_category() as $cat): ?>
                     <a href="<?php echo get_category_link($cat->term_id); ?>">
                         <span class="category-name__text px-1">
@@ -49,14 +49,14 @@ if (have_posts()) {
                 </span>
             </div>
 
-            <div class="detail-date-section col-12 col-md-3 py-2 py-md-0">
-                <span class="d-block">تاریخ</span>
-                <span class="d-block detail-date">
+            <div class="detail-date-section col-sm-6 col-md-3 py-2 py-md-0">
+                <span>تاریخ</span>
+                <span class="detail-date">
                     <?php echo get_the_date('j F Y'); ?></span>
             </div>
 
-            <div class="comments col-12 col-md-2 py-2 py-md-0">
-                <span class="d-block">نظرات</span>
+            <div class="comments col-sm-6 col-md-2 py-2 py-md-0">
+                <span>نظرات</span>
                 <span class="d-flex align-items-center number-of-comments">
                     <?php comments_number( 'بدون نظر','۱ نظر', '% نظر' ); ?>
                     <div hidden>
