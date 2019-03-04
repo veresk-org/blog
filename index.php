@@ -55,8 +55,8 @@
 
                 <span class="circle-of-date">
                     <span class="date-of-post p-2">
-                        ۳۰ خرداد
-                    </span>
+                        <?php echo get_the_date('j F'); ?></span>
+                </span>
                 </span>
 
 
