@@ -104,7 +104,7 @@
                             <use xlink:href="#right-more-info" />
                         </svg>
                         <a href="<?php the_permalink();?>" class="more-info mx-2">
-                             ادامه مطلب
+                            ادامه مطلب
                         </a>
                     </span>
 
@@ -119,7 +119,7 @@
                         </span>
 
                         <span class="number-of-comments">
-                            ۴ نظر
+                            <?php comments_number( 'بدون نظر','۱ نظر', '% نظر' ); ?>
                         </span>
 
                     </small>
