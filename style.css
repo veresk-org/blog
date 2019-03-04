@@ -93,7 +93,7 @@ p a:active {
 }
 
 p a:hover {
-	color: #FFFFFF;
+	color: rgb(190, 190, 190);
 }
 
 p a:hover::after {
