@@ -1,12 +1,12 @@
 ﻿@import url(fontiran.css); /* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
 body {
-	font-family: iranyekan ,roboto ,Arial !important;
+	font-family: iranyekan  !important;
 	direction: rtl;
 	background-color: #cdcdcd;
 	margin: 0;
 }
 h1, h2, h3, h4, h5, h6,input, textarea {
-	font-family: iranyekan ,roboto ,Arial !important;
+	font-family: iranyekan !important;
 }
 h1 {
 	font-weight: bold;
@@ -42,8 +42,8 @@ h1 {
 .text-underline {
 	text-decoration:underline;
 }
-.text-ultralight {
-	font-weight: 200;
+.text-thin {
+	font-weight: 100;
 }
 .text-light {
 	font-weight: 300;
@@ -56,6 +56,15 @@ h1 {
 }
 .text-bold {
 	font-weight: bold;
+}
+.text-extrabold {
+	font-weight: 800;
+}
+.text-black {
+	font-weight: 900;
+}
+.text-extrablack {
+	font-weight: 950;
 }
 blockquote {
 	font-weight: 500;
@@ -103,6 +112,7 @@ blockquote {
 	padding-right: 20px;
 }
 
+
 .farsiparagraph {
 	font-size: 1em;
 	width: 47%;
@@ -112,8 +122,36 @@ blockquote {
 	padding-bottom: 10px;
 
 }
+
+.farsiparagraph_negativ {
+	font-size: 1em;
+	color: #F9F9F9;
+	background-color: #000000;
+	width: 47%;
+	float:right;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+
 .englishparagraph {
 	font-size: 1em;
+	width: 47%;
+	float: left;
+	direction:ltr;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+}
+
+.englishparagraph_negativ {
+	font-size: 1em;
+	color: #F9F9F9;
+	background-color: #000000;
 	width: 47%;
 	float: left;
 	direction:ltr;

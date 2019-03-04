@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-@import "styles/fonts/ubuntu/css/ubuntu.css";
 @import "styles/fonts/iranyekan/css/fontiran.css";
 
 * {
@@ -10,7 +9,7 @@
 }
 
 body {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: iranyekan, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #f7f7f7;
@@ -39,7 +38,7 @@ input:focus {
 }
 
 .persian *:not(.fa) {
-	font-family: IRANYekan !important
+	font-family: iranyekan !important
 }
 
 div {
@@ -57,7 +56,7 @@ ul {
 
 p {
 	text-align: justify;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: iranyekan, sans-serif;
 	font-size: 14px;
 	line-height: 1.45;
 	font-weight: 500;
@@ -83,9 +82,6 @@ a:visited,
 a:active,
 a:link {
 	text-decoration: none;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 }
 
 p a:active {
@@ -98,19 +94,6 @@ p a:hover {
 
 p a:hover::after {
 	opacity: 0.2;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-
-	font-family: 'Open Sans', sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 }
 
 .clearfix::before,
@@ -243,7 +226,6 @@ Logo
 .logo img {
 	width: 200px;
 	height: auto;
-	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -262,7 +244,7 @@ Main Navigation
 
 .main_nav ul li a,
 .main_nav span a {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: iranyekan, sans-serif;
 	font-size: 16px;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
@@ -393,7 +375,7 @@ Menu
 }
 
 .menu_nav ul li a {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: iranyekan, sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 	color: rgba(0, 0, 0, 1);
@@ -610,7 +592,7 @@ Home
 }
 
 .post_share span {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: iranyekan, sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 	color: rgba(0, 0, 0, 0.2);
@@ -772,7 +754,7 @@ Home
 .post_tag a {
 	display: block;
 	line-height: 22px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: iranyekan, sans-serif;
 	font-size: 12px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -834,7 +816,7 @@ Section Panel
 }
 
 .filter_section span {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: iranyekan, sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #000000;
@@ -848,7 +830,7 @@ Section Panel
 }
 
 .category_title {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: iranyekan, sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #000000;
@@ -877,7 +859,7 @@ Section Panel
 .section_tags ul li a {
 	display: block;
 	line-height: 28px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: iranyekan, sans-serif;
 	font-size: 12px;
 	font-weight: 500;
 	color: rgba(0, 0, 0, 0.4);
@@ -919,7 +901,7 @@ Section Panel
 }
 
 .section_panel_more>ul li a {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: iranyekan, sans-serif;
 	font-size: 12px;
 	font-weight: 500;
 	color: rgba(0, 0, 0, 0.4);
@@ -1149,7 +1131,7 @@ Cards
 
 .post_meta {
 	display: block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: iranyekan, sans-serif;
 	color: rgba(0, 0, 0, 0.4);
 	font-size: 12px;
 	font-weight: 500;
@@ -1227,7 +1209,7 @@ Cards
 	border-radius: 18px;
 	margin: 0 auto;
 	line-height: 32px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: iranyekan, sans-serif;
 	font-size: 14px;
 	font-weight: 500;
 	color: rgba(0, 0, 0, 0.5);
@@ -1550,7 +1532,7 @@ Footer
 	-webkit-appearance: none;
 	width: 100%;
 	border: 0;
-	font-family: inherit;
+	font-family: iranyekan, sans-serif;
 	padding: 12px 0;
 	height: 48px;
 	font-size: 16px;
