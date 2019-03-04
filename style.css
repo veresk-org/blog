@@ -1293,8 +1293,8 @@ Pagination
 Footer
 *********************************/
 .footer-left .logo-in-footer {
-	height: 80px;
-	width: 300px;
+	height: 65px;
+	width: 100%;
 }
 
 .footer {

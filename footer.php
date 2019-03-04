@@ -7,12 +7,11 @@
         <div class="row">
 
 
-            <div class="col-lg-4 footer-left px-4">
+            <div class="col-lg-4 footer-left p-4">
                 <img class="logo-in-footer" src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo4.png"
                     alt="veresk">
                 <p class="footer-company-about my-4">
-                    اپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
-                    نیاز بهبود ابزارهای کاربردی می باشد
+                استارت آپ ورسک به عنوان اولین استارت آپ حمل و نقل ریلی ایرانی مورد پذیرش مرکز فناوری های سامسونگ-امیر کبیر قرار گرفت و همچنین در حال انعقاد یک تفاهم نامه با راه آهن جمهوری اسلامی ایران جهت تبادل اطلاعات می باشد.
                 </p>
 
                 <div class="footer-phone-number d-flex align-items-center mb-3">
@@ -95,7 +94,7 @@
             </div>
 
 
-            <div class="col-lg-2 footer-center py-5 px-4">
+            <div class="col-lg-2 footer-center p-4">
 
                 <div>
                     <span class="header-in-footer-columns d-flex justify-content-center d-lg-block">
@@ -181,7 +180,7 @@
 
             </div>
 
-            <div class="col-lg-2 footer-center py-5 px-4">
+            <div class="col-lg-2 footer-center p-4">
 
                 <div>
                     <span class="header-in-footer-columns d-flex justify-content-center d-lg-block">
@@ -244,7 +243,7 @@
 
             </div>
 
-            <div class="col-lg-4 footer-right py-5 px-4">
+            <div class="col-lg-4 footer-right p-4">
 
                 <div>
                     <span class="header-in-footer-columns d-flex justify-content-center d-lg-block">
