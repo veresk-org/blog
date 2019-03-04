@@ -860,7 +860,7 @@ Section Panel
 	display: block;
 	line-height: 28px;
 	font-family: iranyekan, sans-serif;
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: 500;
 	color: rgba(0, 0, 0, 0.4);
 	text-transform: uppercase;
@@ -871,6 +871,10 @@ Section Panel
 .section_tags ul li.active {
 	background-color: rgb(251, 0, 0);
 	border-radius: 2px;
+}
+
+.section_tags ul li.active a {
+	color: rgb(255, 255, 255);
 }
 
 .section_tags ul li:hover a {
