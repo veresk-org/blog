@@ -213,9 +213,6 @@ if (have_posts()) {
                     <div class="post_content">
                         <?php the_content();?>
                     </div>
-                    <div class="post_quote_source">
-                        <?php the_author_posts_link()?>
-                    </div>
 
                     <!-- Post Tags -->
                     <div class="tags_share d-flex flex-column">
