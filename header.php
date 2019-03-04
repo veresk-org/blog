@@ -20,7 +20,9 @@
                 <div class="row">
                     <div class="header_content d-flex flex-row align-items-center justify-content-between">
                         <div class="logo col-sm-3 p-0">
-                            <img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png" alt="Logo">
+                            <a href="<?php echo get_home_url(); ?>">
+                                <img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png" alt="Logo">
+                            </a>
                         </div>
                         <div class="col-sm-5">
                             <nav class="main_nav">
@@ -63,7 +65,9 @@
                 </div>
             </div>
             <div class="logo menu_mm text-center">
-                <img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo.png" alt="Logo">
+                <a href="<?php echo get_home_url(); ?>">
+                    <img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png" alt="Logo">
+                </a>
             </div>
             <div class="search">
                 <form>
@@ -79,7 +83,7 @@
             </div>
             <nav class="menu_nav">
                 <ul class="menu_mm">
-                    <li class="active menu_mm"><a href="index.html">خانه</a></li>
+                    <li class="active menu_mm"><a href="<?php echo get_home_url(); ?>">خانه</a></li>
                     <li class="menu_mm"><a href="https://panel.veresk.org">پنل</a></li>
                 </ul>
             </nav>
