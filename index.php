@@ -49,7 +49,7 @@
     <?php if (have_posts()): ?>
     <div class="container d-flex flex-wrap my-4">
         <?php while (have_posts()): the_post();?>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-4 mb-5">
 
             <div class="card">
 
