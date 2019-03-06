@@ -1127,7 +1127,7 @@ Cards
 }
 
 .card-img-top {
-	max-height: 265px;
+	height: 280px;
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
 }
