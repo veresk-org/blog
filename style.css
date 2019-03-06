@@ -1109,7 +1109,7 @@ Cards
 	background-color: rgb(255, 255, 255);
 	border-radius: 6px;
 	margin-top: 15px;
-	height: 660px;
+	height: 100%;
 }
 
 .card-body {
@@ -1127,7 +1127,7 @@ Cards
 }
 
 .card-img-top {
-	height: 280px;
+	height: 316px;
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
 }
