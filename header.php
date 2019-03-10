@@ -38,8 +38,8 @@
 
                         <div class="col-sm-4 p-0">
                             <nav class="main_nav d-lg-flex justify-content-end align-items-center">
-                                <span class="mx-3"><a href="#">ثبت نام</a></span>
-                                <span class="mx-3"><a class="login" href="#">ورود</a></span>
+                                <span class="mx-3"><a href="https://panel.veresk.org/static/register.html?lang=fa" target="_blank">ثبت نام</a></span>
+                                <span class="mx-3"><a class="login" href="https://panel.veresk.org/static/login.html?lang=fa" target="_blank">ورود</a></span>
                                 <span class="mx-3">
                                     <select class="form-control lang-menu">
                                         <option style="color:black;" value="en">English</option>
