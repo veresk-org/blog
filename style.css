@@ -951,6 +951,9 @@ Side bar
 
 .side_bar_single {
 	height: 100%;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 96px;
 }
 
 /*********************************
