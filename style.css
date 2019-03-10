@@ -954,6 +954,7 @@ Side bar
 	position: sticky;
 	position: -webkit-sticky;
 	top: 96px;
+	padding: 0;
 }
 
 /*********************************

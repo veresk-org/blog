@@ -279,9 +279,8 @@
             </div>
             <hr class="mx-4">
 
-            <div class="d-flex justify-content-between footer-bottom col-sm-12 px-4">
-                <small>© 2019 Veresk Co.All Right Reserved</small>
-                <small>Veresk Train Tracking Dashboard</small>
+            <div class="d-flex justify-content-center footer-bottom col-sm-12 px-4">
+                <small>ورسک © ۲۰۱۹</small>
             </div>
         </div>
     </div>

@@ -94,7 +94,7 @@ if (have_posts()) {
 
             <!-- Share -->
             <div class="col-lg-2 side_bar_single">
-                <div class="post_body d-flex flex-column align-items-center justify-content-between px-3 px-md-5">
+                <div class="post_body d-flex flex-column align-items-start justify-content-between">
                     <div class="side_bar_categories d-flex flex-column align-items-center">
                         <a class="social_medias d-flex justify-content-center align-items-center m-2">
                             <div hidden>
@@ -209,7 +209,7 @@ if (have_posts()) {
 
                 <!-- Post Body -->
 
-                <div class="post_body px-3 px-md-5">
+                <div class="post_body">
                     <div class="post_content">
                         <?php the_content();?>
                     </div>
