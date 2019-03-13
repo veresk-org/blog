@@ -7,11 +7,13 @@
         <div class="row">
 
 
-            <div class="col-lg-4 footer-left p-4">
+            <div class="col-lg-4 footer-left p-3">
                 <img class="logo-in-footer" src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo4.png"
                     alt="veresk">
                 <p class="footer-company-about my-4">
-                استارت آپ ورسک به عنوان اولین استارت آپ حمل و نقل ریلی ایرانی مورد پذیرش مرکز فناوری های سامسونگ-امیر کبیر قرار گرفت و همچنین در حال انعقاد یک تفاهم نامه با راه آهن جمهوری اسلامی ایران جهت تبادل اطلاعات می باشد.
+                    استارت آپ ورسک به عنوان اولین استارت آپ حمل و نقل ریلی ایرانی مورد پذیرش مرکز فناوری های
+                    سامسونگ-امیر کبیر قرار گرفت و همچنین در حال انعقاد یک تفاهم نامه با راه آهن جمهوری اسلامی ایران جهت
+                    تبادل اطلاعات می باشد.
                 </p>
 
                 <div class="footer-phone-number d-flex align-items-center mb-3">
@@ -55,7 +57,7 @@
 
 
                     <div class="veresk-phone-number mx-2">
-                        ساعت ۸ تا ۹ - ۹۸۲۱۶۶۱۷۵۳۲۲+
+                        ساعت ۹ تا ۱۸ - ۹۸۲۱۶۶۱۷۵۳۲۲+
                     </div>
 
                 </div>
@@ -94,7 +96,7 @@
             </div>
 
 
-            <div class="col-md-6 col-lg-2 footer-center p-4">
+            <div class="col-md-6 col-lg-2 footer-center p-3">
 
                 <div>
                     <span class="header-in-footer-columns d-flex justify-content-center d-lg-block">
@@ -116,13 +118,13 @@
                 </div>
 
                 <ul class="p-0 mt-5">
-                    <a class="main-menu-item">
+                    <a href="https://veresk.org/fa" target="_blank" class="main-menu-item">
                         <li>
                             <svg class="right-arrow">
                                 <use xlink:href="#right-arrow" />
                             </svg>
                             <span class="px-2">
-                                خانه
+                                صفحه اصلی
                             </span>
 
                         </li>
@@ -140,19 +142,19 @@
 
                         </li>
                     </a>
-                    <a class="main-menu-item">
+                    <a href="https://veresk.org/fa" target="_blank" class="main-menu-item">
 
                         <li>
                             <svg class="right-arrow">
                                 <use xlink:href="#right-arrow" />
                             </svg>
                             <span class="px-2">
-                                خدمات
+                                اخبار و اطلاعات
                             </span>
 
                         </li>
                     </a>
-                    <a class="main-menu-item">
+                    <a href="https://panel.veresk.org/static/register.html?lang=fa" target="_blank" class="main-menu-item">
 
                         <li>
                             <svg class="right-arrow">
@@ -164,14 +166,14 @@
                         </li>
 
                     </a>
-                    <a class="main-menu-item">
+                    <a href="https://panel.veresk.org/static/login.html?lang=fa" target="_blank" class="main-menu-item">
 
                         <li>
                             <svg class="right-arrow">
                                 <use xlink:href="#right-arrow" />
                             </svg>
                             <span class="px-2">
-                                داشبورد
+                                ورود
                             </span>
 
                         </li>
@@ -180,11 +182,11 @@
 
             </div>
 
-            <div class="col-md-6 col-lg-2 footer-center p-4">
+            <div class="col-md-6 col-lg-2 footer-center p-3">
 
                 <div>
                     <span class="header-in-footer-columns d-flex justify-content-center d-lg-block">
-                        داشبورد
+                        سرویس‌ها
                     </span>
                 </div>
 
@@ -202,38 +204,74 @@
                 </div>
 
                 <ul class="p-0 mt-5">
-                    <a class="main-menu-item">
+                    <a href="https://veresk.org/fa/services/track" target="_blank" class="main-menu-item">
                         <li>
                             <svg class="right-arrow">
                                 <use xlink:href="#right-arrow" />
                             </svg>
                             <span class="px-2">
-                                پرداخت ها
+                                ردیابی
                             </span>
 
                         </li>
 
                     </a>
-                    <a class="main-menu-item">
+                    <a href="https://veresk.org/fa/services/freight-tariff" target="_blank" class="main-menu-item">
 
                         <li>
                             <svg class="right-arrow">
                                 <use xlink:href="#right-arrow" />
                             </svg>
                             <span class="px-2">
-                                ردیابی واگن
+                                محاسبه هزینه حمل
                             </span>
 
                         </li>
                     </a>
-                    <a class="main-menu-item">
+                    <a href="https://veresk.org/fa/services/custom-tariff" target="_blank" class="main-menu-item">
 
                         <li>
                             <svg class="right-arrow">
                                 <use xlink:href="#right-arrow" />
                             </svg>
                             <span class="px-2">
-                                خرید بلیط
+                                تعرفه گمرکی
+                            </span>
+
+                        </li>
+                    </a>
+                    <a href="https://veresk.org/fa/services/stations-information" target="_blank" class="main-menu-item">
+
+                        <li>
+                            <svg class="right-arrow">
+                                <use xlink:href="#right-arrow" />
+                            </svg>
+                            <span class="px-2">
+                                اطلاعات ایستگاه‌ها
+                            </span>
+
+                        </li>
+                    </a>
+                    <a href="https://veresk.org/fa/services/company-directory" target="_blank" class="main-menu-item">
+
+                        <li>
+                            <svg class="right-arrow">
+                                <use xlink:href="#right-arrow" />
+                            </svg>
+                            <span class="px-2">
+                                اطلاعات شرکت‌ها
+                            </span>
+
+                        </li>
+                    </a>
+                    <a href="https://veresk.org/fa/services/logestic-news" target="_blank" class="main-menu-item">
+
+                        <li>
+                            <svg class="right-arrow">
+                                <use xlink:href="#right-arrow" />
+                            </svg>
+                            <span class="px-2">
+                                اخبار و اطلاعات
                             </span>
 
                         </li>
@@ -243,7 +281,7 @@
 
             </div>
 
-            <div class="col-lg-4 footer-right p-4">
+            <div class="col-lg-4 footer-right p-3">
 
                 <div>
                     <span class="header-in-footer-columns d-flex justify-content-center d-lg-block">
@@ -252,7 +290,7 @@
                 </div>
 
                 <p class="footer-company-about my-4">
-                    آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز بهبود ابزارهای کاربردی می باشد
+                    عضو خبرنامه ما شوید و همیشه از آخرین اخبار آگاه باشید.
                 </p>
 
                 <div class="col-sm-12 mt-4 p-0">
@@ -277,9 +315,8 @@
             </div>
             <hr class="mx-4">
 
-            <div class="d-flex justify-content-between footer-bottom col-sm-12 px-4">
-                <small>© 2019 Veresk Co.All Right Reserved</small>
-                <small>Veresk Train Tracking Dashboard</small>
+            <div class="d-flex justify-content-center footer-bottom col-sm-12 px-4">
+                <small>ورسک © ۲۰۱۹</small>
             </div>
         </div>
     </div>

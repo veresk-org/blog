@@ -540,7 +540,7 @@ Home
 	position: absolute;
 	bottom: 0;
 	background-color: rgba(239, 25, 0, 0.8);
-	height: 127px;
+	height: 90px;
 }
 
 .archive-page-title {
@@ -951,6 +951,10 @@ Side bar
 
 .side_bar_single {
 	height: 100%;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 96px;
+	padding: 0;
 }
 
 /*********************************
@@ -1416,15 +1420,15 @@ Footer
 
 .footer .footer-center i {
 	background-color: #33383b;
-	color: #ffffff;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
 }
 
 .footer .footer-center i.fa-envelope {
