@@ -974,7 +974,7 @@ Side bar
 	height: 100%;
 	position: sticky;
 	position: -webkit-sticky;
-	top: 96px;
+	top: 150px;
 	padding: 0;
 }
 
@@ -1575,7 +1575,7 @@ Footer
 	border-bottom: 2px solid rgba(240, 239, 244, 0.102);
 	background: none;
 	border-radius: 0;
-	box-shadow: none
+	box-shadow: none;
 	color: white;
 	transition: all 0.15s ease;
 }
