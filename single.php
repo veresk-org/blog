@@ -12,8 +12,11 @@ if (have_posts()) {
     </div>
     <div class="header-red-section col-sm-12">
         <div class="container d-flex justify-content-between align-items-center h-100">
-            <h1 class="archive-page-title m-0"><?php the_title() ?></h1>
-            <span class="route-span"><a href="<?php echo get_home_url(); ?>">خانه . <?php the_title() ?></a></span>
+            <h1 class="archive-page-title m-0">
+                <?php the_title() ?>
+            </h1>
+            <span class="route-span"><a href="<?php echo get_home_url(); ?>">خانه .
+                    <?php the_title() ?></a></span>
         </div>
     </div>
 </div>
@@ -37,7 +40,7 @@ if (have_posts()) {
             </div>
 
             <div class="category col-sm-6 col-md-3 py-2 py-md-0">
-                <span >موضوعات</span>
+                <span>موضوعات</span>
                 <span class="category-name">
                     <?php foreach (get_the_category() as $cat): ?>
                     <a href="<?php echo get_category_link($cat->term_id); ?>">
@@ -96,34 +99,20 @@ if (have_posts()) {
             <div class="col-lg-2 side_bar_single">
                 <div class="post_body d-flex flex-column align-items-start justify-content-between">
                     <div class="side_bar_categories d-flex flex-column align-items-center">
-                        <a class="social_medias d-flex justify-content-center align-items-center m-2">
+                        <a class="social_medias d-flex justify-content-center align-items-center m-2" target="_blank"
+                            href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=<?php echo wp_get_shortlink(); ?>&p[images][0]=<?php echo get_the_post_thumbnail_url(); ?>&p[title]=<?php the_title();?>">
                             <div hidden>
-                                <svg version="1.1" id="instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                <svg version="1.1" id="facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
                                     xml:space="preserve">
                                     <g>
                                         <g>
-                                            <path d="M352,0H160C71.648,0,0,71.648,0,160v192c0,88.352,71.648,160,160,160h192c88.352,0,160-71.648,160-160V160
-			C512,71.648,440.352,0,352,0z M464,352c0,61.76-50.24,112-112,112H160c-61.76,0-112-50.24-112-112V160C48,98.24,98.24,48,160,48
-			h192c61.76,0,112,50.24,112,112V352z" />
+                                            <path d="M288,176v-64c0-17.664,14.336-32,32-32h32V0h-64c-53.024,0-96,42.976-96,96v80h-64v80h64v256h96V256h64l32-80H288z" />
                                         </g>
                                     </g>
-                                    <g>
-                                        <g>
-                                            <path d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128S326.688,128,256,128z M256,336
-			c-44.096,0-80-35.904-80-80c0-44.128,35.904-80,80-80s80,35.872,80,80C336,300.096,300.096,336,256,336z" />
-                                        </g>
-                                    </g>
-                                    <g>
-                                        <g>
-                                            <circle cx="393.6" cy="118.4" r="17.056" />
-                                        </g>
-                                    </g>
-
-                                </svg>
-                            </div>
-                            <svg class="instagram">
-                                <use xlink:href="#instagram" />
+                                </svg> </div>
+                            <svg class="facebook">
+                                <use xlink:href="#facebook" />
                             </svg>
 
                         </a>
@@ -240,6 +229,6 @@ if (have_posts()) {
     </div>
 
 
-    
+
 </div>
 <?php get_footer();?>

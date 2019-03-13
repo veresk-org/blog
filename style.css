@@ -639,7 +639,7 @@ Home
 	cursor: pointer;
 }
 
-.instagram,
+.facebook,
 .telegram,
 .linkedin,
 .twitter {
@@ -653,7 +653,7 @@ Home
 	transition: all 100ms ease-in-out;
 }
 
-.social_medias:hover .instagram,
+.social_medias:hover .facebook,
 .social_medias:hover .telegram,
 .social_medias:hover .linkedin,
 .social_medias:hover .twitter {
