@@ -8,6 +8,10 @@
 	-webkit-font-smoothing: antialiased;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: iranyekan, sans-serif;
 	font-size: 14px;
@@ -24,12 +28,13 @@ body * {
 	transition: all 200ms ease-in-out;
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
 input:focus {
 	box-shadow: none !important;
+
+}
+
+select{
+	-webkit-appearance: none
 }
 
 .persian {
@@ -175,7 +180,7 @@ Header
 }
 
 .header.scrolled {
-	background: rgb(208, 0, 0.75);
+	background: rgb(208, 0, 0);
 	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -1529,10 +1534,14 @@ Footer
 
 .footer .input .send-icon {
 	position: absolute;
-	top: 18px;
-	left: 0;
+	top: 15px;
+	right: 0;
 	transform-origin: 0 0;
 	transition: all .5s ease;
+}
+
+.footer .input .send-icon:hover{
+	cursor: pointer;
 }
 
 .send-icon .fa-envelope {
@@ -1553,17 +1562,20 @@ Footer
 }
 
 .footer .input input {
+	direction: ltr;
 	-webkit-appearance: none;
 	width: 100%;
 	border: 0;
 	font-family: iranyekan, sans-serif;
 	padding: 12px 0;
 	height: 48px;
+	line-height: 48px;
 	font-size: 16px;
 	font-weight: 500;
 	border-bottom: 2px solid rgba(240, 239, 244, 0.102);
 	background: none;
 	border-radius: 0;
+	box-shadow: none
 	color: white;
 	transition: all 0.15s ease;
 }
@@ -1572,23 +1584,10 @@ Footer
 	bottom: 6px
 }
 
-.footer .input input:not(:placeholder-shown)+span {
-	color: white;
-	transform: translateY(-26px) scale(0.75);
-}
 
 .footer .input input:focus {
 	background: none;
 	outline: none;
-}
-
-.footer .input input:focus+span {
-	color: white;
-	transform: translateY(-26px) scale(0.75);
-}
-
-.footer .input input:focus+span+.border {
-	transform: scaleX(1);
 }
 
 .footer label {
