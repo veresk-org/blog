@@ -227,8 +227,7 @@ if (have_posts()) {
         </div>
 
     </div>
-
-
+    <?php comments_template(); ?>
 
 </div>
 <?php get_footer();?>
