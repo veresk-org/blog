@@ -5,8 +5,8 @@
     </div>
     <div class="header-red-section col-sm-12">
         <div class="container d-flex justify-content-between align-items-center h-100">
-            <span class="archive-page-title">صفحه آرشیو</span>
-            <span class="route-span"><a href="<?php echo get_home_url(); ?>">خانه . صفحه آرشیو</a></span>
+            <span class="archive-page-title">اخبار و اطلاعات</span>
+            <span class="route-span"><a href="https://veresk.org/fa">صفحه اصلی . اخبار و اطلاعات </a></span>
         </div>
     </div>
 </div>

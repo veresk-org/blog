@@ -33,7 +33,7 @@ input:focus {
 
 }
 
-select{
+select {
 	-webkit-appearance: none
 }
 
@@ -1540,7 +1540,7 @@ Footer
 	transition: all .5s ease;
 }
 
-.footer .input .send-icon:hover{
+.footer .input .send-icon:hover {
 	cursor: pointer;
 }
 
