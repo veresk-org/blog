@@ -127,4 +127,8 @@
 	.section_panel {
 		display: none !important;
 	}
+
+	.card-body-title {
+		font-size: 21px;
+	}
 }

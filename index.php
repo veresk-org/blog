@@ -29,7 +29,7 @@
             </div>
 
             <div class="search-in-tag-section">
-                <form method="get" id="search form" action="">
+                <form method="get" id="search form">
                     <input class="form-control search-input" type="text" placeholder="جستجو..." name="s" id="s" />
                     <button>
                         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -78,7 +78,7 @@
                     <?php endif;?>
                 </a>
 
-                <div class="card-body px-5 py-4">
+                <div class="card-body p-4 px-md-5">
                     <a href="<?php the_permalink();?>">
                         <p class="mb-3">
                             <b class="card-body-title">

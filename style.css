@@ -1414,7 +1414,7 @@ Footer
 
 .footer .header-in-footer-columns ul a li {
 	display: flex;
-	align-content: center;
+	align-items: center;
 }
 
 .footer .header-in-footer-columns ul a li:hover {
