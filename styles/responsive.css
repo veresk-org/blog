@@ -121,6 +121,14 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+
+	.archive-page-title {
+		font-size: 17px !important;
+	}
+
+	.route-span a {
+		font-size: 11px !important;
+	}
 }
 
 @media only screen and (max-width: 425px) {
@@ -130,5 +138,15 @@
 
 	.card-body-title {
 		font-size: 21px;
+	}
+}
+
+@media only screen and (max-width: 334px) {
+	.archive-page-title {
+		font-size: 14px !important;
+	}
+
+	.route-span a {
+		font-size: 10px !important;
 	}
 }

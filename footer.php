@@ -11,9 +11,7 @@
                 <img class="logo-in-footer" src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo4.png"
                     alt="veresk">
                 <p class="footer-company-about my-4">
-                    استارت آپ ورسک به عنوان اولین استارت آپ حمل و نقل ریلی ایرانی مورد پذیرش مرکز فناوری های
-                    سامسونگ-امیر کبیر قرار گرفت و همچنین در حال انعقاد یک تفاهم نامه با راه آهن جمهوری اسلامی ایران جهت
-                    تبادل اطلاعات می باشد.
+                سامانه اطلاعات لجستیک ریلی در ایران و آسیا میانه
                 </p>
 
                 <div class="footer-phone-number d-flex align-items-center mb-3">

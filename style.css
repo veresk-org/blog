@@ -495,8 +495,8 @@ form .inner-form .input-wrap .input-field input:focus {
 	position: absolute;
 	left: 15px;
 	top: 15px;
-	width: 66px;
-	height: 66px;
+	width: 71px;
+	height: 71px;
 	border-radius: 50%;
 	background-color: rgb(255, 255, 255);
 	display: flex;
@@ -549,7 +549,7 @@ Home
 }
 
 .archive-page-title {
-	font-size: 26px;
+	font-size: 25px;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
 }

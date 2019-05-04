@@ -11,11 +11,11 @@ if (have_posts()) {
         <div class="home_slider_background" style="background-image:url(<?php bloginfo('template_directory')?>/images/railway.png)"></div>
     </div>
     <div class="header-red-section col-sm-12">
-        <div class="container d-flex justify-content-between align-items-center h-100">
-            <h1 class="archive-page-title m-0">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap h-100">
+            <h1 class="archive-page-title col-md-6 m-0">
                 <?php the_title() ?>
             </h1>
-            <span class="route-span"><a href="<?php echo get_home_url(); ?>">خانه .
+            <span class="route-span col-md-6"><a href="<?php echo get_home_url(); ?>">خانه .
                     <?php the_title() ?></a></span>
         </div>
     </div>
