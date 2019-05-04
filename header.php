@@ -7,8 +7,8 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles/bootstrap/bootstrap.min.css">
     <link href="<?php bloginfo('template_directory')?>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"
         type="text/css">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/style.css">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles/responsive.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/style.css?v=1556976264545">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles/responsive.css?v=1556976264545">
     <?php wp_head();?>
 </head>
 
