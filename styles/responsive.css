@@ -84,6 +84,14 @@
 		display: none;
 	}
 
+	.archive-page-title {
+		font-size: 17px !important;
+	}
+
+	.route-span a {
+		font-size: 11px !important;
+	}
+
 }
 
 
@@ -120,14 +128,6 @@
 	.card-body {
 		padding-left: 15px;
 		padding-right: 15px;
-	}
-
-	.archive-page-title {
-		font-size: 17px !important;
-	}
-
-	.route-span a {
-		font-size: 11px !important;
 	}
 }
 
