@@ -1007,7 +1007,7 @@ Post Comment
 }
 
 .leave-comment-title {
-	font-size: 36px;
+	font-size: 30px;
 	color: rgba(0, 0, 0, 0.6);
 	font-weight: bold;
 	line-height: 1.167;
@@ -1034,7 +1034,7 @@ Post Comment
 	border-color: rgba(0, 0, 0, 0.06);
 	border-radius: 5px;
 	background-color: rgba(214, 220, 229, 0.06);
-	height: 64px;
+	height: 50px;
 	font-size: 16px !important;
 	color: rgba(0, 0, 0, 0.4) !important;
 	line-height: 1.2 !important;
@@ -1043,9 +1043,9 @@ Post Comment
 .comment-btn {
 	border-radius: 5px;
 	background-color: rgb(228, 0, 0);
-	width: 260px;
-	height: 60px;
-	font-size: 20px;
+	width: 200px;
+	height: 45px;
+	font-size: 18px;
 	color: rgb(255, 255, 255);
 	line-height: 1.2;
 }
@@ -1073,7 +1073,7 @@ Post Comment
 }
 
 .users-comments-title {
-	font-size: 36px;
+	font-size: 30px;
 	color: rgb(93, 92, 92);
 	font-weight: 800;
 	line-height: 1.167;

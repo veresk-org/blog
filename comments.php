@@ -11,9 +11,9 @@
                             با آغوش گرم پذیرای نظرات شما هستیم
                         </div>
                     </div>
-                    <form class="py-5" action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post">
+                    <form class="py-3" action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post">
                         <textarea required name="comment" class="form-control comment-textarea my-2" placeholder="متن نظر"
-                            rows="5"></textarea>
+                            rows="3"></textarea>
                         <input required name="author" type="text" placeholder="نام ، نام خانوادگی" class="form-control comment-inputs my-4">
                         <input required name="email" type="email" placeholder="آدرس ایمیل" class="form-control comment-inputs my-4">
                         <input name="url" type="text" placeholder="وبسایت" class="form-control comment-inputs my-4">
