@@ -80,7 +80,7 @@
 
                 <div class="card-body p-4 px-md-5">
                     <a href="<?php the_permalink();?>">
-                        <p class="mb-3">
+                        <p class="mb-3 text-center">
                             <b class="card-body-title">
                                 <?php the_title();?>
                             </b>

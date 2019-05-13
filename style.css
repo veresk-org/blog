@@ -60,7 +60,7 @@ ul {
 }
 
 p {
-	text-align: justify;
+	/* text-align: justify; */
 	font-family: iranyekan, sans-serif;
 	font-size: 14px;
 	line-height: 1.45;
@@ -1139,12 +1139,14 @@ Cards
 }
 
 .card-body {
+	text-align: justify;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 }
 
 .card-body-p {
+	text-align: justify;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: -webkit-box;
