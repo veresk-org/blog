@@ -1033,11 +1033,14 @@ Post Comment
 	border-width: 1px;
 	border-color: rgba(0, 0, 0, 0.06);
 	border-radius: 5px;
-	background-color: rgba(214, 220, 229, 0.06);
 	height: 50px;
 	font-size: 16px !important;
 	color: rgba(0, 0, 0, 0.4) !important;
 	line-height: 1.2 !important;
+}
+
+.comment-inputs:focus {
+	border-color: rgba(0, 0, 0, 0.06);
 }
 
 .comment-btn {
