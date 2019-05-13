@@ -7,9 +7,6 @@
                         <div class="leave-comment-title col-sm-12 col-md-7">
                             نظر خود را بنویسید
                         </div>
-                        <div class="leave-comment-text col-sm-12 col-md-4">
-                            با آغوش گرم پذیرای نظرات شما هستیم
-                        </div>
                     </div>
                     <form class="py-3" action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post">
                         <textarea required name="comment" class="form-control comment-textarea my-2" placeholder="متن نظر"
