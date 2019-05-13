@@ -1,7 +1,8 @@
 <?php get_header()?>
 <div class="home">
     <div class="home_slider_container">
-        <div class="home_slider_background" style="background-image:url(<?php bloginfo('template_directory')?>/images/railway.png)"></div>
+        <div class="home_slider_background"
+            style="background-image:url(<?php bloginfo('template_directory')?>/images/railway.png)"></div>
     </div>
     <div class="header-red-section col-sm-12">
         <div class="container d-flex justify-content-between align-items-center h-100">
@@ -17,8 +18,14 @@
             <div class="filter_section d-flex align-items-center py-md-3"> <span>دسته ها:</span>
                 <div class="section_tags px-3">
                     <ul>
+                        <li class="<?php if(!is_category()) echo 'active'?>">
+                            <a href="<?php echo get_home_url(); ?>">
+                                همه
+                            </a>
+                        </li>
                         <?php foreach (get_categories(array('orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
-                        <li class="<?php if(is_category() && get_queried_object()->term_id == $cat->term_id) echo 'active'?>">
+                        <li
+                            class="<?php if(is_category() && get_queried_object()->term_id == $cat->term_id) echo 'active'?>">
                             <a href="<?php echo get_category_link($cat->term_id); ?>">
                                 <?php echo $cat->cat_name; ?>
                             </a>
@@ -32,8 +39,11 @@
                 <form method="get" id="search form">
                     <input class="form-control search-input" type="text" placeholder="جستجو..." name="s" id="s" />
                     <button>
-                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                            </path>
                         </svg>
                     </button>
                 </form>
@@ -70,7 +80,8 @@
 
                 <a href="<?php the_permalink();?>">
                     <?php if (has_post_thumbnail()): ?>
-                    <img class="card-img-top" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" src='<?php echo get_the_post_thumbnail_url(); ?>'>
+                    <img class="card-img-top" alt="<?php the_title(); ?>" title="<?php the_title(); ?>"
+                        src='<?php echo get_the_post_thumbnail_url(); ?>'>
                     <?php endif;?>
                     <?php if (!has_post_thumbnail()): ?>
                     <img class="card-img-top" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" src='<?php bloginfo('
@@ -92,9 +103,9 @@
 
                     <span class="card-body-more-info d-flex align-items-center py-4">
                         <div hidden>
-                            <svg version="1.1" id="right-more-info" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                x="0px" y="0px" viewBox="0 0 30.051 30.051" style="enable-background:new 0 0 30.051 30.051;"
-                                xml:space="preserve">
+                            <svg version="1.1" id="right-more-info" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30.051 30.051"
+                                style="enable-background:new 0 0 30.051 30.051;" xml:space="preserve">
                                 <g>
                                     <path d="M15.024,30.051c8.301,0,15.026-6.724,15.026-15.023S23.325,0,15.024,0C6.727,0,0.002,6.729,0.002,15.027
 		C0.002,23.327,6.727,30.051,15.024,30.051z M15.024,2.511c6.916,0,12.517,5.606,12.517,12.517c0,6.913-5.601,12.515-12.517,12.515
