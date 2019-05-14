@@ -54,8 +54,6 @@ $(document).ready(function () {
 
 	function closeMenu() {
 		menu.removeClass('active');
-		console.log('closed');
-
 		menuActive = false;
 	}
 

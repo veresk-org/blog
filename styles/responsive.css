@@ -63,26 +63,22 @@
 }
 
 @media only screen and (max-width: 768px) {
-	.section_tags ul li {
+	/* .section_tags ul li {
 		display: none;
 	}
 
 
 	.section_tags ul li:nth-child(-n+4) {
 		display: none !important;
-	}
+	} */
 
 	.section_tags ul li:nth-child(-n+3) {
 		display: inline-block !important;
 	}
-}
 
-
-@media only screen and (max-width: 768px) {
-
-	.section_tags {
+	/* .section_tags {
 		display: none;
-	}
+	} */
 
 	.archive-page-title {
 		font-size: 17px !important;
@@ -91,9 +87,7 @@
 	.route-span a {
 		font-size: 11px !important;
 	}
-
 }
-
 
 @media only screen and (max-width: 575px) {
 	p {
@@ -132,10 +126,6 @@
 }
 
 @media only screen and (max-width: 425px) {
-	.section_panel {
-		display: none !important;
-	}
-
 	.card-body-title {
 		font-size: 21px;
 	}

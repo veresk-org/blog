@@ -15,17 +15,18 @@
 <div class="container-fluid filter-and-search-container">
     <div class="container py-4 px-0">
         <div class="section_panel px-3 d-flex flex-row align-items-center justify-content-between flex-wrap">
-            <div class="filter_section d-flex align-items-center py-md-3"> <span>دسته ها:</span>
+        <span class="col-md-1 col-sm-12 d-flex justify-content-center p-0">دسته ها:</span>
+            <div class="filter_section col-md-7 col-sm-12 d-flex align-items-center py-3">
                 <div class="section_tags px-3">
                     <ul>
-                        <li class="<?php if(!is_category()) echo 'active'?>">
+                        <li class="my-2 <?php if(!is_category()) echo 'active'?>">
                             <a href="<?php echo get_home_url(); ?>">
                                 همه
                             </a>
                         </li>
                         <?php foreach (get_categories(array('orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
                         <li
-                            class="<?php if(is_category() && get_queried_object()->term_id == $cat->term_id) echo 'active'?>">
+                            class="my-2 <?php if(is_category() && get_queried_object()->term_id == $cat->term_id) echo 'active'?>">
                             <a href="<?php echo get_category_link($cat->term_id); ?>">
                                 <?php echo $cat->cat_name; ?>
                             </a>
@@ -35,7 +36,7 @@
                 </div>
             </div>
 
-            <div class="search-in-tag-section">
+            <div class="search-in-tag-section col-sm-12 col-md-4">
                 <form method="get" id="search form">
                     <input class="form-control search-input" type="text" placeholder="جستجو..." name="s" id="s" />
                     <button>

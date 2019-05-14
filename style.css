@@ -838,7 +838,7 @@ Section Panel
 	z-index: 10;
 }
 
-.filter_section span {
+.section_panel span {
 	font-family: iranyekan, sans-serif;
 	font-size: 18px;
 	font-weight: 700;
@@ -946,7 +946,6 @@ Section Panel
 }
 
 .search-in-tag-section .search-input {
-	width: 390px;
 	height: 55px;
 	border: none !important;
 	background-color: rgb(250, 250, 250);
@@ -955,7 +954,7 @@ Section Panel
 .search-in-tag-section .search-icon {
 	fill: #d4d4d4;
 	position: absolute;
-	left: 5px;
+	left: 30px;
 	top: 16px;
 }
 
