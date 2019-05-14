@@ -10,9 +10,9 @@
         rel="stylesheet" type="text/css">
     <link href="<?php bloginfo('template_directory')?>/plugins/toastr/toastr.min.css"
         rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/style.css?v=1556976264545">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/style.css?v=1557819843028">
     <link rel="stylesheet" type="text/css"
-        href="<?php bloginfo('template_directory')?>/styles/responsive.css?v=1556976264545">
+        href="<?php bloginfo('template_directory')?>/styles/responsive.css?v=1557819843028">
     <?php wp_head();?>
 </head>
 
