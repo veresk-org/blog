@@ -1023,7 +1023,7 @@ Post Comment
 	border-radius: 5px !important;
 	background-color: rgb(255, 255, 255) !important;
 	box-shadow: 8px 13px 60px 0px rgba(0, 0, 0, 0.04) !important;
-	border: none !important;
+	border-color:rgba(0, 0, 0, 0.06);
 	padding: 20px 15px !important;
 }
 
@@ -1038,7 +1038,8 @@ Post Comment
 	line-height: 1.2 !important;
 }
 
-.comment-inputs:focus {
+.comment-inputs:focus,
+.comment-textarea:focus {
 	border-color: rgba(0, 0, 0, 0.06);
 }
 

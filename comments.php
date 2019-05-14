@@ -8,14 +8,15 @@
                             نظر خود را بنویسید
                         </div>
                     </div>
-                    <form class="py-3" action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post">
-                        <textarea required name="comment" class="form-control comment-textarea my-2" placeholder="متن نظر"
+                   
+                    <div class="py-3">
+                        <textarea required id="comment" class="form-control comment-textarea my-2" placeholder="متن نظر"
                             rows="3"></textarea>
-                        <input required name="author" type="text" placeholder="نام ، نام خانوادگی" class="form-control comment-inputs my-4">
-                        <input required name="email" type="email" placeholder="آدرس ایمیل" class="form-control comment-inputs my-4">
-                        <input name="url" type="text" placeholder="وبسایت" class="form-control comment-inputs my-4">
-                        <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
-                        <button type="submit" class="btn comment-btn">ارسال نظر</button>
+                        <input required id="author" type="text" placeholder="نام ، نام خانوادگی" class="form-control comment-inputs my-4">
+                        <input required id="email" type="email" placeholder="آدرس ایمیل" class="form-control comment-inputs my-4">
+                        <input id="url" type="text" placeholder="وبسایت(دلخواه)" class="form-control comment-inputs my-4">
+                        <input id="hidden-input" type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
+                        <button class="btn comment-btn comment-form-test">ارسال نظر</button>
                         <?php do_action('comment_form', $post->ID);?>
                     </form>
                 </div>

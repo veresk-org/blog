@@ -4,11 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles/bootstrap/bootstrap.min.css">
-    <link href="<?php bloginfo('template_directory')?>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        type="text/css">
+    <link rel="stylesheet" type="text/css"
+        href="<?php bloginfo('template_directory')?>/styles/bootstrap/bootstrap.min.css">
+    <link href="<?php bloginfo('template_directory')?>/plugins/font-awesome-4.7.0/css/font-awesome.min.css"
+        rel="stylesheet" type="text/css">
+    <link href="<?php bloginfo('template_directory')?>/plugins/toastr/toastr.min.css"
+        rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/style.css?v=1556976264545">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles/responsive.css?v=1556976264545">
+    <link rel="stylesheet" type="text/css"
+        href="<?php bloginfo('template_directory')?>/styles/responsive.css?v=1556976264545">
     <?php wp_head();?>
 </head>
 
@@ -21,15 +25,19 @@
                     <div class="header_content d-flex flex-row align-items-center justify-content-between">
                         <div class="logo col-sm-3 p-0">
                             <a href="<?php echo get_home_url(); ?>">
-                                <img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png" alt="Logo">
+                                <img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png"
+                                    alt="Logo">
                             </a>
                         </div>
                         <div class="col-sm-5">
                             <nav class="main_nav">
                                 <ul class="d-flex justify-content-center">
-                                    <li class="mx-3"><a href="https://veresk.org/fa#services" target="_blank">خدمات</a></li>
-                                    <li class="mx-3"><a href="https://veresk.org/fa/about-us" target="_blank">درباره ما</a></li>
-                                    <li class="mx-3"><a href="https://veresk.org/fa/contact-us" target="_blank">ارتباط با ما</a></li>
+                                    <li class="mx-3"><a href="https://veresk.org/fa#services" target="_blank">خدمات</a>
+                                    </li>
+                                    <li class="mx-3"><a href="https://veresk.org/fa/about-us" target="_blank">درباره
+                                            ما</a></li>
+                                    <li class="mx-3"><a href="https://veresk.org/fa/contact-us" target="_blank">ارتباط
+                                            با ما</a></li>
                                     <li class="mx-3"><a href="https://veresk.org/fa" target="_blank">صفحه اصلی</a></li>
 
                                 </ul>
@@ -38,8 +46,11 @@
 
                         <div class="col-sm-4 p-0">
                             <nav class="main_nav d-lg-flex justify-content-end align-items-center">
-                                <span class="mx-3"><a href="https://panel.veresk.org/static/register.html?lang=fa" target="_blank">ثبت نام</a></span>
-                                <span class="mx-3"><a class="login" href="https://panel.veresk.org/static/login.html?lang=fa" target="_blank">ورود</a></span>
+                                <span class="mx-3"><a href="https://panel.veresk.org/static/register.html?lang=fa"
+                                        target="_blank">ثبت نام</a></span>
+                                <span class="mx-3"><a class="login"
+                                        href="https://panel.veresk.org/static/login.html?lang=fa"
+                                        target="_blank">ورود</a></span>
                                 <span class="mx-3">
                                     <select class="form-control lang-menu">
                                         <option style="color:black;" value="en">English</option>
