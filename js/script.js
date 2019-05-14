@@ -38,12 +38,8 @@ $(document).ready(function () {
 					} else {
 						openMenu();
 
-						$(document).one('click', function cls(e) {
-							if ($(e.target).hasClass('menu_mm')) {
-								$(document).one('click', cls);
-							} else {
-								closeMenu();
-							}
+						$('.menu_close_container').click(function cls(e) {
+							closeMenu();
 						});
 					}
 				});
@@ -58,6 +54,8 @@ $(document).ready(function () {
 
 	function closeMenu() {
 		menu.removeClass('active');
+		console.log('closed');
+
 		menuActive = false;
 	}
 
@@ -103,7 +101,7 @@ $('.comment-form-test').click(function () {
 			url: Url.val(),
 			comment_post_ID: $('#hidden-input').val()
 		}
-		$.post('/blog/wp-comments-post.php', sendingData ).done(response => {
+		$.post('/blog/wp-comments-post.php', sendingData).done(response => {
 			toastr["success"]("نظر شما ثبت شد و در انتظار تایید می‌باشد ")
 		})
 

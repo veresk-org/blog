@@ -8,8 +8,7 @@
         href="<?php bloginfo('template_directory')?>/styles/bootstrap/bootstrap.min.css">
     <link href="<?php bloginfo('template_directory')?>/plugins/font-awesome-4.7.0/css/font-awesome.min.css"
         rel="stylesheet" type="text/css">
-    <link href="<?php bloginfo('template_directory')?>/plugins/toastr/toastr.min.css"
-        rel="stylesheet" type="text/css">
+    <link href="<?php bloginfo('template_directory')?>/plugins/toastr/toastr.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/style.css?v=1557819843028">
     <link rel="stylesheet" type="text/css"
         href="<?php bloginfo('template_directory')?>/styles/responsive.css?v=1557819843028">
@@ -75,12 +74,12 @@
                     <div></div>
                 </div>
             </div>
-            <div class="logo menu_mm text-center">
+            <div class="logo menu_mm text-center mb-4">
                 <a href="<?php echo get_home_url(); ?>">
-                    <img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo3.png" alt="Logo">
+                    <img src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo.png" alt="Logo">
                 </a>
             </div>
-            <div class="search">
+            <!-- <div class="search">
                 <form>
                     <div class="inner-form">
                         <div class="input-wrap px-2">
@@ -91,11 +90,27 @@
                         <button class="btn-search" type="button">جستجو</button>
                     </div>
                 </form>
-            </div>
+            </div> -->
             <nav class="menu_nav">
                 <ul class="menu_mm">
                     <li class="active menu_mm"><a href="<?php echo get_home_url(); ?>">خانه</a></li>
-                    <li class="menu_mm"><a href="https://panel.veresk.org">پنل</a></li>
+                    <li class="menu_mm"><a href="https://veresk.org/fa#services">خدمات</a>
+                    </li>
+                    <li class="menu_mm"><a href="https://veresk.org/fa/about-us">درباره
+                            ما</a></li>
+                    <li class="menu_mm"><a href="https://veresk.org/fa/contact-us">ارتباط
+                            با ما</a></li>
+                    <li class="menu_mm"><a href="https://veresk.org/fa">صفحه اصلی</a></li>
+                    <li class="menu_mm"><a  class="register" href="https://panel.veresk.org/static/register.html?lang=fa">ثبت
+                            نام</a></li>
+                    <li class="menu_mm"><a class="login" href="https://panel.veresk.org/static/login.html?lang=fa">ورود</a></li>
+                    <li class="menu_mm">
+                        <select class="form-control lang-menu">
+                            <option style="color:black;" value="en">English</option>
+                            <option style="color:black;" value="fa" selected>فارسی</option>
+                            <option style="color:black;" value="ru">русский</option>
+                        </select>
+                    </li>
                 </ul>
             </nav>
         </div>

@@ -231,11 +231,6 @@ Logo
 .logo img {
 	width: 200px;
 	height: auto;
-	font-size: 20px;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 0.075em;
 }
 
 /*********************************
@@ -312,8 +307,8 @@ Menu
 	height: 100vh;
 	background: #FFFFFF;
 	z-index: 101;
-	padding-right: 60px;
-	padding-top: 87px;
+	padding-right: 50px;
+	padding-top: 50px;
 	padding-left: 50px;
 }
 
@@ -327,8 +322,8 @@ Menu
 
 .menu_close_container {
 	position: absolute;
-	top: 30px;
-	right: 60px;
+	top: 20px;
+	right: 30px;
 	width: 18px;
 	height: 18px;
 	transform-origin: center center;
@@ -371,21 +366,15 @@ Menu
 	background: #937c6f;
 }
 
-.menu .logo {
-	margin-bottom: 60px;
-}
-
 .menu_nav ul li {
 	margin-bottom: 11px;
 }
 
 .menu_nav ul li a {
 	font-family: iranyekan, sans-serif;
-	font-size: 12px;
+	font-size: 16px;
 	text-transform: uppercase;
-	color: rgba(0, 0, 0, 1);
-	font-weight: 700;
-	letter-spacing: 0.1em;
+	color: #6d6d6d;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -393,8 +382,20 @@ Menu
 	transition: all 200ms ease;
 }
 
+.menu_nav ul li a.login,
+.menu_nav ul li a.register {
+	color: rgb(208, 0, 0);
+	font-weight: bold;
+}
+
 .menu_nav ul li a:hover {
 	color: #937c6f;
+}
+
+.menu_nav .lang-menu {
+	color: black!important;
+	border: 1px solid #6d6d6d!important;
+	padding: 0 10px!important;
 }
 
 .menu .search {
@@ -1023,7 +1024,7 @@ Post Comment
 	border-radius: 5px !important;
 	background-color: rgb(255, 255, 255) !important;
 	box-shadow: 8px 13px 60px 0px rgba(0, 0, 0, 0.04) !important;
-	border-color:rgba(0, 0, 0, 0.06);
+	border-color: rgba(0, 0, 0, 0.06);
 	padding: 20px 15px !important;
 }
 
@@ -1286,18 +1287,18 @@ Pagination
 }
 
 .page-numbers.current {
-	background-color: #fa0000 !important;
+	background-color: rgb(208, 0, 0) !important;
 	color: rgb(255, 255, 255) !important;
 }
 
 .page-numbers:hover {
-	background-color: #fa0000 !important;
+	background-color: rgb(208, 0, 0) !important;
 	color: rgb(255, 255, 255) !important;
 }
 
 .page-numbers:hover.next,
 .page-numbers:hover.prev {
-	color: #fa0000 !important;
+	color: rgb(208, 0, 0) !important;
 	background: transparent !important;
 }
 
