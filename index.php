@@ -15,8 +15,8 @@
 <div class="container-fluid filter-and-search-container">
     <div class="container py-4 px-0">
         <div class="section_panel px-3 d-flex flex-row align-items-center justify-content-between flex-wrap">
-        <span class="col-md-1 col-sm-12 d-flex justify-content-center p-0">دسته ها:</span>
-            <div class="filter_section col-md-7 col-sm-12 d-flex align-items-center py-3">
+        <span class="col-lg-1 col-md-12 d-flex justify-content-center p-0">دسته ها:</span>
+            <div class="filter_section col-lg-7 col-md-12 d-flex align-items-center py-3">
                 <div class="section_tags px-3">
                     <ul>
                         <li class="my-2 <?php if(!is_category()) echo 'active'?>">
@@ -36,7 +36,7 @@
                 </div>
             </div>
 
-            <div class="search-in-tag-section col-sm-12 col-md-4">
+            <div class="search-in-tag-section col-md-12 col-lg-4">
                 <form method="get" id="search form">
                     <input class="form-control search-input" type="text" placeholder="جستجو..." name="s" id="s" />
                     <button>
