@@ -127,13 +127,7 @@
 
 @media only screen and (max-width: 425px) {
 	.card-body-title {
-		font-size: 21px;
-	}
-}
-
-@media only screen and (max-width: 334px) {
-	.archive-page-title {
-		font-size: 14px !important;
+		font-size: 14px;
 	}
 
 	.route-span a {

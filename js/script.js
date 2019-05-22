@@ -21,7 +21,7 @@ $(document).ready(function () {
 
 	function setHeader() {
 
-		if ($(window).scrollTop() >= $(".header-red-section").offset().top - 100) {
+		if ($(window).scrollTop() >= $(".header-red-section").offset().top - 105) {
 			header.addClass('scrolled');
 		} else {
 			header.removeClass('scrolled');
