@@ -79,7 +79,7 @@
                 </span>
 
 
-                <a href="<?php the_permalink();?>">
+                <a class="p-3" href="<?php the_permalink();?>">
                     <?php if (has_post_thumbnail()): ?>
                     <img class="card-img-top" alt="<?php the_title(); ?>" title="<?php the_title(); ?>"
                         src='<?php echo get_the_post_thumbnail_url(); ?>'>
