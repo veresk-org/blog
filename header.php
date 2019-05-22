@@ -51,7 +51,7 @@
                                         href="https://panel.veresk.org/static/login.html?lang=fa"
                                         target="_blank">ورود</a></span>
                                 <span class="mx-3">
-                                    <select class="form-control lang-menu">
+                                    <select class="lang-menu">
                                         <option style="color:black;" value="en">English</option>
                                         <option style="color:black;" value="fa" selected>فارسی</option>
                                         <option style="color:black;" value="ru">русский</option>
