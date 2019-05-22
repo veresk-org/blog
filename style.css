@@ -73,7 +73,7 @@ p {
 p a {
 	display: inline;
 	position: relative;
-	color: #9e9e9e;
+	color: #719ec4;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -94,7 +94,7 @@ p a:active {
 }
 
 p a:hover {
-	color: rgb(190, 190, 190);
+	color: #91b5d3;
 }
 
 p a:hover::after {
