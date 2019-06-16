@@ -9,7 +9,7 @@
     <link href="<?php bloginfo('template_directory')?>/plugins/font-awesome-4.7.0/css/font-awesome.min.css"
         rel="stylesheet" type="text/css">
     <link href="<?php bloginfo('template_directory')?>/plugins/toastr/toastr.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/style.css?v=1557819843028">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/style.css?v=1560663692049">
     <link rel="stylesheet" type="text/css"
         href="<?php bloginfo('template_directory')?>/styles/responsive.css?v=1557819843028">
     <?php wp_head();?>

@@ -321,7 +321,7 @@
 <script src="<?php bloginfo('template_directory')?>/js/jquery-3.2.1.min.js"></script>
 <script src="<?php bloginfo('template_directory')?>/styles/bootstrap/bootstrap.min.js"></script>
 <script src="<?php bloginfo('template_directory')?>/plugins/toastr/toastr.js"></script>
-<script src="<?php bloginfo('template_directory')?>/js/script.js?v=1557819843028"></script>
+<script src="<?php bloginfo('template_directory')?>/js/script.js?v=1560663692049"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122374677-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
