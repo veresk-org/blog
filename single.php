@@ -89,7 +89,7 @@ if (have_posts()) {
 
 <!-- Page Content -->
 
-<div class="single_page_content py-md-5" id="page_content">
+<div class="single_page_content pt-md-5" id="page_content">
     <div class="container">
         <div class="row ">
 
