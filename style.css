@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@import "styles/fonts/iranyekan/css/fontiran.css";
+@import "./styles/fonts/iranyekan/css/fontiran.css";
 
 * {
 	margin: 0;
@@ -14,10 +14,10 @@ html {
 
 body {
 	font-family: iranyekan, sans-serif;
-	font-size: 14px!important;
+	font-size: 14px;
 	font-weight: 400;
 	background: #f7f7f7;
-	color: #866c6c!important;
+	color: #866c6c;
 }
 
 body * {
@@ -72,30 +72,30 @@ div {
 }
 
 ul {
-	list-style: none!important;
-	margin-bottom: 0px!important;
+	list-style: none;
+	margin-bottom: 0px;
 }
 
 p {
 	/* text-align: justify; */
-	font-family: iranyekan, sans-serif!important;
-	font-size: 14px!important;
-	line-height: 1.45!important;
-	font-weight: 500!important;
-	-webkit-font-smoothing: antialiased!important;
-	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px!important;
-	text-shadow: rgba(0, 0, 0, .01) 0 0 1px!important;
+	font-family: iranyekan, sans-serif;
+	font-size: 14px;
+	line-height: 1.45;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 }
 
 p a {
-	display: inline!important;
-	position: relative!important;
-	color: #719ec4!important;
+	display: inline;
+	position: relative;
+	color: #719ec4;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
-	transition: all 200ms ease!important;
+	transition: all 200ms ease;
 }
 
 a,
@@ -103,19 +103,19 @@ a:hover,
 a:visited,
 a:active,
 a:link {
-	text-decoration: none!important;
+	text-decoration: none;
 }
 
 p a:active {
-	position: relative!important;
+	position: relative;
 }
 
 p a:hover {
-	color: #91b5d3!important;
+	color: #91b5d3;
 }
 
 p a:hover::after {
-	opacity: 0.2!important;
+	opacity: 0.2;
 }
 
 .clearfix::before,
@@ -583,7 +583,7 @@ Home
 
 .route-span a {
 	font-size: 14px;
-	color: rgb(255, 255, 255)!important;
+	color: rgb(255, 255, 255);
 	text-align: right;
 }
 

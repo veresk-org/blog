@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/styles.min.css?v=1560663692049">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/dist/css/styles.min.css?v=1560872820231">
 </head>
 
 <body class="persian">
