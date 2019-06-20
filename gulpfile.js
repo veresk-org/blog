@@ -24,7 +24,7 @@ gulp.task('css' , function () {
 
 gulp.task('js', function () {
 	return gulp.src([
-			'./js/jquery/jquery.min.js',
+			'./js/jquery/jquery-3.2.1.min.js',
             './js/bootstrap/js/bootstrap.min.js',
             './plugins/toastr/toastr.js',
             './js/script.js',
