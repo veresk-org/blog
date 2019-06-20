@@ -2,7 +2,7 @@
 <div class="home">
     <div class="home_slider_container">
         <div class="home_slider_background"
-            style="background-image:url(<?php bloginfo('template_directory')?>/images/railway.png)"></div>
+            style="background-image:url(<?php bloginfo('template_directory')?>/images/railway.jpg)"></div>
     </div>
     <div class="header-red-section col-sm-12">
         <div class="container d-flex justify-content-between align-items-center h-100">
