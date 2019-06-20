@@ -10,7 +10,6 @@ gulp.task('css' , function () {
         './styles/iranyekan/css/fontiran.css',
         './styles/bootstrap/css/bootstrap.min.css',
         './style.css',
-        
         './plugins/font-awesome-4.7.0/css/font-awesome.min.css',
         './styles/responsive.css',
         './plugins/toastr/toastr.min.css',
