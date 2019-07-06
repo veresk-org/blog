@@ -125,6 +125,12 @@
 	}
 }
 
+@media (max-width: 507px) {
+	.footer-left .logo-in-footer {
+		max-width: 45%;
+	}
+}
+
 @media only screen and (max-width: 425px) {
 	.card-body-title {
 		font-size: 14px;

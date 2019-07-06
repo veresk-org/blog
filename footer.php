@@ -7,7 +7,7 @@
         <div class="row">
 
 
-            <div class="col-lg-4 footer-left p-3">
+            <div class="col-lg-4 footer-left text-center p-3">
                 <img class="logo-in-footer" src="<?php bloginfo('template_directory')?>/images/veresk-logo/veresk-logo4.png"
                     alt="veresk">
                 <p class="footer-company-about my-4">

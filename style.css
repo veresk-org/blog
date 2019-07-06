@@ -569,7 +569,7 @@ Home
 }
 
 .header-red-section {
-	position: absolute!important;
+	position: absolute !important;
 	bottom: 0;
 	background-color: rgba(239, 25, 0, 0.8);
 	height: 105px;
@@ -1336,8 +1336,7 @@ Pagination
 Footer
 *********************************/
 .footer-left .logo-in-footer {
-	height: 65px;
-	width: 260px;
+	max-width: 45%;
 }
 
 .footer {
