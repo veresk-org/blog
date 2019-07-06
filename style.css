@@ -1316,7 +1316,7 @@ Pagination
 	color: rgb(255, 255, 255) !important;
 }
 
-.page-numbers:hover {
+.page-numbers:not(.dots):hover {
 	background-color: rgb(208, 0, 0) !important;
 	color: rgb(255, 255, 255) !important;
 }
