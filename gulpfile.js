@@ -27,6 +27,7 @@ gulp.task('js', function () {
             './js/bootstrap/js/bootstrap.min.js',
             './plugins/toastr/toastr.js',
             './js/script.js',
+            './js/PersianNumber/persianumber.min.js'
 		])
 		
 		.pipe(concat('script.min.js'))

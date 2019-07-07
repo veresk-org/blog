@@ -20,7 +20,6 @@ $(document).ready(function () {
 
 
 	function setHeader() {
-
 		if ($(window).scrollTop() >= $(".header-red-section").offset().top - 105) {
 			header.addClass('scrolled');
 		} else {
@@ -57,7 +56,7 @@ $(document).ready(function () {
 		menuActive = false;
 	}
 
-
+	$('.page-numbers').persiaNumber();
 
 });
 
