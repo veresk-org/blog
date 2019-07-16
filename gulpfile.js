@@ -3,8 +3,6 @@ var minifyCSS = require('gulp-minify-css');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify-es').default;
 var purify = require('gulp-purifycss');
-const rev = require('gulp-rev');
-var revCollector = require('gulp-rev-collector');
 
 
 gulp.task('revcss', function () {
@@ -35,14 +33,8 @@ gulp.task('css', function () {
             './plugins/toastr/toastr.min.css',
 
         ])
-        // .pipe(purify(['*.css']))
         .pipe(concat('styles.min.css'))
         .pipe(minifyCSS())
-        .pipe(rev())
-        .pipe(rev.manifest({
-            base: './dist/css',
-            merge: true
-        }))
         .pipe(gulp.dest('./dist/css'))
 });
 
@@ -59,13 +51,7 @@ gulp.task('js', function () {
         .pipe(uglify().on('error', function (e) {
             console.log(e);
         }))
-        .pipe(rev())
         .pipe(gulp.dest('./js'))
-        .pipe(rev.manifest({
-            base: '',
-            merge: true
-        }))
-        .pipe(gulp.dest('./'))
 });
 
 gulp.task('default', ['css', 'js']);
