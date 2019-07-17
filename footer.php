@@ -318,7 +318,7 @@
 
 </div>
 
-<script src="<?php bloginfo('template_directory')?>/js/script.min.js"></script>
+<script src="<?php bloginfo('template_directory')?>/js/script.min.js?v=1563349672999"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122374677-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
