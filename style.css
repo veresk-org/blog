@@ -1654,3 +1654,24 @@ hr {
 .wp-caption {
 	max-width: 100% !important;
 }
+
+/* services */
+
+.track-now-btn {
+    color: #fff!important;
+    background: #d00000;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.track-now-btn:hover {
+    box-shadow: 0 3px 26px 0 rgba(254,93,93,.7);
+}
+.services {
+	border: 3px solid rgb(208, 0, 0);
+	border-radius: 4px;
+}
+
+.section-title {
+	color: #666;
+}

@@ -63,6 +63,10 @@ if (have_posts()) {
 
                     </div>
 
+
+                    <?php include('inc/services.php'); ?>
+
+
                 </div>
             </div>
 
