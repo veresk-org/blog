@@ -43,3 +43,19 @@ function get_categories_names( $object, $field_name, $request ) {
     }
     return $formatted_categories;
 }
+
+add_action( 'after_setup_theme', 'my_theme_setup' );
+function my_theme_setup(){
+    load_theme_textdomain( 'vereskBlog', get_template_directory() . '/languages' );
+}
+
+add_action( 'widgets_init', 'theme_slug_widgets_init' );
+function theme_slug_widgets_init() {
+    register_sidebar( array(
+        'name' => __( 'MyWidget', 'theme-slug' ),
+        'id' => 'MyWidget',
+        'description' => __('MyWidget')
+    ) );
+}
+
+?>

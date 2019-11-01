@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-11-01 00:18+0330\n"
+"PO-Revision-Date: 2019-11-01 00:18+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:55 functions.php:57
+msgid "MyWidget"
+msgstr ""
+
+#: header.php:29
+msgid "services"
+msgstr ""
+
+#: header.php:34 header.php:114
+msgid "About Us"
+msgstr ""
+
+#: header.php:39 header.php:116
+msgid "Contact Us"
+msgstr ""
+
+#: header.php:44 header.php:109 header.php:117 index.php:10
+msgid "Home"
+msgstr ""
+
+#: header.php:56 header.php:119
+msgid "Sign Up"
+msgstr ""
+
+#: header.php:61 header.php:122
+msgid "Sign In"
+msgstr ""
+
+#: header.php:111
+msgid "Services"
+msgstr ""
+
+#: index.php:9 index.php:11
+msgid "News & Information"
+msgstr "News & Information"
+
+#: index.php:20
+msgid "Categories"
+msgstr ""
+
+#: index.php:27 index.php:42
+msgid "All"
+msgstr ""
+
+#: index.php:57
+msgid "Search..."
+msgstr ""
+
+#: index.php:76
+msgid "Search result for"
+msgstr ""
+
+#: index.php:142
+msgid "Read More"
+msgstr ""
+
+#: index.php:157
+msgid "No Comment"
+msgstr ""
+
+#: index.php:157
+msgid "Comment"
+msgstr ""

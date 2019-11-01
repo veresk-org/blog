@@ -6,8 +6,9 @@
     </div>
     <div class="header-red-section col-sm-12">
         <div class="container d-flex justify-content-between align-items-center h-100">
-            <span class="archive-page-title">اخبار و اطلاعات</span>
-            <span class="route-span"><a href="https://veresk.org/fa">صفحه اصلی . اخبار و اطلاعات </a></span>
+            <span class="archive-page-title"><?php _e("News & Information", 'vereskBlog') ?></span>
+            <span class="route-span"><a href="https://veresk.org/fa"><?php _e("Home", 'vereskBlog') ?> .
+                    <?php _e("News & Information", 'vereskBlog') ?> </a></span>
         </div>
     </div>
 </div>
@@ -15,14 +16,15 @@
 <div class="container-fluid filter-and-search-container">
     <div class="container py-4 px-0">
         <div class="section_panel px-3 d-flex flex-row align-items-center justify-content-between flex-wrap">
-            <span class="col-lg-1 col-md-12 d-flex justify-content-center p-0">دسته ها:</span>
+            <span
+                class="col-lg-1 col-md-12 d-flex justify-content-center p-0"><?php _e("Categories", 'vereskBlog') ?>:</span>
             <div
                 class="filter_section col-lg-7 col-md-12 d-flex justify-content-center justify-content-md-start align-items-center py-3">
                 <div class="section_tags px-3 d-flex justify-content-center">
                     <ul class="d-none d-md-block">
                         <li class="my-2 <?php if(!is_category()) echo 'active'?>">
                             <a href="<?php echo get_home_url(); ?>">
-                                همه
+                                <?php _e("All", 'vereskBlog') ?>
                             </a>
                         </li>
                         <?php foreach (get_categories(array('orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
@@ -37,7 +39,7 @@
 
                     <select class="d-md-none categories-select" onchange="location = this.value;">
                         <option value="<?php echo get_home_url(); ?>" <?php if(!is_category()) echo 'selected'?>>
-                            همه
+                            <?php _e("All", 'vereskBlog') ?>
                         </option>
                         <?php foreach (get_categories(array('orderby' => 'name', 'order' => 'ASC')) as $cat): ?>
                         <option value="<?php echo get_category_link($cat->term_id); ?>"
@@ -49,8 +51,10 @@
                 </div>
             </div>
 
-            <form class="search-in-tag-section d-flex align-items-center col-md-12 col-lg-4" method="get" id="search form">
-                <input class="form-control search-input" type="text" placeholder="جستجو..." name="s" id="s" />
+            <form class="search-in-tag-section d-flex align-items-center col-md-12 col-lg-4" method="get"
+                id="search form">
+                <input class="form-control search-input" type="text"
+                    placeholder="<?php _e("Search...", 'vereskBlog') ?>" name="s" id="s" />
                 <button>
                     <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
@@ -69,7 +73,7 @@
     <div class="container d-flex flex-wrap my-4">
         <div class="col-12 text-center">
             <h3>
-                نتایج جستجو برای:
+                <?php _e("Search result for", 'vereskBlog') ?>:
                 <b>
                     <?php echo get_search_query(); ?>
                 </b>
@@ -135,7 +139,7 @@
                             <use xlink:href="#right-more-info" />
                         </svg>
                         <a href="<?php the_permalink();?>" class="more-info mx-2">
-                            ادامه مطلب
+                            <?php _e("Read More", 'vereskBlog') ?>
                         </a>
                     </span>
 
@@ -145,12 +149,18 @@
                         <span>
                             <?php the_author_posts_link() ?>
                             <span class="post_meta-date-and-time">
-                                <?php echo get_the_date('Y-m-d'), "  در ", the_time() ?>
+                                <?php echo get_the_date('Y-m-d'), _e("in", 'vereskBlog'), the_time() ?>
                             </span>
                         </span>
 
                         <span class="number-of-comments">
-                            <?php comments_number( 'بدون نظر','۱ نظر', '% نظر' ); ?>
+                            <?php
+                                if( get_locale() == 'fa_IR') {
+                                    comments_number( 'بدون نظر','۱ نظر', '% نظر' );
+                                } else {
+                                    comments_number( 'No comment','1 commnet', '% comment' );
+                                 }
+                            ?>
                         </span>
 
                     </small>
@@ -163,8 +173,8 @@
         <div class="col-sm-12 p-4 mt-5 d-flex justify-content-center">
             <?php the_posts_pagination( array(
             'mid_size' => 2,
-            'prev_text' => __( '<i class="fa fa-angle-left" style="font-size:30px;"></i>', 'textdomain' ),
-            'next_text' => __( '<i class="fa fa-angle-right" style="font-size:30px;"></i>', 'textdomain' ),
+            'prev_text' => '<i class="fa fa-angle-left" style="font-size:30px;"></i>',
+            'next_text' => '<i class="fa fa-angle-right" style="font-size:30px;"></i>',
         )); ?>
 
         </div>

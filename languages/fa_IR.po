@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-11-01 14:39+0330\n"
+"PO-Revision-Date: 2019-11-01 14:39+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comments.php:8
+msgid "Write your comment"
+msgstr "نظر خود را بنویسید"
+
+#: comments.php:14
+msgid "Your comment"
+msgstr "متن نظر"
+
+#: comments.php:16
+msgid "First name, Last name"
+msgstr "نام،نام خانوادگی"
+
+#: comments.php:18
+msgid "Email"
+msgstr "آدرس ایمیل"
+
+#: comments.php:20
+msgid "Website (optional)"
+msgstr "وبسایت (دلخواه)"
+
+#: comments.php:24
+msgid "Send comment"
+msgstr "ارسال نظر"
+
+#: comments.php:35
+msgid "User comments"
+msgstr "نظرات کاربران"
+
+#: comments.php:42
+msgid "Your message is awaiting approval"
+msgstr "نظر شما در انتظار تایید می‌باشد"
+
+#: footer.php:14
+msgid "Railway Logistics Information Portal in Iran and Central Asian"
+msgstr "سامانه اطلاعات حمل و نقل ریلی در ایران و آسیای میانه"
+
+#: footer.php:67
+msgid "+9821 66939092 - Mon - Fri 9am - 6pm"
+msgstr " ساعت ۹ تا ۱۸ - ۹۸۲۱۶۶۱۷۵۳۲۲+"
+
+#: footer.php:108 footer.php:130 header.php:44 header.php:109 header.php:117
+#: index.php:10 single.php:18
+msgid "Home"
+msgstr "صفحه اصلی"
+
+#: footer.php:143
+msgid "About Veresk"
+msgstr "درباره ما"
+
+#: footer.php:155 index.php:9 index.php:11
+msgid "News & Information"
+msgstr "اخبار و اطلاعات"
+
+#: footer.php:168 header.php:56 header.php:119
+msgid "Sign Up"
+msgstr "ثبت نام"
+
+#: footer.php:180 header.php:61 header.php:122
+msgid "Sign In"
+msgstr "ورود"
+
+#: footer.php:193 header.php:111
+msgid "Services"
+msgstr "خدمات"
+
+#: footer.php:217
+msgid "Track"
+msgstr "ردیابی"
+
+#: footer.php:230
+msgid "Freight tariff calculator"
+msgstr "محاسبه هزینه حمل"
+
+#: footer.php:242
+msgid "Customs tariffs calculator"
+msgstr "محاسبه تعرفه گمرکی"
+
+#: footer.php:255
+msgid "Railway stations information"
+msgstr "اطلاعات حمل و نقل ایستگاه ها"
+
+#: footer.php:267
+msgid "International Railway Transportation Companies Information"
+msgstr "دایرکتوری شرکت های حمل و نقل ریلی بین المللی"
+
+#: footer.php:279
+msgid "Logistics News & Information"
+msgstr "اخبار و اطلاعات"
+
+#: footer.php:293
+msgid "Sign Up for Newsletter"
+msgstr "ثبت نام برای خبرنامه"
+
+#: footer.php:298
+msgid ""
+"Subscribe to our newsletter and always be aware of all the latest updates."
+msgstr "عضو خبرنامه ما شوید و همیشه از آخرین اخبار آگاه باشید."
+
+#: footer.php:324
+msgid "Veresk © 2019"
+msgstr "ورسک © ۲۰۱۹"
+
+#: functions.php:55 functions.php:57
+msgid "MyWidget"
+msgstr "ابزارک من"
+
+#: header.php:29
+msgid "services"
+msgstr "خدمات"
+
+#: header.php:34 header.php:114
+msgid "About Us"
+msgstr "درباره ما"
+
+#: header.php:39 header.php:116
+msgid "Contact Us"
+msgstr "تماس با ما"
+
+#: inc/post-details.php:12
+msgid "Written By"
+msgstr "نوشته شده"
+
+#: inc/post-details.php:19 index.php:20
+msgid "Categories"
+msgstr "دسته ها"
+
+#: inc/post-details.php:32
+msgid "Date"
+msgstr "تاریخ"
+
+#: inc/post-details.php:38
+msgid "Comments"
+msgstr "نطرات"
+
+#: inc/services.php:6
+msgid "Track your wagons online in Iran and 17 countries"
+msgstr "واگن خود را در ایران و ۱۷ کشور، آنلاین ردیابی کنید"
+
+#: inc/services.php:10
+msgid "Track now"
+msgstr "ردیابی کنید"
+
+#: index.php:27 index.php:42
+msgid "All"
+msgstr "همه"
+
+#: index.php:57
+msgid "Search..."
+msgstr "جستجو..."
+
+#: index.php:76
+msgid "Search result for"
+msgstr "نتایج جستجو برای..."
+
+#: index.php:142
+msgid "Read More"
+msgstr "ادامه مطلب"
+
+#: index.php:152
+msgid "in"
+msgstr "در"
+
+#~ msgid "No comment"
+#~ msgstr "بدون نظر"
+
+#~ msgid "1 comment"
+#~ msgstr "۱ نظر"
+
+#~ msgid "% comment"
+#~ msgstr "٪ نطر"

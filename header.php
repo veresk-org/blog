@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory')?>/dist/css/styles.min.css?v=1563349672999">
+    <link rel="stylesheet" type="text/css"
+        href="<?php bloginfo('template_directory')?>/dist/css/styles.min.css?v=<?php echo time() ?>">
 </head>
 
-<body class="persian">
+<body class="<?php if( get_locale() == 'fa_IR') echo 'persian' ?>">
 
     <div class="super_container">
         <header class="header p-2">
@@ -23,13 +24,26 @@
                         <div class="col-sm-5">
                             <nav class="main_nav">
                                 <ul class="d-flex justify-content-center">
-                                    <li class="mx-3"><a href="https://veresk.org/fa#services" target="_blank">خدمات</a>
+                                    <li class="mx-3">
+                                        <a href="https://veresk.org/fa#services"
+                                            target="_blank"><?php _e("services", 'vereskBlog') ?>
+                                        </a>
                                     </li>
-                                    <li class="mx-3"><a href="https://veresk.org/fa/about-us" target="_blank">درباره
-                                            ما</a></li>
-                                    <li class="mx-3"><a href="https://veresk.org/fa/contact-us" target="_blank">ارتباط
-                                            با ما</a></li>
-                                    <li class="mx-3"><a href="https://veresk.org/fa" target="_blank">صفحه اصلی</a></li>
+                                    <li class="mx-3">
+                                        <a href="https://veresk.org/fa/about-us" target="_blank">
+                                            <?php _e("About Us", 'vereskBlog') ?>
+                                        </a>
+                                    </li>
+                                    <li class="mx-3">
+                                        <a href="https://veresk.org/fa/contact-us" target="_blank">
+                                            <?php _e("Contact Us", 'vereskBlog') ?>
+                                        </a>
+                                    </li>
+                                    <li class="mx-3">
+                                        <a href="https://veresk.org/fa" target="_blank">
+                                            <?php _e("Home", 'vereskBlog') ?>
+                                        </a>
+                                    </li>
 
                                 </ul>
                             </nav>
@@ -37,17 +51,23 @@
 
                         <div class="col-sm-4 p-0">
                             <nav class="main_nav d-lg-flex justify-content-end align-items-center">
-                                <span class="mx-3"><a href="https://panel.veresk.org/static/register.html?lang=fa"
-                                        target="_blank">ثبت نام</a></span>
-                                <span class="mx-3"><a class="login"
-                                        href="https://panel.veresk.org/static/login.html?lang=fa"
-                                        target="_blank">ورود</a></span>
                                 <span class="mx-3">
-                                    <select class="lang-menu">
+                                    <a href="https://panel.veresk.org/static/register.html?lang=fa"
+                                        target="_blank"><?php _e("Sign Up", 'vereskBlog') ?>
+                                    </a>
+                                </span>
+                                <span class="mx-3">
+                                    <a class="login" href="https://panel.veresk.org/static/login.html?lang=fa"
+                                        target="_blank"><?php _e("Sign In", 'vereskBlog') ?>
+                                    </a>
+                                </span>
+                                <span class="mx-3">
+                                    <!-- <select class="lang-menu">
                                         <option style="color:black;" value="en">English</option>
                                         <option style="color:black;" value="fa" selected>فارسی</option>
                                         <option style="color:black;" value="ru">русский</option>
-                                    </select>
+                                    </select> -->
+                                    <?php dynamic_sidebar('myWidget') ?>
                                 </span>
                             </nav>
                         </div>
@@ -85,23 +105,29 @@
             </div> -->
             <nav class="menu_nav">
                 <ul class="menu_mm">
-                    <li class="active menu_mm"><a href="<?php echo get_home_url(); ?>">خانه</a></li>
-                    <li class="menu_mm"><a href="https://veresk.org/fa#services">خدمات</a>
+                    <li class="active menu_mm"><a
+                            href="<?php echo get_home_url(); ?>"><?php _e("Home", 'vereskBlog') ?></a></li>
+                    <li class="menu_mm"><a
+                            href="https://veresk.org/fa#services"><?php _e("Services", 'vereskBlog') ?></a>
                     </li>
-                    <li class="menu_mm"><a href="https://veresk.org/fa/about-us">درباره
-                            ما</a></li>
-                    <li class="menu_mm"><a href="https://veresk.org/fa/contact-us">ارتباط
-                            با ما</a></li>
-                    <li class="menu_mm"><a href="https://veresk.org/fa">صفحه اصلی</a></li>
-                    <li class="menu_mm"><a  class="register" href="https://panel.veresk.org/static/register.html?lang=fa">ثبت
-                            نام</a></li>
-                    <li class="menu_mm"><a class="login" href="https://panel.veresk.org/static/login.html?lang=fa">ورود</a></li>
+                    <li class="menu_mm"><a
+                            href="https://veresk.org/fa/about-us"><?php _e("About Us", 'vereskBlog') ?></a></li>
+                    <li class="menu_mm"><a
+                            href="https://veresk.org/fa/contact-us"><?php _e("Contact Us", 'vereskBlog') ?></a></li>
+                    <li class="menu_mm"><a href="https://veresk.org/fa"><?php _e("Home", 'vereskBlog') ?></a></li>
+                    <li class="menu_mm"><a class="register"
+                            href="https://panel.veresk.org/static/register.html?lang=fa"><?php _e("Sign Up", 'vereskBlog') ?></a>
+                    </li>
+                    <li class="menu_mm"><a class="login"
+                            href="https://panel.veresk.org/static/login.html?lang=fa"><?php _e("Sign In", 'vereskBlog') ?></a>
+                    </li>
                     <li class="menu_mm">
-                        <select class="form-control lang-menu">
+                        <!-- <select class="form-control lang-menu">
                             <option style="color:black;" value="en">English</option>
                             <option style="color:black;" value="fa" selected>فارسی</option>
                             <option style="color:black;" value="ru">русский</option>
-                        </select>
+                        </select> -->
+                        <?php dynamic_sidebar('myWidget') ?>
                     </li>
                 </ul>
             </nav>

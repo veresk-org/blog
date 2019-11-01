@@ -980,8 +980,13 @@ Section Panel
 .search-in-tag-section .search-icon {
 	fill: #d4d4d4;
 	position: absolute;
-	left: 30px;
+	right: 25px;
 	top: 16px;
+}
+
+.persian .search-in-tag-section .search-icon {
+	left: 30px!important;
+	right: unset!important;
 }
 
 .search-in-tag-section .search-icon:hover {
@@ -1092,8 +1097,14 @@ Post Comment
 	width: 100%;
 	height: 10px;
 	top: -25px;
-	right: -39px;
-	border-radius: 0 5px 0 0;
+	left: -39px;
+	border-radius: 5px 0 0 0!important;
+}
+
+.persian .leave-comment-title::before {
+	right: -39px!important;
+	left: unset!important;
+	border-radius: 0 5px 0 0!important;
 }
 
 .number-of-users-comments {
@@ -1243,8 +1254,11 @@ Cards
 .right-more-info {
 	width: 14px;
 	height: 15px;
-	transform: rotate(180deg);
 	fill: rgb(228, 0, 0);
+}
+
+.persian .right-more-info {
+	transform: rotate(180deg)!important;
 }
 
 .more-info {
@@ -1642,7 +1656,7 @@ hr {
 	color: #484848;
 }
 
-.right-arrow {
+.persian .right-arrow {
 	transform: rotate(180deg);
 }
 
@@ -1658,14 +1672,14 @@ hr {
 /* services */
 
 .track-now-btn {
-    color: #fff!important;
-    background: #d00000;
-    padding: 15px;
-    border-radius: 3px;
+	color: #fff !important;
+	background: #d00000;
+	padding: 15px;
+	border-radius: 3px;
 }
 
 .track-now-btn:hover {
-    box-shadow: 0 3px 26px 0 rgba(254,93,93,.7);
+	box-shadow: 0 3px 26px 0 rgba(254, 93, 93, .7);
 }
 
 .services {
@@ -1675,4 +1689,49 @@ hr {
 
 .section-title {
 	color: #666;
+}
+
+#polylang-3.widget {
+	display: flex !important;
+}
+
+#lang_choice_polylang-3 {
+	color: rgb(255, 255, 255) !important;
+	padding: .375rem .75rem .375rem .75rem;
+	line-height: 1.5;
+	background: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='white'><polygon points='0,0 100,0 50,50'/></svg>") right 0 top 1rem no-repeat #fff;
+	background-size: auto;
+	background-size: 8px 10px;
+	font-size: 17px;
+	border: none;
+	appearance: none;
+	border-radius: 6px;
+	background-color: transparent;
+	cursor: pointer;
+	outline: none;
+}
+
+.persian #lang_choice_polylang-3 {
+	color: rgb(255, 255, 255) !important;
+	padding: .375rem .75rem .375rem .75rem;
+	line-height: 1.5;
+	background: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='white'><polygon points='0,0 100,0 50,50'/></svg>") left 0 right unset top 1.1rem no-repeat #fff!important;
+	background-size: auto;
+	background-size: 8px 10px;
+	font-size: 17px;
+	border: none;
+	appearance: none;
+	border-radius: 6px;
+	background-color: transparent;
+	cursor: pointer;
+	outline: none;
+}
+
+#lang_choice_polylang-3:focus {
+	box-shadow: none !important;
+}
+
+#lang_choice_polylang-3 option {
+	color: rgb(0, 0, 0) !important;
+	padding: 10px !important;
 }

@@ -15,7 +15,7 @@ if (have_posts()) {
             <h1 class="archive-page-title col-md-6 m-0">
                 <?php the_title() ?>
             </h1>
-            <span class="route-span col-md-6"><a href="<?php echo get_home_url(); ?>">خانه .
+            <span class="route-span col-md-6"><a href="<?php echo get_home_url(); ?>"> <?php _e("Home", 'vereskBlog') ?> .
                     <?php the_title() ?></a></span>
         </div>
     </div>
