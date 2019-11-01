@@ -1,11 +1,11 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-11-01 14:58+0330\n"
-"PO-Revision-Date: 2019-08-27 15:18+0430\n"
+"POT-Creation-Date: 2019-11-01 15:04+0330\n"
+"PO-Revision-Date: 2019-11-01 15:20+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,10 +14,12 @@ msgstr ""
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-Basepath: .\n"
-"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
-"Language: fa_IR\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -35,7 +37,7 @@ msgstr ""
 
 #: comments.php:18
 msgid "Email"
-msgstr ""
+msgstr "Эл. почта"
 
 #: comments.php:20
 msgid "Website (optional)"
@@ -56,87 +58,87 @@ msgstr ""
 #: footer.php:14
 msgid "Railway Logistics Information Portal in Iran and Central Asian"
 msgstr ""
+"Портал железнодорожной логистической информации по Ирану и Средней Азии"
 
 #: footer.php:67
 msgid "+9821 66939092 - Mon - Fri 9am - 6pm"
-msgstr ""
+msgstr "+9821 66939092 - Mon - Fri 9am - 6pm"
 
 #: footer.php:108 footer.php:130 header.php:44 header.php:109 header.php:117
 #: index.php:10 single.php:18
 msgid "Home"
-msgstr ""
+msgstr "Главная"
 
 #: footer.php:143
 msgid "About Veresk"
-msgstr ""
+msgstr "О Вереске"
 
 #: footer.php:155 index.php:9 index.php:11
 msgid "News & Information"
-msgstr ""
+msgstr "Новости и информация"
 
 #: footer.php:168 header.php:56 header.php:119
 msgid "Sign Up"
-msgstr ""
+msgstr "Регистрация"
 
 #: footer.php:180 header.php:61 header.php:122
 msgid "Sign In"
-msgstr ""
+msgstr "логин"
 
-#: footer.php:193 header.php:111
+#: footer.php:193 header.php:29 header.php:111
 msgid "Services"
-msgstr ""
+msgstr "Услуги"
 
 #: footer.php:217
 msgid "Track"
-msgstr ""
+msgstr "слежение"
 
 #: footer.php:230
 msgid "Freight tariff calculator"
-msgstr ""
+msgstr "Перевозочный тариф"
 
 #: footer.php:242
 msgid "Customs tariffs calculator"
-msgstr ""
+msgstr "Таможенные платежи"
 
 #: footer.php:255
 msgid "Railway stations information"
-msgstr ""
+msgstr "Информация о станциях"
 
 #: footer.php:267
 msgid "International Railway Transportation Companies Information"
-msgstr ""
+msgstr "Информация о компаниях"
 
 #: footer.php:279
 msgid "Logistics News & Information"
-msgstr ""
+msgstr "Новости и информация"
 
 #: footer.php:293
 msgid "Sign Up for Newsletter"
-msgstr ""
+msgstr "Зарегистрируйтесь для получения новостей"
 
 #: footer.php:298
-msgid "Subscribe to our newsletter and always be aware of all the latest updates."
+msgid ""
+"Subscribe to our newsletter and always be aware of all the latest updates."
 msgstr ""
+"Подпишитесь на нашу рассылку и всегда будьте в курсе всех последних "
+"обновлений."
 
 #: footer.php:324
 msgid "Veresk © 2019"
-msgstr ""
+msgstr "Вереск © 2019"
 
 #: functions.php:55 functions.php:57
 msgid "MyWidget"
-msgstr ""
-
-#: header.php:29
-msgid "services"
-msgstr ""
+msgstr "MyWidget"
 
 #: header.php:34 header.php:114
 msgid "About Us"
-msgstr ""
+msgstr "О нас"
 
 #: header.php:39 header.php:116
 msgid "Contact Us"
-msgstr ""
+msgstr "Обратная связь"
 
 #: inc/post-details.php:12
 msgid "Written By"
@@ -160,15 +162,15 @@ msgstr ""
 
 #: inc/services.php:10
 msgid "Track now"
-msgstr ""
+msgstr "Проследи сейчас"
 
 #: index.php:27 index.php:42
 msgid "All"
-msgstr ""
+msgstr "Все"
 
 #: index.php:57
 msgid "Search..."
-msgstr ""
+msgstr "Поиск..."
 
 #: index.php:76
 msgid "Search result for"

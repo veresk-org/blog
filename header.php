@@ -26,7 +26,7 @@
                                 <ul class="d-flex justify-content-center">
                                     <li class="mx-3">
                                         <a href="https://veresk.org/fa#services"
-                                            target="_blank"><?php _e("services", 'vereskBlog') ?>
+                                            target="_blank"><?php _e("Services", 'vereskBlog') ?>
                                         </a>
                                     </li>
                                     <li class="mx-3">
