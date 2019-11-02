@@ -121,7 +121,7 @@
                 </div>
 
                 <ul class="p-0 mt-5">
-                    <a href="https://veresk.org/fa" target="_blank" class="main-menu-item">
+                    <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>" target="_blank" class="main-menu-item">
                         <li>
                             <svg class="right-arrow">
                                 <use xlink:href="#right-arrow" />
@@ -133,7 +133,7 @@
                         </li>
 
                     </a>
-                    <a class="main-menu-item">
+                    <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/about-us" target="_blank" class="main-menu-item">
 
                         <li>
                             <svg class="right-arrow">
@@ -145,7 +145,7 @@
 
                         </li>
                     </a>
-                    <a href="https://veresk.org/fa" target="_blank" class="main-menu-item">
+                    <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>" target="_blank" class="main-menu-item">
 
                         <li>
                             <svg class="right-arrow">
@@ -157,7 +157,7 @@
 
                         </li>
                     </a>
-                    <a href="https://panel.veresk.org/static/register.html?lang=fa" target="_blank"
+                    <a href="https://panel.veresk.org/static/register.html?lang=<?php echo substr(get_locale(), 0, 2) ?>" target="_blank"
                         class="main-menu-item">
 
                         <li>
@@ -170,7 +170,7 @@
                         </li>
 
                     </a>
-                    <a href="https://panel.veresk.org/static/login.html?lang=fa" target="_blank" class="main-menu-item">
+                    <a href="https://panel.veresk.org/static/login.html?lang=<?php echo substr(get_locale(), 0, 2) ?>" target="_blank" class="main-menu-item">
 
                         <li>
                             <svg class="right-arrow">
@@ -208,7 +208,7 @@
                 </div>
 
                 <ul class="p-0 mt-5">
-                    <a href="https://veresk.org/fa/services/track" target="_blank" class="main-menu-item">
+                    <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/services/track" target="_blank" class="main-menu-item">
                         <li>
                             <svg class="right-arrow">
                                 <use xlink:href="#right-arrow" />
@@ -220,7 +220,7 @@
                         </li>
 
                     </a>
-                    <a href="https://veresk.org/fa/services/freight-tariff" target="_blank" class="main-menu-item">
+                    <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/services/freight-tariff" target="_blank" class="main-menu-item">
 
                         <li>
                             <svg class="right-arrow">
@@ -232,7 +232,7 @@
 
                         </li>
                     </a>
-                    <a href="https://veresk.org/fa/services/custom-tariff" target="_blank" class="main-menu-item">
+                    <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/services/custom-tariffs" target="_blank" class="main-menu-item">
 
                         <li>
                             <svg class="right-arrow">
@@ -244,7 +244,7 @@
 
                         </li>
                     </a>
-                    <a href="https://veresk.org/fa/services/stations-information" target="_blank"
+                    <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/services/stations-information" target="_blank"
                         class="main-menu-item">
 
                         <li>
@@ -257,7 +257,7 @@
 
                         </li>
                     </a>
-                    <a href="https://veresk.org/fa/services/company-directory" target="_blank" class="main-menu-item">
+                    <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/services/companies-directory" target="_blank" class="main-menu-item">
 
                         <li>
                             <svg class="right-arrow">
@@ -269,7 +269,7 @@
 
                         </li>
                     </a>
-                    <a href="https://veresk.org/fa/services/logestic-news" target="_blank" class="main-menu-item">
+                    <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/services/logistics-news" target="_blank" class="main-menu-item">
 
                         <li>
                             <svg class="right-arrow">

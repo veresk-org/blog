@@ -25,22 +25,22 @@
                             <nav class="main_nav">
                                 <ul class="d-flex justify-content-center">
                                     <li class="mx-3">
-                                        <a href="https://veresk.org/fa#services"
+                                        <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>#services"
                                             target="_blank"><?php _e("Services", 'vereskBlog') ?>
                                         </a>
                                     </li>
                                     <li class="mx-3">
-                                        <a href="https://veresk.org/fa/about-us" target="_blank">
+                                        <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/about-us" target="_blank">
                                             <?php _e("About Us", 'vereskBlog') ?>
                                         </a>
                                     </li>
                                     <li class="mx-3">
-                                        <a href="https://veresk.org/fa/contact-us" target="_blank">
+                                        <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/contact-us" target="_blank">
                                             <?php _e("Contact Us", 'vereskBlog') ?>
                                         </a>
                                     </li>
                                     <li class="mx-3">
-                                        <a href="https://veresk.org/fa" target="_blank">
+                                        <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>" target="_blank">
                                             <?php _e("Home", 'vereskBlog') ?>
                                         </a>
                                     </li>
@@ -52,16 +52,16 @@
                         <div class="col-sm-4 p-0">
                             <nav class="main_nav d-lg-flex justify-content-end align-items-center">
                                 <span class="mx-3">
-                                    <a href="https://panel.veresk.org/static/register.html?lang=fa"
+                                    <a href="https://panel.veresk.org/static/register.html?lang=<?php echo substr(get_locale(), 0, 2) ?>"
                                         target="_blank"><?php _e("Sign Up", 'vereskBlog') ?>
                                     </a>
                                 </span>
                                 <span class="mx-3">
-                                    <a class="login" href="https://panel.veresk.org/static/login.html?lang=fa"
+                                    <a class="login" href="https://panel.veresk.org/static/login.html?lang=<?php echo substr(get_locale(), 0, 2) ?>"
                                         target="_blank"><?php _e("Sign In", 'vereskBlog') ?>
                                     </a>
                                 </span>
-                                <span class="mx-3">
+                                <span class="mx-3 polylang-select">
                                     <!-- <select class="lang-menu">
                                         <option style="color:black;" value="en">English</option>
                                         <option style="color:black;" value="fa" selected>فارسی</option>
@@ -108,18 +108,18 @@
                     <li class="active menu_mm"><a
                             href="<?php echo get_home_url(); ?>"><?php _e("Home", 'vereskBlog') ?></a></li>
                     <li class="menu_mm"><a
-                            href="https://veresk.org/fa#services"><?php _e("Services", 'vereskBlog') ?></a>
+                            href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>#services"><?php _e("Services", 'vereskBlog') ?></a>
                     </li>
                     <li class="menu_mm"><a
-                            href="https://veresk.org/fa/about-us"><?php _e("About Us", 'vereskBlog') ?></a></li>
+                            href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/about-us"><?php _e("About Us", 'vereskBlog') ?></a></li>
                     <li class="menu_mm"><a
-                            href="https://veresk.org/fa/contact-us"><?php _e("Contact Us", 'vereskBlog') ?></a></li>
-                    <li class="menu_mm"><a href="https://veresk.org/fa"><?php _e("Home", 'vereskBlog') ?></a></li>
+                            href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/contact-us"><?php _e("Contact Us", 'vereskBlog') ?></a></li>
+                    <li class="menu_mm"><a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>"><?php _e("Home", 'vereskBlog') ?></a></li>
                     <li class="menu_mm"><a class="register"
-                            href="https://panel.veresk.org/static/register.html?lang=fa"><?php _e("Sign Up", 'vereskBlog') ?></a>
+                            href="https://panel.veresk.org/static/register.html?lang=<?php echo substr(get_locale(), 0, 2) ?>"><?php _e("Sign Up", 'vereskBlog') ?></a>
                     </li>
                     <li class="menu_mm"><a class="login"
-                            href="https://panel.veresk.org/static/login.html?lang=fa"><?php _e("Sign In", 'vereskBlog') ?></a>
+                            href="https://panel.veresk.org/static/login.html?lang=<?php echo substr(get_locale(), 0, 2) ?>"><?php _e("Sign In", 'vereskBlog') ?></a>
                     </li>
                     <li class="menu_mm">
                         <!-- <select class="form-control lang-menu">

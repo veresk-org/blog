@@ -1691,11 +1691,11 @@ hr {
 	color: #666;
 }
 
-#polylang-4.widget {
+.widget {
 	display: flex !important;
 }
 
-#lang_choice_polylang-4 {
+.polylang-select select {
 	color: rgb(255, 255, 255) !important;
 	padding: .375rem .75rem .375rem .75rem;
 	line-height: 1.5;
@@ -1711,7 +1711,7 @@ hr {
 	outline: none;
 }
 
-.persian #lang_choice_polylang-4 {
+.persian .polylang-select select {
 	color: rgb(255, 255, 255) !important;
 	padding: .375rem .75rem .375rem .75rem;
 	line-height: 1.5;
@@ -1727,11 +1727,11 @@ hr {
 	outline: none;
 }
 
-#lang_choice_polylang-4:focus {
+.polylang-select select:focus {
 	box-shadow: none !important;
 }
 
-#lang_choice_polylang-4 option {
+.polylang-select select option {
 	color: rgb(0, 0, 0) !important;
 	padding: 10px !important;
 }

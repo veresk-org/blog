@@ -7,7 +7,7 @@
     <div class="header-red-section col-sm-12">
         <div class="container d-flex justify-content-between align-items-center h-100">
             <span class="archive-page-title"><?php _e("News & Information", 'vereskBlog') ?></span>
-            <span class="route-span"><a href="https://veresk.org/fa"><?php _e("Home", 'vereskBlog') ?> .
+            <span class="route-span"><a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>"><?php _e("Home", 'vereskBlog') ?> .
                     <?php _e("News & Information", 'vereskBlog') ?> </a></span>
         </div>
     </div>
