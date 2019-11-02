@@ -67,7 +67,7 @@
                                         <option style="color:black;" value="fa" selected>فارسی</option>
                                         <option style="color:black;" value="ru">русский</option>
                                     </select> -->
-                                    <?php dynamic_sidebar('myWidget') ?>
+                                    <?php dynamic_sidebar('langSwitcher') ?>
                                 </span>
                             </nav>
                         </div>

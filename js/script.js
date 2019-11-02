@@ -56,7 +56,7 @@ $(document).ready(function () {
 		menuActive = false;
 	}
 
-	$('.page-numbers').persiaNumber();
+	// $('.page-numbers').persiaNumber();
 
 });
 

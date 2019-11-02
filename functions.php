@@ -52,10 +52,15 @@ function my_theme_setup(){
 add_action( 'widgets_init', 'theme_slug_widgets_init' );
 function theme_slug_widgets_init() {
     register_sidebar( array(
-        'name' => __( 'MyWidget', 'theme-slug' ),
-        'id' => 'MyWidget',
-        'description' => __('MyWidget')
+        'name' => __( 'langSwitcher', 'theme-slug' ),
+        'id' => 'langSwitcher',
+        'description' => __('langSwitcher')
     ) );
 }
+
+
+if(get_bloginfo('language') == 'fa-IR'){
+add_filter('date_i18n', 'ztjalali_ch_date_i18n', 111, 4);}
+
 
 ?>
