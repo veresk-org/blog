@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css"
         href="<?php bloginfo('template_directory')?>/dist/css/styles.min.css?v=<?php echo time() ?>">
+    <?php wp_head();?>
 </head>
 
 <body class="<?php if( get_locale() == 'fa_IR') echo 'persian' ?>">
@@ -30,17 +31,20 @@
                                         </a>
                                     </li>
                                     <li class="mx-3">
-                                        <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/about-us" target="_blank">
+                                        <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/about-us"
+                                            target="_blank">
                                             <?php _e("About Us", 'vereskBlog') ?>
                                         </a>
                                     </li>
                                     <li class="mx-3">
-                                        <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/contact-us" target="_blank">
+                                        <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/contact-us"
+                                            target="_blank">
                                             <?php _e("Contact Us", 'vereskBlog') ?>
                                         </a>
                                     </li>
                                     <li class="mx-3">
-                                        <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>" target="_blank">
+                                        <a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>"
+                                            target="_blank">
                                             <?php _e("Home", 'vereskBlog') ?>
                                         </a>
                                     </li>
@@ -57,7 +61,8 @@
                                     </a>
                                 </span>
                                 <span class="mx-3">
-                                    <a class="login" href="https://panel.veresk.org/static/login.html?lang=<?php echo substr(get_locale(), 0, 2) ?>"
+                                    <a class="login"
+                                        href="https://panel.veresk.org/static/login.html?lang=<?php echo substr(get_locale(), 0, 2) ?>"
                                         target="_blank"><?php _e("Sign In", 'vereskBlog') ?>
                                     </a>
                                 </span>
@@ -111,10 +116,14 @@
                             href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>#services"><?php _e("Services", 'vereskBlog') ?></a>
                     </li>
                     <li class="menu_mm"><a
-                            href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/about-us"><?php _e("About Us", 'vereskBlog') ?></a></li>
+                            href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/about-us"><?php _e("About Us", 'vereskBlog') ?></a>
+                    </li>
                     <li class="menu_mm"><a
-                            href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/contact-us"><?php _e("Contact Us", 'vereskBlog') ?></a></li>
-                    <li class="menu_mm"><a href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>"><?php _e("Home", 'vereskBlog') ?></a></li>
+                            href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>/contact-us"><?php _e("Contact Us", 'vereskBlog') ?></a>
+                    </li>
+                    <li class="menu_mm"><a
+                            href="https://veresk.org/<?php echo substr(get_locale(), 0, 2) ?>"><?php _e("Home", 'vereskBlog') ?></a>
+                    </li>
                     <li class="menu_mm"><a class="register"
                             href="https://panel.veresk.org/static/register.html?lang=<?php echo substr(get_locale(), 0, 2) ?>"><?php _e("Sign Up", 'vereskBlog') ?></a>
                     </li>
